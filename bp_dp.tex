@@ -1,0 +1,277 @@
+% -----------------------------------------------
+% Styl pro psaní diplomových a bakalářských prací
+% -----------------------------------------------
+\documentclass[a4paper,12pt]{book} % pro oboustranný tisk zvolte {book}!
+% velikost stránky
+\usepackage[tmargin=2cm,bmargin=2.5cm,rmargin=2cm,lmargin=3.5cm]{geometry}
+% volba kódování, nastaveno je unicode
+\usepackage[utf8]{inputenc}
+% \usepackage[cp1250]{inputenc}
+% \usepackage[latin2]{inputenc}
+\usepackage[english]{babel}
+%\def\refname{Literatura}
+% pomocná makra pro sazbu matematických výrazů
+\usepackage{amssymb} %na psaní dvojitých písem a zvlastních znaků (např. \varkappa)
+\usepackage{amsmath}
+% balíček pro vkládání obrázků
+\usepackage{graphicx}
+\usepackage{subfig}
+% balíček pro obrázky na krajích stránky 
+%\usepackage{floatflt}
+% balíček pro křížové odkazy
+\usepackage[unicode,bookmarksopen,colorlinks=false,plainpages=false,urlcolor=blue,pdfpagelabels]{hyperref}
+% balíček pro vkládání hypertextových odkazů
+\usepackage{url}
+
+\usepackage{float}
+\usepackage{lastpage}
+
+%\usepackage[numbers]{natbib}
+
+\usepackage[
+backend=biber,
+style=phys,
+sorting=ynt
+]{biblatex}
+\addbibresource{citations.bib}
+% -----------------------------------------------
+% Přepínač mezi bakalářskou a diplomovou prací, 
+% barevným a černobílým logem a mezi studentem a studentkou (vypracoval/vypracovala apod.)
+% -----------------------------------------------
+\newif\ifbakal\bakalfalse
+\newif\ifbarva\barvafalse
+\newif\ifstudentka\studentkafalse
+
+% -----------------------------------------------
+% Údaje o práci – doplní se i do bibliografické identifikace, pouze v prohlášení je nutné vložit jméno vedoucího práce, které není v 1. pádě
+% -----------------------------------------------
+\newcommand{\nazevcz}{Bez jmena}
+\newcommand{\nazev}{Unnamed}
+\newcommand{\student}{Daniel Staník}
+\ifbakal%
+  \newcommand{\program}{B0533A110007  Applied Physics}%
+  \newcommand{\obor}{1702R001  Applied Physics  (AFYZ)}%
+  \else%
+  \newcommand{\program}{N0533A110002 Applied Physics}%
+  \newcommand{\obor}{1702T001 Applied Physics  (AFYZ)}%  
+
+\fi
+\newcommand{\rokod}{2024}
+\newcommand{\vedouci}{}
+\newcommand{\konzultant}{}
+
+\newcommand{\abstrakt}{%
+Holy moly kihsdlngleiodnglkdngdsrg}
+% -----------------------------------------------
+\newcommand{\abstrakten}{%
+Holy moly kihsdlngleiodnglkdngdsrg}
+% klíčová slova
+\newcommand{\klic}{}
+\newcommand{\klicen}{}
+\newcommand{\pocetstran}{	
+\pageref{LastPage}}
+\newcommand{\pocetpriloh}{1}
+
+% -----------------------------------------------
+% Definice vlastních maker pro usnadnění psaní
+% a opakování symbolů při zlomu řádku
+% -----------------------------------------------
+% implikace se opakuje
+\def\Plyne{\Rightarrow\discretionary{}{\hbox{$\Rightarrow$}}{}}
+% -----------------------------------------------
+% ekvivalence se opakuje
+\def\Ekviv{\Leftrightarrow\discretionary{}{\hbox{$\Leftrightarrow$}}{}}
+% -----------------------------------------------
+% % plus '+' se opakuje při zalomení řádku
+\mathchardef\plus="202B
+\mathcode`\+="8000
+{\catcode`\+=\active
+\gdef+{\plus\nobreak\discretionary{}{\hbox{$\plus$}}{}}}
+% opakování - při zalomení řádku
+\newsavebox{\minusbox}
+\savebox{\minusbox}{\hbox{$-$}}
+\def\aktivniminus #1{{\catcode`#1=13 \bgroup \uccode`~=`#1
+\uppercase{\egroup\gdef~}{\mathminus\discretionary{}{\copy\minusbox}{}}}}
+% % -----------------------------------------------
+% % rovnitko '=' se opakuje
+\def\aktivnirovnitko #1{{\catcode`#1=13 \bgroup \uccode`~=`#1
+\uppercase{\egroup\gdef~}{\mathequal\discretionary{}{=}{}}}}
+% -----------------------------------------------
+% zrušení mezery za čárkou v matematickém reľimu
+\mathcode`,="002C
+
+% -----------------------------------------------
+% Úprava matematické sazby
+% -----------------------------------------------
+\def\sgn{\mathop{\rm sgn}\nolimits}
+\def\tg{\mathop{\rm tg}\nolimits}
+\def\cotg{\mathop{\rm cotg}\nolimits}
+\def\arctg{\mathop{\rm arctg}\nolimits}
+% -----------------------------------------------
+% vektory polotučným skloněným písmem
+\DeclareFontFamily{OT1}{bssbf}{}
+\DeclareFontShape{OT1}{bssbf}{m}{n}{<5> <6> <7> <8> <9> <10> <11> <12> <14.4> <17> <20> <20.74> <25> bssb10}{}
+\newcommand{\vek}{\fontencoding{OT1}\fontfamily{bssbf}\selectfont}
+\renewcommand{\vec}[1]{\hbox{\vek #1}\hspace*{1.5pt}}
+% polotučná řecká písmena
+\def\bgomega{\vec{\char151}}
+     \def\bgOmega{\vec{\char10}}
+     \def\bggamma{\vec{\char130}}
+     \def\bgvarphi{\vec{\char161}}
+     \def\bgphi{\vec{\char148}}
+     \def\bgxi{\vec{\char142}}
+     \def\bgtau{\vec{\char146}}
+     \def\bgeta{\vec{\char134}}
+     \def\bgmu{\vec{\char139}}
+     \def\bgnu{\vec{\char140}}
+     \def\bvarrho{\vec{\char157}}
+     \def\bgsigma{\vec{\char145}}
+     \def\bgpsi{\vec{\char150}}
+     \def\bgchi{\vec{\char149}}
+     \def\bgvartheta{\vec{\char154}}
+%\renewcommand{\thefigure}{\arabic{figure}}
+%\renewcommand{\theeuqation}{\arabic{euqation}}
+
+\raggedbottom %přidaný kvůli špatnýmu řádkování
+% ---------------------------------------------------------------
+% Samotná práce
+% ---------------------------------------------------------------
+\begin{document}
+% -----------------------------------------------
+% Titulní strana
+% -----------------------------------------------
+\pagestyle{empty}
+\setbox0=\hbox{\LARGE\scshape Joint Laboratory of Optics}
+\centerline{\LARGE\scshape  Palacký University Olomouc}
+
+\bigskip
+\centerline{\LARGE\scshape Faculty of Science}
+   
+\bigskip
+\centerline{\box0}
+  
+\vfill
+\centerline{\LARGE\bfseries \ifbakal{BACHELOR}\else{DIPLOMOVÁ}\fi\ THESIS}
+
+\bigskip
+\begin{center}
+{\huge\nazev}  
+
+
+\vfill
+\ifbarva\includegraphics[height=3cm]{up_logo_color}\else%
+\includegraphics[height=3cm]{up_logo_bw}\fi
+
+\vfill
+
+\noindent%
+\begin{tabular}{ll}
+Author\ifstudentka{a}\fi: & {\bfseries\student}\\
+Study program: &\program\\
+Field of study: &\obor\\
+Form of study:& Full-time\\
+Supervisor:& \vedouci\\
+Deadline:& April~\rokod
+\end{tabular}
+\end{center}
+%----Vdek------------------------------------------------------
+\newpage
+\hbox{~}
+
+\vfill
+\noindent
+
+
+
+% ---------------------------------------------------------------
+% Prohlášení
+% -----------------------------------------------
+\newpage
+\hbox{~}
+
+\vfill
+
+\begin{center}
+{\bf DECLARATION}
+\end{center}
+
+\noindent
+I hereby declare that I elaborated this bachelor thesis independently under the supervision 
+of  ,  using  only  information  sources  referred  in  the  Literature chapter. \\
+{}\vspace{3ex}
+
+\noindent
+In~Olomouc~\today   \hfill\parbox[t]{6cm}{\centering\null\dotfill\\\student}
+
+% -----------------------------------------------
+% Bibliografická anotace
+% -----------------------------------------------
+\newpage
+\input{bibl_identifikace}
+
+%%%% Tady začínáme %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\widowpenalty =10000
+\pagestyle{plain}
+\let\cleardoublepage\clearpage %odstanění dvojitých stran
+% -----------------------------------------------
+% Obsah je generován automaticky, změny se projeví po 2 překladech
+% -----------------------------------------------
+\tableofcontents
+
+% -----------------------------------------------
+% Úvod
+% -----------------------------------------------
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+
+
+
+% -----------------------------------------------
+% Kapitoly lze ukládat do zvláštních souborů...
+% -----------------------------------------------
+\input{Chapter1}
+% -----------------------------------------------
+\input{Semiconductors}
+% -----------------------------------------------
+% Závěr
+% -----------------------------------------------
+\chapter*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+
+ 
+
+
+\par
+The work on thesis was both very hard and experiencing, and thus it can be compared to have to chug a bottle of 50$\%$ vodka - get sick, get experienced.
+
+
+
+% -----------------------------------------------
+% Literatura a prameny
+% -----------------------------------------------
+%\begin{thebibliography}{99}
+%\bibliographystyle{unsrt}
+%\nocite{*}
+%\bibliography{citations}
+%\nocite{MALACARI2020102430}
+\nocite{*}
+%\nocite{Tomankova2016_1000061954}
+%\nocite{VACULA2021167169}
+%\addcontentsline{toc}{chapter}{Literatura}
+%\bibitem{gravitation} MISNER, Ch. W.; THORNE, K. S.; WHEELER, J. A. %\emph{Gravitation}. San Francisco: W. Freeman, 1973.
+%\end{thebibliography}
+\printbibliography[notcategory=skipbibliography]
+%\newpage
+%\chapter*{Attachment: Measurement and analysis programs}
+%Measurement folder - scripts for controlling measurement
+%\newline
+%PulseAnalysis folder - scripts for PMT pulse analysis
+%\newline
+%FASTanalyze.cpp - calibration data analysis
+%\newline
+%main.c - Nucleo F446RE's synchronized sampling and PID regulator firmware
+\end{document}
+% Konec souboru %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
