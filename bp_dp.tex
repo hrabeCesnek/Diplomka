@@ -45,8 +45,8 @@ sorting=ynt
 % -----------------------------------------------
 % Údaje o práci – doplní se i do bibliografické identifikace, pouze v prohlášení je nutné vložit jméno vedoucího práce, které není v 1. pádě
 % -----------------------------------------------
-\newcommand{\nazevcz}{Bez jmena}
-\newcommand{\nazev}{Unnamed}
+\newcommand{\nazevcz}{Vývoj spektrometrického řetězce pro detekci nízkoenergetického gama záření s využitím polovodičů.}
+\newcommand{\nazev}{Development of a spectrometric chain for the detection of low-energy gamma radiation using semiconductors.}
 \newcommand{\student}{Daniel Staník}
 \ifbakal%
   \newcommand{\program}{B0533A110007  Applied Physics}%
@@ -57,8 +57,8 @@ sorting=ynt
 
 \fi
 \newcommand{\rokod}{2024}
-\newcommand{\vedouci}{}
-\newcommand{\konzultant}{}
+\newcommand{\vedouci}{Mgr. Leo Schlattauer Ph.D.}
+\newcommand{\konzultant}{doc. RNDr. Jiří Pechoušek, Ph.D.}
 
 \newcommand{\abstrakt}{%
 Holy moly kihsdlngleiodnglkdngdsrg}
@@ -151,7 +151,7 @@ Holy moly kihsdlngleiodnglkdngdsrg}
 \centerline{\box0}
   
 \vfill
-\centerline{\LARGE\bfseries \ifbakal{BACHELOR}\else{DIPLOMOVÁ}\fi\ THESIS}
+\centerline{\LARGE\bfseries \ifbakal{BACHELOR}\else{MASTER}\fi\ THESIS}
 
 \bigskip
 \begin{center}
@@ -197,7 +197,7 @@ Deadline:& April~\rokod
 
 \noindent
 I hereby declare that I elaborated this bachelor thesis independently under the supervision 
-of  ,  using  only  information  sources  referred  in  the  Literature chapter. \\
+of Mgr. Leo Schlattauer Ph.D.,  using  only  information  sources  referred  in  the  Literature chapter. \\
 {}\vspace{3ex}
 
 \noindent
@@ -234,7 +234,13 @@ In~Olomouc~\today   \hfill\parbox[t]{6cm}{\centering\null\dotfill\\\student}
 % -----------------------------------------------
 \input{Chapter1}
 % -----------------------------------------------
+\input{gammaRays}
+
+\input{detectors}
+
 \input{Semiconductors}
+
+\input{pulseAnalysis}
 % -----------------------------------------------
 % Závěr
 % -----------------------------------------------
