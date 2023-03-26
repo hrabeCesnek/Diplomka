@@ -10,10 +10,59 @@
 % -----------------------------------------------
 \section{Gamma emission}
 % -----------------------------------------------
-\section{Passage of Radiation Through Matter}
+\section{Passage of radiation and particles through matter}
+Interaction of a particle (radiation) with another particle (atom, nuclei, free electron) or with continuous matter can result into many types of reactions and effects - scattering of a particle from incident direction, creation of new particles and nuclei, annihilation of incident particle etc. It mainly depends on particle's energy, electric charge, spin and mass, but also on the properties of target particle or matter. The physical quantity describing the probability of a specific interaction of particle with single point target is known as the cross section. Normalized to the unit solid angle - differential cross section:
+
+
+
+ \begin{equation}
+\frac{d\sigma}{d\Omega} = \frac{1}{F} \frac{dN_\textrm{s}}{d\Omega}
+ \end{equation}
+Where $F$ is a particle flux, $\Omega$ is a solid angle and $N_\textrm{s}$ is the average number of scattered particles per unit time.
+And the total cross section is given by integration:
+  \begin{equation}
+ \sigma = \int \frac{d\sigma}{d\Omega} d\Omega
+ \end{equation}
+
+However, to characterize the interaction probability of particle with continuous matter, which contains many interaction centres (defined by their density), other assumptions have to be made. The average number of scattered particles is given by:
+
+ \begin{equation}
+ N(\Omega) = FAN \delta x \frac{d\sigma}{d\Omega}
+ \end{equation}
+
+
+and integrated:
+
+ \begin{equation}
+ N_{tot} = FAN\sigma \delta x 
+ \end{equation}
+
+The $A$ is a total area perpendicular to the flux, $\delta x$ is the material thickness and $N$ is the density of interaction centres.
+
+Depending on the type of particle 
+\par 
+ 
+Heavy charged particles (such as alpha particles, protons, muons, pions) lose their energy mainly due to the atomic electrons collisions. Due to their mass which is much higher than the mass of electrons ($M >> m_\textrm{e}$) they collide with, the direction of their path is left unchanged. The loses of energy per unit path is defined as stopping power $\frac{dE}{dx}$. The stopping power for the heavy charged particles is given by Bethe-Bloch formula which relates stopping power and particle's energy. However the Bethe-Bloch formula doesn't apply on low energies (Lindhard-Sharf nuclear loses) and on higher energies (bremsstrahlung radiation). The change of their path direction is possible by the second process with lesser probability - by the elastic scattering from nuclei.
+\par
+Electrons and positrons have much smaller mass than the heavy charged particles, and thus the direction of their path is changed due to the movement in an electric field of nucleus. The bremsstrahlung radiation loses are mayor yet at low energies. However, the energy lost due to the collisions also comes to play - it is guided by special Bethe-Bloch formula, which takes the path direction change into account. 
+\par
+
+Other interaction effects are also possible (Cherenkov radiation emission, nuclear reactions), but they are rare or does not affect the particle's energy as those previously mentioned.
+
+\par
+The interaction of neutrons is totally different due to the lack of charge. 
+
+\par
+
+This thesis, which is described more detail in following chapter.
+
+
+
 \subsection{Gamma matter interaction}
 
-
+\section{Photoelectric effect}
+\section{Compton scattering}
+\section{Pair production}
 
 
 
