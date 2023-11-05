@@ -12,7 +12,9 @@ This technique is capable of providing many unique information in material resea
 
 % -----------------------------------------------
 \section{Physical concept}
-In previous chapters was mentioned, that the atomic nuclei are quantum systems with discrete energy levels (analogous to the energy levels of electron shell), thus upon deexcitation or excitation they emit/absorb gamma photon with energy equal to the difference between the levels. For the free, stationary nucleus, the emitted/absorbed energy spectra follow the shape of Lorentzian curve. 
+
+\subsection{Resonace emission and absorption}
+In previous chapters was mentioned, that the atomic nuclei are quantum systems with discrete energy levels (analogous to the energy levels of electron shell), thus upon deexcitation or excitation they emit/absorb gamma photon with energy $E_0$ equal to the difference between the levels. For the free, stationary nucleus, the emitted/absorbed energy spectra follow the shape of Lorentzian curve. 
 
 \par
 However, this energy may be altered - due to the  momentum conservation law, some part of the gamma photon energy is transferred to the  kinetic energy of nucleus, crystal as whole body or is transformed into lattice vibrations (phonons). Due to this fact, the emission and absorption energy spectra may be different and without any overlaps, which prevents the resonance effects from happening.
@@ -20,33 +22,56 @@ However, this energy may be altered - due to the  momentum conservation law, som
 \par
 In the case of free, stationary nuclei, momentum and energy transfers are so high, that the emission and absorption spectra are shifted to different directions by large energetic values, which makes the resonance absorption impossible to observe. However, the nucleus bounded into the crystal lattice is a different case - the crystal as whole body will absorb the momentum. If we consider, that the entire crystal has much larger mass than the nucleus, the energy transfer into crystal's kinetic energy will be very small - the gamma photon energy remains nearly unaltered. Thus this can be considered as recoilless emission/absorption and the energy spectra have overlap, which makes the resonance absorption (Mössbauer effect) observable.
 \par
-It also worth mentioning, that there is also a third case - the free nuclei in thermal motion. The velocity of nuclei is guided by Maxwell's statistics and the spectra become widened by Gaussian shape. At higher temperatures, this effect may result into spectra overlap and makes the resonance absorption observable. However, this technique is not much developed yet and has only a little field of application.
-% -----------------------------------------------
-
-\section{Mössbauer spectroscopy}
-
- - pertubation teory, what results into the fact, that every phase or chemical constitution has its own Mössbauer spectrum.
-
+It also worth mentioning, that there is also a third case - the free nuclei in thermal motion. The velocity of nuclei is guided by Maxwell's statistics and the spectra become widened by Gaussian shape. At higher temperatures, this effect may result into spectra overlap and makes the resonance absorption observable. However, this technique is not much developed yet and has only a small field of application.
 
 \subsection{Interaction of nuclei with local fields}
-The main properties of nucleus which induces the interactions with local electric and magnetic fields are: atomic number $Z$, quadrupole momentum $Q$ and its spin $I$ along with its projections.
 
+The nucleus bound inside the lattice surrounded by electrons arranged according to the chemical bonds has perturbed energy levels, which is due to the interaction of nucleus with local electric and magnetic fields -  what results into the fact, that every phase or chemical constitution has its own nuclear emission/absorption spectrum - Mössbauer spectrum. The quantum physics has very-well known computation techniques to describe these variations in energy spectra - the perturbation theory,
+
+\par
+The main properties of nucleus which induces the interactions with local electric and magnetic fields are: atomic number $Z$, quadrupole momentum $Q$ and its spin $I$ along with its projections. For spectroscopy there are three main interaction:
+
+\begin{itemize}
+\item Electric monopole interaction - the interaction between the protons of nucleus and the s-electrons (which have non-zero probability of being found inside nucleus). It results into isomer shift of energy levels $\delta = E_M - E_0$. The $\delta$ has to be defined with respect to some fixed energy level, for example to the level of the used source.
+\item Electric quadrupole interaction - the inhomogeneous electric field inside nucleus interacts the quadrupole momentum $Q$ of the nuclei. It results into energy variations with respect to the square of magnetic quantum number $E_Q \sim m^{2}$- the states which allows different values of $|m|$ are splitted into sub-states.
+
+\item Magnetic dipole interaction - the spin $I$ is tied up with magnetic momentum via relation $\mu = \gamma I$, where $\gamma$ is a gyromagnetic ratio. This magnetic momentum interacts with magnetic fields inside nucleus and results into nuclear Zeeman effects - the splitting of the states with respect to possible values of magnetic quantum number $m$. The main difference from the quadrupole interaction is that the spin orientation also matters. The magnetic dipole interaction has a significant role when it comes to study the magnetic properties of materials.
+\end{itemize}
+
+Each of these effects can occur separately or simultaneously with the others.
+
+
+% -----------------------------------------------
+
+
+
+\section{Mössbauer spectroscopy}
+There are several techniques how to obtain the spectra. In laboratories there are dominant the setups employing transmission or backscattering geometry with sample as an absorber and with the doppler modulation of the gamma photons energy. The transmitted photons or other products developed upon deexcitation are detected by appropriate detector with electronics to accumulate the energetic spectra. The energy of gamma photons is varied by the doppler effect - the source is attached to the doppler modulator (transducer), and by the relative velocity of source and absorber the energy of gamma photons is slightly changed.
+\par
+For transmission geometry the key concept of measurement is that if we irradiate the sample as an absorber gradually by continuous spectrum of gamma rays with energy around the resonance energy $E_0$ ("energy scanning" by the doppler modulator), the gamma photons with energy equal to one of the possible transitions (resonant energies) are absorbed with certain probability. Gamma photons with different energies are due to the low cross section of previously discussed matter interactions mostly transmitted. The detector is situated behind the absorber and simultaneously measures the number of gamma counts at defined energy step. The minimal counts are measured around the resonant energy. The transmission geometry Mössbauer spectra can be seen on picture \ref{transspec}.
+
+\par
+The concept of backscattering geometry is similar in many ways, but the main difference is the detection of the deexcitation products. The sample's nuclei are excited by appropriate gamma photons and in short time, they decay back into the original state with some effects following - reemission of the "original" gamma photons in random direction, emission of electrons from the shell (ejected by deexcitation energy quanta, also called conversion electrons) followed by characteristic RTG or possibly by auger electrons. The detection of electrons and RTG instead of gamma photons have many advantages and disadvantages and for certain application, the usage of backscattering geometry could be more appropriate. For example, the detection of conversion electrons could handle the in-depth characterization of the sample due to the lesser transmittance of electrons when comparing to gamma photons.
+
+
+\par
+There are also different setups - irradiation by synchrotron radiation (which can produce continuous gamma spectra with high iluminance), using the sample as an source etc.
 
 \subsection*{•}
 
 \section{$^{57}$Fe spectroscopy}
 
-One of the isotopes, on which we are capable to observe a Mössbauer effect is $^{57}$Fe.
+One of the isotopes, on which we are capable to observe a Mössbauer effect is $^{57}$Fe. However, this thesis is mainly devoted to the application of semiconductor detectors for detection of the 14.4 keV gamma photons in transmission geometry.
 
 \begin{itemize}
 
 \item Source of 14.4 keV gamma - $^{57}$Co radioctive nuclei built-in crystal lattice (mostly in a rhodium matrice).
 \item Transducer for doppler modulation with PID regulation for precise velocity and energy control. 
-\item detector of transmitted/backscattered gamma radiation,conversion electrons or RTG along with evaluation electronics including amplifiers, MCA's etc.
+\item detector of transmitted/backscattered gamma radiation, conversion electrons or RTG along with readout and evaluation electronics including amplifiers, MCA's etc.
 
 \end{itemize}
 
-This thesis is mainly devoted to the application of semiconductor detectors for detection of the 14.4 keV gamma photons in transmission geometry.
+
 
 It is also necessary to consider, that the $^{57}$Fe isotope have relative abundance only $2.21 \%$ \cite{compounds}. Although this fact, the spectra are still measured with very respectable precision and efficiency, which makes the Mössbauer spectroscopy very sensitive measurement method.
 % %%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%%%%%%%%%%
