@@ -57,21 +57,44 @@ The concept of backscattering geometry is similar in many ways, but the main dif
 \par
 There are also different setups - irradiation by synchrotron radiation (which can produce continuous gamma spectra with high iluminance), using the sample as an source etc.
 
-\subsection*{•}
+
 
 \section{$^{57}$Fe spectroscopy}
 
-One of the isotopes, on which we are capable to observe a Mössbauer effect is $^{57}$Fe. However, this thesis is mainly devoted to the application of semiconductor detectors for detection of the 14.4 keV gamma photons in transmission geometry.
+One of the isotopes, on which we are capable to observe a Mössbauer effect is $^{57}$Fe. As a source is used $^{57}$Co, which decays into second excited state of $^{57}$Fe by electron capture. The new $^{57}$Fe nuclei can deexcite itself by two ways (see fig. \ref{Fe57scheme}) - by direct deexcitation onto ground state by emitting 136.6 keV photon or by deexcitation onto the first excited state by emitting 122.1 keV photon and after short lifetime emits 14.4 keV photons (or other possible conversion products) when falling into ground state. The $^{57}$Fe spectroscopy in transmission geometry is based on detection of the 14.4 keV gamma photons. This thesis is mainly devoted to the application of semiconductor detectors for the detection of these 14.4 keV gamma photons.
 
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.75, angle = 0]{./pictures/Fe57}
+ \caption{Decay scheme of $^{57}$Co, taken from \cite{NOVAK2016thesis}.}
+ \label{Fe57scheme}
+ 
+\end{figure}
+
+
+The entire spectrometric setup consist of several parts:
 \begin{itemize}
 
-\item Source of 14.4 keV gamma - $^{57}$Co radioctive nuclei built-in crystal lattice (mostly in a rhodium matrice).
-\item Transducer for doppler modulation with PID regulation for precise velocity and energy control. 
-\item detector of transmitted/backscattered gamma radiation, conversion electrons or RTG along with readout and evaluation electronics including amplifiers, MCA's etc.
+\item Source of 14.4 keV gamma - $^{57}$Co radioctive nuclei built-in crystal lattice (mostly in a rhodium matrice). The source is attached to the transducer.
+\item Transducer for doppler modulation. It mostly consists of two coils surrounded by permanent magnets - one for setting the velocity of the source and second for the velocity measurement. The system is driven by PID regulation for precise velocity and energy control. The velocity can be either constant or with constant/varying acceleration.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.4, angle = 0]{./pictures/transducer}
+ \caption{Transducer, taken from \cite{STEJSKAL2019thesis}.}
+ \label{transducer}
+ 
+\end{figure}
+
+\item detector of transmitted/backscattered gamma radiation, conversion electrons or RTG along with readout and evaluation electronics including amplifiers, SCA's, MCA's etc. It is also necessary to consider, that there are no available detectors with sufficient energy resolution to distinguish energy of perturbed states. Because of that, the count rates are synchronised with the velocity signal (actual modulated energy), which is used to address the channels for spectra accumulation. The other approach is to address the channels by precise timing.
 
 \end{itemize}
+The functional diagram can be seen on fig. \ref{spectrometric setup}.
 
-
-
+\par
 It is also necessary to consider, that the $^{57}$Fe isotope have relative abundance only $2.21 \%$ \cite{compounds}. Although this fact, the spectra are still measured with very respectable precision and efficiency, which makes the Mössbauer spectroscopy very sensitive measurement method.
+
+\section{Spectre properties and parameters}
+
+
 % %%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%%%%%%%%%%
