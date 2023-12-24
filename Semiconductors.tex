@@ -5,22 +5,42 @@
 % -----------------------------------------------
 \chapter{Semiconductor detectors with p-n junction}
 % -----------------------------------------------
-The semiconductor structures has unique properties, which make them usable not only for a particle detection. There are many types of semiconductor detectors - conventional detectors of light intensity with spectral range from infrared to UV - photoresistors and photodiodes, low intensities and single photons detectors - avalanche photodiodes (APDs), for imagining - CCD and CMOS cameras, x-ray, gamma and other particles rates and energy detectors - special photodiodes, for particle position and energy measurements - drift and strip detectors. The essential role for gamma spectroscopy have the p-n junction detectors - detection diodes capable of capturing high-energy gamma photons with sufficient energy resolution and efficiency.
+The semiconductor structures has unique properties, which make them usable not only for a particle/photon detection. There are many types of semiconductor detectors - conventional detectors of light intensity with spectral range from infrared to UV - photoresistors and photodiodes, low intensities and single photons detectors - avalanche photodiodes (APDs), for imagining - CCD and CMOS cameras, x-ray, gamma and other particles rates and energy detectors - special photodiodes, for particle position and energy measurements - matrix drift and strip detectors. The essential role for gamma spectroscopy have the p-n junction detectors - detection diodes capable of capturing high-energy gamma photons with sufficient energy resolution and efficiency.
+ 
 
+\section{Semiconductor structure}
+The basic difference between conductors, insulators and semiconductors is the valence and conduction band structure. In case of conductors, the valence band overlaps the conduction band. For insulators, there is no overlap, and the energy gap $E_{\textrm{g}}$ between the two bands is so high, that it makes any transitions of electrons nearly impossible. However in case of  semiconductors, the $E_{\textrm{g}}$ is small enough to allow the electron jump into the conduction band and leaving the hole in valence band after receiving a sufficient amount of energy - in form of thermal energy $E_{\textrm{T}} = kT$, energy in static electric field $E_{\textrm{s}} = -e\phi$ or as a photon $E_{\textrm{photon}} = \hbar \omega$. The last one is the most important, because it allows us to use the semiconductors as detectors.
+\par
+The semiconductor materials have usually form of crystal of diamond structure (two FCC lattices bounded together.).   
+ 
+ 
+ 
+\section{Fabrication of semiconductors}
+
+
+
+The suitable materials for construction of ionizing radiation detectors are Ge,Si,GaAs and CdTe. The CdTe is used in wide-spectre X-Ray and Gamma Ray Detector.
+
+\section{Detection mechanism}
 
 \par
-If we want to detect a particle or photon, is has to interact with the detector material - in semiconductor the creation of electron-hole pairs is observed. This could be achieved by interaction mechanisms described in previous chapters, which differ for every type of particle and energy.
+If we want to detect a particle or photon, is has to interact with the detector material - in semiconductor the creation of electron-hole pairs is observed. This could be achieved by interaction mechanisms described in previous chapters, which differ for every type of particle and energy. 
 
-The main of purpose of semiconductor material as a detector, is to 
+\par
+The main of purpose of semiconductor as a detector, is to perform linear conversion of the particle/photon energy into the free charge carriers - electrons in conduction band and holes in valence band. The average energy needed to create a single electron-hole pair is usually a fix constant - in Si it is equal to 3.6 eV \cite{Lutz_2007}. Since the Si is an indirect semiconductor, this value is not equal to gap energy $E_{\textrm{g}} = 1.12$ eV. In case of low-energy gamma the two main mechanisms which take place in producing the charge carriers are photoeffect and compton scattering. 
 
-The  
+\par
+The gamma photon striking the detector firstly interacts with a single electron. If the photoeffect takes its place, the
 
-\section{Principle and parameters}
-The basic difference between conductors, insulators and semiconductors is the valence and conduction band structure.  It is necessary to say, that the semiconductor materials have usually form of crystal of diamond (two FCC lattices bounded together.) For the  
- 
- 
 
-\section{Detection}
+
+
+
+
+ In case of compton, the scattered photon may escape the detector without any other interaction taking the rest of its energy out of the detector. This results into energy distortion.  
+
+\par
+In case of p-n junction the created charge carriers in depleted layer are pushed towards electrodes by internal electric field. The  electronics accumulates the charge and converts it into the voltage pulse signal, which is then analysed to extract the energy information.
 
 \section{Main noise sources and limitations}
 
@@ -36,14 +56,14 @@ The basic difference between conductors, insulators and semiconductors is the va
 
 
 \section{Available semiconductor sensors}
-To detect Mössbauer 14.4 keV gammas our primary choice was $Si$ due to the high detection efficiency under 25 keV. 
+To detect Mössbauer 14.4 keV gammas our primary choice was Si due to the high detection efficiency under 25 keV. For testing we have chosen one professional Hamamatsu s14605 PIN diode and two commercial PIN diodes: OPF420 - originally designed to be used in optical fibres, BPW34 - visible and near infrared radiation detector.  
 
 
 
-\section{Hamamatsu detectors}
+\section{Hamamatsu s14605}
 
-\section{OPF420 PIN diode}
+\section{OPF420}
 
-
+\section{BPW34}
 
 % %%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%%%%%%%%%%
