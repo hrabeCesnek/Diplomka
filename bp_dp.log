@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.6.18)  24 DEC 2023 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.6.18)  25 DEC 2023 04:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,7 +1023,7 @@ Package biblatex Info: ... file 'bp_dp.bbl' not found.
 No file bp_dp.bbl.
 Package biblatex Info: Reference section=0 on input line 139.
 Package biblatex Info: Reference segment=0 on input line 139.
-<up_logo_bw.pdf, id=160, 96.36pt x 98.3675pt>
+<up_logo_bw.pdf, id=168, 96.36pt x 98.3675pt>
 File: up_logo_bw.pdf Graphic file (type pdf)
 <use up_logo_bw.pdf>
 Package pdftex.def Info: up_logo_bw.pdf  used on input line 163.
@@ -1050,7 +1050,7 @@ Chapter 1.
 [9
 
 ] [10]
-<./pictures/totalCross.png, id=268, 847.66687pt x 659.46375pt>
+<./pictures/totalCross.png, id=278, 847.66687pt x 659.46375pt>
 File: ./pictures/totalCross.png Graphic file (type png)
 <use ./pictures/totalCross.png>
 Package pdftex.def Info: ./pictures/totalCross.png  used on input line 89.
@@ -1076,15 +1076,15 @@ Chapter 3.
 
 ]
 
-LaTeX Warning: Citation 'Lutz_2007' on page 15 undefined on input line 30.
+LaTeX Warning: Citation 'Lutz_2007' on page 15 undefined on input line 45.
 
-) (./pulseAnalysis.tex [15]
+[15]) (./pulseAnalysis.tex [16]
 Chapter 4.
-) (./Mossbauer.tex [16
+) (./Mossbauer.tex [17
 
 ]
 Chapter 5.
-[17
+[18
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
@@ -1095,9 +1095,9 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
 
 
-LaTeX Warning: Reference `transspec' on page 18 undefined on input line 51.
+LaTeX Warning: Reference `transspec' on page 19 undefined on input line 51.
 
-[18]
+[19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
@@ -1110,49 +1110,49 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-<./pictures/Fe57.png, id=313, 458.71375pt x 249.93375pt>
+<./pictures/Fe57.png, id=328, 458.71375pt x 249.93375pt>
 File: ./pictures/Fe57.png Graphic file (type png)
 <use ./pictures/Fe57.png>
 Package pdftex.def Info: ./pictures/Fe57.png  used on input line 68.
 (pdftex.def)             Requested size: 344.03447pt x 187.44984pt.
 
-LaTeX Warning: Citation 'NOVAK2016thesis' on page 19 undefined on input line 69
+LaTeX Warning: Citation 'NOVAK2016thesis' on page 20 undefined on input line 69
 .
 
 
-LaTeX Warning: Citation 'NOVAK2016thesis' on page 19 undefined on input line 69
+LaTeX Warning: Citation 'NOVAK2016thesis' on page 20 undefined on input line 69
 .
 
-[19]
-<./pictures/transducer.png, id=320, 1023.07219pt x 545.78906pt>
+[20]
+<./pictures/transducer.png, id=334, 1023.07219pt x 545.78906pt>
 File: ./pictures/transducer.png Graphic file (type png)
 <use ./pictures/transducer.png>
 Package pdftex.def Info: ./pictures/transducer.png  used on input line 83.
 (pdftex.def)             Requested size: 409.22163pt x 218.31175pt.
 
 
-LaTeX Warning: Citation 'STEJSKAL2019thesis' on page 20 undefined on input line
+LaTeX Warning: Citation 'STEJSKAL2019thesis' on page 21 undefined on input line
  84.
 
 
-LaTeX Warning: Citation 'STEJSKAL2019thesis' on page 20 undefined on input line
+LaTeX Warning: Citation 'STEJSKAL2019thesis' on page 21 undefined on input line
  84.
 
-[20 <./pictures/Fe57.png> <./pictures/transducer.png>]
+[21 <./pictures/Fe57.png> <./pictures/transducer.png>]
 
-LaTeX Warning: Reference `spectrometric setup' on page 21 undefined on input li
+LaTeX Warning: Reference `spectrometric setup' on page 22 undefined on input li
 ne 92.
 
 
-LaTeX Warning: Citation 'compounds' on page 21 undefined on input line 95.
+LaTeX Warning: Citation 'compounds' on page 22 undefined on input line 95.
 
-) [21]
+) [22]
 
 LaTeX Warning: Empty bibliography on input line 274.
 
 
 AED: lastpage setting LastPage
-[22
+[23
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
@@ -1167,8 +1167,8 @@ Package rerunfilecheck Warning: File `bp_dp.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `bp_dp.out':
-(rerunfilecheck)             Before: AF7D85DE6542B1392C5C0A55312D2D49;7885
-(rerunfilecheck)             After:  B1AA38FA46E24A52DB080BA1A64343CD;7893.
+(rerunfilecheck)             Before: 80789F6CD1B8AEEB81F3377C60A43E07;8095
+(rerunfilecheck)             After:  811683767A57D0D2603EA30CA569570E;8070.
 
 LaTeX Warning: There were undefined references.
 
@@ -1183,27 +1183,27 @@ Package logreq Info: Writing requests to 'bp_dp.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  ) 
 Here is how much of TeX's memory you used:
- 18571 strings out of 494848
- 289834 string characters out of 6178430
- 714067 words of memory out of 5000000
- 21619 multiletter control sequences out of 15000+600000
- 12971 words of font info for 49 fonts, out of 8000000 for 9000
+ 18577 strings out of 494848
+ 289902 string characters out of 6178430
+ 714068 words of memory out of 5000000
+ 21622 multiletter control sequences out of 15000+600000
+ 13567 words of font info for 50 fonts, out of 8000000 for 9000
  46 hyphenation exceptions out of 8191
- 44i,9n,46p,940b,1935s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb>
-Output written on bp_dp.pdf (22 pages, 427876 bytes).
+ 44i,9n,46p,972b,1937s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <./bssb10.720pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcs
+c10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb>
+Output written on bp_dp.pdf (23 pages, 430847 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 360 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 349 words of extra memory for PDF output out of 10000 (max. 10000000)
 
