@@ -1930,11 +1930,13 @@
     <bcf:citekey order="1">Leo1987-wy</bcf:citekey>
     <bcf:citekey order="2">Leo1987-wy</bcf:citekey>
     <bcf:citekey order="3">Lutz_2007</bcf:citekey>
-    <bcf:citekey order="4">NOVAK2016thesis</bcf:citekey>
-    <bcf:citekey order="5">NOVAK2016thesis</bcf:citekey>
-    <bcf:citekey order="6">STEJSKAL2019thesis</bcf:citekey>
-    <bcf:citekey order="7">STEJSKAL2019thesis</bcf:citekey>
-    <bcf:citekey order="8">compounds</bcf:citekey>
+    <bcf:citekey order="4">SiPINdirect</bcf:citekey>
+    <bcf:citekey order="5">SiPINdirect</bcf:citekey>
+    <bcf:citekey order="6">NOVAK2016thesis</bcf:citekey>
+    <bcf:citekey order="7">NOVAK2016thesis</bcf:citekey>
+    <bcf:citekey order="8">STEJSKAL2019thesis</bcf:citekey>
+    <bcf:citekey order="9">STEJSKAL2019thesis</bcf:citekey>
+    <bcf:citekey order="10">compounds</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
