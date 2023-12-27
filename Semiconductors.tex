@@ -10,36 +10,60 @@ The semiconductor structures has unique properties, which make them usable not o
 \par
 To detect Mössbauer 14.4 keV gammas our primary choice are the Si PIN diodes for direct detection due to the guaranteed high detection efficiency under 25 keV. 
 
-\section{The crystal structure of semiconductor}
+\section{The Structure of semiconductor}
 Since we are not dealing with single atoms characterized by the well-known discrete energy levels, but with solid crystals, there is another  model describing the energy levels - the band structure. The energy levels are very close each other that they nearly form a continuum. This different behaviour is a result of a periodical potential inside the crystal lattice. However, the electron energy $E_{n}$ is not the only quantum number describing the behaviour of electrons inside the periodical potential. By solving Schrödinger equation with the help of so-called Bloch's theorem, we come to a conclusion that the second important quantum number is the wave vector $\vec{k}$. These two quantum numbers are bounded together by dispersion relations $E = E(\vec{k})$, which is characteristic for every crystal and may play role when it comes to transitions of electrons between bands.
 
 \subsection{Band structure}
-The basic difference between conductors, insulators and semiconductors is the valence and conduction band structure. In case of conductors, the valence band overlaps the conduction band. The electrons in conduction band can move nearly freely throughout the crystal. For insulators, there is no overlap, and the energy gap $E_{\textrm{g}}$ between the two bands is so high, that it makes any transitions of electrons nearly impossible. However in case of  semiconductors, the $E_{\textrm{g}}$ is small enough to allow the electron jump into the conduction band and leaving the hole in valence band after receiving a sufficient amount of energy - in form of thermal energy $E_{\textrm{T}} = kT$, energy in static electric field $E_{\textrm{s}} = -e\phi$ or as a photon with energy quantum $E_{\textrm{photon}} = \hbar \omega$. The last one is the most important, because it allows us to use the semiconductors as detectors. Both the electron and hole participates on conduction, but they have to be treated as quasiparticles with their specific masses and mobilities. At $T = 0$ K, the electrons occupy the lowest possible states and the highest occupied state is defined by energy of Fermi-level $E_{\textrm{F}}$
+The basic difference between conductors, insulators and semiconductors is the valence and conduction band structure. In case of conductors, the valence band overlaps the conduction band. The electrons in conduction band can move nearly freely throughout the crystal. For insulators, there is no overlap, and the energy band gap $E_{\textrm{g}}$ between the two bands is so high, that it makes any transitions of electrons nearly impossible. However in case of  semiconductors, the $E_{\textrm{g}}$ is small enough to allow the electron jump into the conduction band and leaving the hole in valence band after receiving a sufficient amount of energy - in form of thermal energy $E_{\textrm{T}} = kT$, energy in static electric field $E_{\textrm{s}} = -e\phi$ or as a photon with energy quantum $E_{\textrm{photon}} = \hbar \omega$. The last one is the most important, because it allows us to use the semiconductors as detectors. Both the electron and hole participates on conduction, but they have to be treated as quasiparticles with their specific masses and mobilities.
 
 
-\subsection{Crystal lattice}
+\subsection{Occupation of states}
+The occupation probability of states in band structure is given by Fermi-Dirac distribution since the electrons are the Fermions with the exclusion rules. 
+\par
+The possible occupied state where occupation probability drops below 50 $\%$ is called the Fermi level with Fermi energy $E_{\textrm{F}}$. 
+For ideal pure semiconductor at $T=0$ K, the $E_{\textrm{F}}$ lies in the middle of the band gap. With increasing temperature, in most materials the Fermi-level moves upper towards the conduction band.
+
+\subsection{Semiconductor Crystals}
 The semiconductor materials have usually form of a crystal of diamond structure (two FCC lattices bounded together.) with the lattice atoms bounded by a covalent bond. However in real crystals there are also defects and impurities which may alter the functionality. The impurities can be added on purpose to enhance the properties we seek in procedure called doping. 
+\par
+The suitable materials for construction of ionizing radiation detectors are Ge - very good energy resolution, requires cooling, Si - great efficiency under 25 keV, easier fabrication since many other semiconductor devices are being made of Si and CdTe - used in wide-spectre X-Ray and Gamma Ray Detectors.
+\par
+The fabrication of semiconductors for purposes of detection includes many complicated processes, because the detector requirements on crystal purity are very high.
 
 \subsection{Direct and indirect semiconductors}
  
-The shape of dispersion relations between energy and $E(\vec{k})$ divides the semiconductors into two categories - direct and indirect semiconductors. For direct semiconductors the minimum in conduction band and maximum in valence band have the same $\vec{k}$, so the transition can occur after the $E_{\textrm{g}}$ is supplied. In case of indirect the minimum and maximum have different $\vec{k}$. To make transition, additional momentum has to be server (for example by phonons) or the supplied energy must be much larger to allow transition to the higher state. %with the same $\vec{k}$.  
+The shape of dispersion relations $E(\vec{k})$ divides the semiconductors into two categories - direct and indirect semiconductors. For direct semiconductors the minimum in conduction band and maximum in valence band have the same $\vec{k}$, so the transition can occur after the $E_{\textrm{g}}$ is supplied. In case of indirect the minimum and maximum have different $\vec{k}$. To make transition, additional momentum has to be server (for example by phonons) or the supplied energy must be much larger to allow transition to the higher state. %with the same $\vec{k}$.  
 The Si crystal is an indirect semiconductor.
 
 
  
-\section{P-N junction}
-The intrinsic semiconductors have only a little field of applications.
+\section{The p–n junction}
+The intrinsic semiconductors have only a little field of applications. We can alter the behaviour by adding a specific impurities and create an extrinsic semiconductor. The Si atom has 4 valence electron which form a covalent bond with other Si atoms. If Si atom is replaced with atom with 5 valence electrons, one of them will have a very weak bond.
+By doping the intrinsic semiconductor with these atoms we create the $n$-type with additional electrons, which are nearly localized in conduction band. However, the crystal as whole stays neutral. Similar way doping by atoms with only 3 valence electrons, there will be holes in valence band, which can participate on conduction - the $p$-type.
+In band structure These atoms create energy levels in band structure, but in room temperatures, they are all mostly ionized and participate on conduction. The full theoretical treatment of doping is very complex, considers many other quantum and statistical physics aspects, and have no use for the purposes of this thesis. 
+
+\par
+The special effects will arise when $p$-type and and $n$-type are bound together. The holes from $p$-type and electrons from $n$-type will start to diffuse to the other region. However, this movement alter the charge density, which leads to creation of built-in voltage which in the end cancels the diffusion. This creates the depleted region, where are no free charge carriers. 
+\par
+Another theoretical view is that the electrons will rearrange, because the Fermi-level has to be same throughout the crystal, while the Fermi-level for stand-alone $p$-type is nearer to the valence band and for $n$-type is nearer to the conduction band. The potential created this way equalizes the different Fermi levels. 
+
+\par
+The p-n junction can be connected to source voltage in two ways. The $p$ layer on plus - the source voltage (refereed as bias) reduces the size of depleted layer until it completely vanishes (bias goes against built-in voltage) and the p-n junction becomes conductive - forward direction or in reverse direction - $p$ layer on minus (bias goes with built-in voltage), the size of depletion layer increases.
 
 
-The 
+\par
+The p-n junction has many unique properties, which are commonly used in form of classical diodes. However, it is also crucial for the detection since the free charge carriers (if somehow created) in depleted layer are pushed towards electrodes by electric field and form a photocurrent.
 
-- it could be modelled as a simple plate capacitor. The capacitance of p-n junction plays a significant role - it alters the dynamical parameters of the detection circuits - it can alter the rising edges of pulses, alter the entire frequency spectra, increase/decrease the SNR.
+\par
+For the purposes of design in electronic circuits, the detectors are usually modelled as classical p-n diodes, which are connected to the source of the bias voltage in reverse direction. In case of detection, the detector can be also modelled as a current source.
 
-\section{Fabrication of semiconductors}
 
+\par
+The voltage across the depleted layer could be modelled as a simple plate capacitor. The capacitance of p-n junction plays a significant role - it alters the dynamical parameters of the detection circuits - it can alter the rising edges of pulses, alter the entire frequency spectra, increase/decrease the SNR. By varying the source voltage we vary this capacitance too.
 
-\subsection{Materials}
-The suitable materials for construction of ionizing radiation detectors are Ge,Si,GaAs and CdTe. The CdTe is used in wide-spectre X-Ray and Gamma Ray Detector.
+\par
+There is also one more problem with the diffusion of electron and holes which has to be considered. It is the diffusion of charge carriers from the $p$ and $n$ layers to the ohmic contacts on electrodes, which can form an unwanted electric field, which forms a potential barrier across the contact. To prevent this from happening, the regions around the ohmic contacts are highly doped to reduce the potential barrier size. 
+
 
 \section{Detection mechanism}
 
@@ -64,7 +88,9 @@ In case of compton, the scattered photon may escape the detector without any oth
 An ideal very thick detector could solve this problem, because every possible interaction and all the following sub-interactions will happen inside the detector and will result into electron-hole generation. The detector of this kind would have only the full energy peaks without any other unwanted counts. However, construction of such detector is impossible due to the many technical and manufacturing problems arising with increasing dimensions. 
 
 \par
-In case of p-n junction the created charge carriers in depleted layer are pushed towards electrodes by internal electric field. The  electronics accumulates the charge and converts it into the voltage pulse signal, which is then analysed to extract the energy information.
+In case of p-n junction the created charge carriers in depleted layer are pushed towards electrodes by internal electric field. The  electronics accumulates the charge and converts it into the voltage pulse signal, which is then analysed to extract the energy information. Since the depleted layer is the only part where the detection can occur, its obvious that for detector purposes it should be large as possible. 
+\par
+To achieve the greater dimensions of the detection part, the p-n junction can be upgraded to p-i-n junction, which contain additional intrinsic layer between $p$ and $n$ part, which work as fix size depleted layer. The detectors with p-i-n junction are referred as PIN diodes. The additional intrinsic layer also decreases the capacitance and increases the time needed for charge carriers to exit the detection part.
 
 \section{Main noise sources and resolution limitations}
 The detection efficiency and the energy resolution are strongly dependent on noise which alters the signal. While some negative effects are caused by outer conditions such as temperature or by noise in electronics, some originate strictly from semiconductor material properties and only chance to minimize them is during the crystal's preparation.
@@ -90,6 +116,8 @@ It was mentioned that the electrons can be also excited by thermal fluctuations.
 
 \par
 The thermal fluctuations are much more significant for materials which require less energy to excite the electrons to the conduction band such as Ge. These detectors always have to be operated at low temperatures. Even the room temperature can lead up to the breakdown and destruction of a detector. For Si, the valence and conduction band are more distant. so the thermal fluctuations are not so critical.
+\par
+However the applied bias voltage in reverse direction usually also increases the dark current.
 
 
 \subsection{Recombination and trapping}
@@ -100,23 +128,10 @@ Another effect caused by the very same impurities is trapping. The trapping cent
 Energy levels near the centre of band gap are primary responsible for recombination and trapping, which means that the impurities causing this are not the impurities which were added in doping, because these have their additional energy levels near the bands. 
 
 
-
-
-\section{Construction scheme of Instruments for gamma detection based on semiconductors}
-
-
-
-
-
-\subsection{XR-100CdTe X-Ray and Gamma Ray Detector}
-
-\subsection{MIMOS 2}
-
-
-\section{Detector structure}
+\section{Structure of Si PIN detector}
 The 
 
-Its obvious that for particles' interactions inside the detector the most crucial layers' dimensions are those in cross section normal to the incident radiation. 
+Its obvious that for particles' interactions inside the detector the most crucial dimensions are those in cross section normal to the incident radiation. For effective collection of radiation we photosensitive area.
 The dead layer (usually the p) has to be thin as possible to reduce probability that the particle interacts in place where the generated charge cloud would nearly immediately recombine. The active layer intristic 
 
 
@@ -137,8 +152,33 @@ For testing we have chosen one professional Hamamatsu s14605 PIN diode and two c
 
 \section{Hamamatsu s14605}
 
-\section{OPF420}
+
+\begin{itemize}
+\item maximum reverse voltage $U_\textrm{R}$: 150 V
+\item cost: 5000 CZK
+\item photosensitive area: 81 mm$^2$
+\item capacitance: 25 pF at $U_\textrm{R} = 100$ V
+\item Dark current: 8 nA at $U_\textrm{R} = 100$ V
+\end{itemize}
+
+\section{OPF430}
+
+\begin{itemize}
+\item maximum reverse voltage $U_\textrm{R}$: 100 V
+\item cost: 340 CZK
+\item photosensitive area: not specified
+\item capacitance: 1.5  pF at $U_\textrm{R} = 5$ V
+\item Dark current: 0.1 nA at $U_\textrm{R} = 5$ V
+\end{itemize}
 
 \section{BPW34}
+
+\begin{itemize}
+\item maximum reverse voltage $U_\textrm{R}$: 32 V
+\item cost: 30 CZK
+\item photosensitive area: 7.5 mm$^2$
+\item capacitance: 25 pF at $U_\textrm{R} = 3$ V
+\item Dark current: 2 nA at $U_\textrm{R} = 10$ V
+\end{itemize}
 
 % %%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%%%%%%%%%%
