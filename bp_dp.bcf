@@ -1929,19 +1929,23 @@
   <bcf:section number="0">
     <bcf:citekey order="1">Leo1987-wy</bcf:citekey>
     <bcf:citekey order="2">Leo1987-wy</bcf:citekey>
-    <bcf:citekey order="3">Lutz_2007</bcf:citekey>
-    <bcf:citekey order="4">SiPINdirect</bcf:citekey>
-    <bcf:citekey order="5">SiPINdirect</bcf:citekey>
-    <bcf:citekey order="6">datS14605</bcf:citekey>
-    <bcf:citekey order="7">RAMIREZJIMENEZ2003577</bcf:citekey>
-    <bcf:citekey order="8">datOPF430</bcf:citekey>
-    <bcf:citekey order="9">betaBPW</bcf:citekey>
-    <bcf:citekey order="10">datBPW34</bcf:citekey>
-    <bcf:citekey order="11">NOVAK2016thesis</bcf:citekey>
-    <bcf:citekey order="12">NOVAK2016thesis</bcf:citekey>
-    <bcf:citekey order="13">STEJSKAL2019thesis</bcf:citekey>
-    <bcf:citekey order="14">STEJSKAL2019thesis</bcf:citekey>
-    <bcf:citekey order="15">compounds</bcf:citekey>
+    <bcf:citekey order="3">Optimized</bcf:citekey>
+    <bcf:citekey order="4">Optimized</bcf:citekey>
+    <bcf:citekey order="5">\IeC {\textbullet }</bcf:citekey>
+    <bcf:citekey order="6">Lutz_2007</bcf:citekey>
+    <bcf:citekey order="7">SiPINdirect</bcf:citekey>
+    <bcf:citekey order="8">SiPINdirect</bcf:citekey>
+    <bcf:citekey order="9">datS14605</bcf:citekey>
+    <bcf:citekey order="10">RAMIREZJIMENEZ2003577</bcf:citekey>
+    <bcf:citekey order="11">datOPF430</bcf:citekey>
+    <bcf:citekey order="12">betaBPW</bcf:citekey>
+    <bcf:citekey order="13">datBPW34</bcf:citekey>
+    <bcf:citekey order="14">NOVAK2016thesis</bcf:citekey>
+    <bcf:citekey order="15">NOVAK2016thesis</bcf:citekey>
+    <bcf:citekey order="16">STEJSKAL2019thesis</bcf:citekey>
+    <bcf:citekey order="17">STEJSKAL2019thesis</bcf:citekey>
+    <bcf:citekey order="18">compounds</bcf:citekey>
+    <bcf:citekey order="19">MARISCOTTI1967309</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
