@@ -121,18 +121,19 @@ However the applied bias voltage in reverse direction usually also increases the
 
 
 \subsection{Recombination and trapping}
-The effect which goes against the successful collection of charge carriers and thus affects the detection efficiency and the energy resolution is recombination. In pure crystals, the electron can recombine with hole only when they have the same $\vec{k}$. However, inside real crystals there exists impurities, which allows carriers to recombine - recombination centres. The charge collection must take much less time than it takes the carriers to recombine. 
+The effect which goes against the successful collection of charge carriers and thus affects the detection efficiency and the energy resolution is recombination. In pure crystals, the electron can recombine with hole only when they have the same $\vec{k}$. However, inside real crystals there exists impurities, which allow carriers to recombine - recombination centres. The charge collection must take much less time than it takes the carriers to recombine. 
 \par
 Another effect caused by the very same impurities is trapping. The trapping centres capture electron or hole and release it after certain time. This effect alter the signal pulses and can decrease maximum possible counting rate.
 \par
 Energy levels near the centre of band gap are primary responsible for recombination and trapping, which means that the impurities causing this are not the impurities which were added in doping, because these have their additional energy levels near the bands. 
 
 
-\section{Structure of Si PIN detector}
-The 
+\section{Structure and parameters of Si PIN detector}
+One of the most important parameter is the size of the photosensitive area, which has to be large as possible for effective collection of radiation. This area has to be treated with extreme caution since every damage, adsorption of impurities or dew condensation due to the high environmental humidity reduces the active photosensitive area.
 
-Its obvious that for particles' interactions inside the detector the most crucial dimensions are those in cross section normal to the incident radiation. For effective collection of radiation we photosensitive area.
-The dead layer (usually the p) has to be thin as possible to reduce probability that the particle interacts in place where the generated charge cloud would nearly immediately recombine. The active layer intristic 
+\par
+Its obvious that for interactions inside the detector the most crucial dimensions are those, which are normal to the incident radiation.
+The dead region (P) has to be thin as possible to reduce probability that the particle interacts in place where the generated charge cloud would nearly immediately recombine. The active depleted (I) layer has to be thick enough to make all the interactions happen inside itself. The schematic of PIN diode can be seen on fig. \ref{SiPIN}.
 
 
 \begin{figure}[H]
@@ -145,40 +146,74 @@ The dead layer (usually the p) has to be thin as possible to reduce probability 
 
 
 
-\section{Available detection diodes}
-For testing we have chosen one professional Hamamatsu s14605 PIN diode and two commercial PIN diodes: OPF420 - originally designed to be used in optical fibres, BPW34 - visible and near infrared radiation detector.  
+\section{Available Si PIN detectors}
+For testing we have chosen one professional Hamamatsu S14605 PIN diode and two commercial PIN diodes: OPF420 - originally designed to be used in optical fibres, BPW34 - visible and near infrared radiation detector.  
 
 
 
-\section{Hamamatsu s14605}
+\subsection{Hamamatsu S14605}
+The professional S14605 is designed to be used as a direct radiation detector. It offers a very large photosensitive area and a low capacitance.
 
-
+Parameters \cite{datS14605}:
 \begin{itemize}
-\item maximum reverse voltage $U_\textrm{R}$: 150 V
-\item cost: 5000 CZK
-\item photosensitive area: 81 mm$^2$
-\item capacitance: 25 pF at $U_\textrm{R} = 100$ V
+\item Maximum reverse voltage $U_\textrm{R}$: 150 V
+\item Photosensitive area: 81 mm$^2$
+\item Capacitance: 25 pF at $U_\textrm{R} = 100$ V
 \item Dark current: 8 nA at $U_\textrm{R} = 100$ V
+\item Depletion layer: 0.5 mm
+\item Cost: 5000 CZK
 \end{itemize}
 
-\section{OPF430}
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+ \caption{Hamamatsu S14605.}
+ \label{S14605}
+ 
+\end{figure}
 
+\subsection{OPF430}
+OPF430 is originally ment to be a low-cost detector for fiber optic applications. However, there were publications \cite{RAMIREZJIMENEZ2003577}, which described the possibility of using similar diode OPF420 in low-energy gamma spectroscopic chains as a low-cost detector.
+
+Parameters \cite{datOPF430}:
 \begin{itemize}
-\item maximum reverse voltage $U_\textrm{R}$: 100 V
-\item cost: 340 CZK
-\item photosensitive area: not specified
-\item capacitance: 1.5  pF at $U_\textrm{R} = 5$ V
+\item Maximum reverse voltage $U_\textrm{R}$: 100 V
+\item Photosensitive area: not specified, small
+\item Capacitance: 1.5  pF at $U_\textrm{R} = 5$ V
 \item Dark current: 0.1 nA at $U_\textrm{R} = 5$ V
+\item Depletion layer: not specified
+\item Cost: 340 CZK
 \end{itemize}
 
-\section{BPW34}
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+ \caption{OPF430.}
+ \label{OPF430}
+ 
+\end{figure}
 
+\subsection{BPW34}
+BPW34 is a very low cost radiation detector. There were manuals \cite{betaBPW} how to use BPW34 as a beta particle detector, and since it is a Si PIN diode, it worths a try and test it for our gamma detection purposes.
+
+
+
+Parameters \cite{datBPW34}:
 \begin{itemize}
-\item maximum reverse voltage $U_\textrm{R}$: 32 V
-\item cost: 30 CZK
-\item photosensitive area: 7.5 mm$^2$
-\item capacitance: 25 pF at $U_\textrm{R} = 3$ V
+\item Maximum reverse voltage $U_\textrm{R}$: 32 V
+\item Photosensitive area: 7.5 mm$^2$
+\item Capacitance: 25 pF at $U_\textrm{R} = 3$ V
 \item Dark current: 2 nA at $U_\textrm{R} = 10$ V
+\item Depletion layer: not specified
+\item Cost: 30 CZK
 \end{itemize}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+ \caption{BPW34.}
+ \label{BPW34}
+ 
+\end{figure}
 
 % %%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%%%%%%%%%%

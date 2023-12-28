@@ -1932,11 +1932,16 @@
     <bcf:citekey order="3">Lutz_2007</bcf:citekey>
     <bcf:citekey order="4">SiPINdirect</bcf:citekey>
     <bcf:citekey order="5">SiPINdirect</bcf:citekey>
-    <bcf:citekey order="6">NOVAK2016thesis</bcf:citekey>
-    <bcf:citekey order="7">NOVAK2016thesis</bcf:citekey>
-    <bcf:citekey order="8">STEJSKAL2019thesis</bcf:citekey>
-    <bcf:citekey order="9">STEJSKAL2019thesis</bcf:citekey>
-    <bcf:citekey order="10">compounds</bcf:citekey>
+    <bcf:citekey order="6">datS14605</bcf:citekey>
+    <bcf:citekey order="7">RAMIREZJIMENEZ2003577</bcf:citekey>
+    <bcf:citekey order="8">datOPF430</bcf:citekey>
+    <bcf:citekey order="9">betaBPW</bcf:citekey>
+    <bcf:citekey order="10">datBPW34</bcf:citekey>
+    <bcf:citekey order="11">NOVAK2016thesis</bcf:citekey>
+    <bcf:citekey order="12">NOVAK2016thesis</bcf:citekey>
+    <bcf:citekey order="13">STEJSKAL2019thesis</bcf:citekey>
+    <bcf:citekey order="14">STEJSKAL2019thesis</bcf:citekey>
+    <bcf:citekey order="15">compounds</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

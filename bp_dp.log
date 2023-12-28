@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.6.18)  27 DEC 2023 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.6.18)  28 DEC 2023 04:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,7 +1023,7 @@ Package biblatex Info: ... file 'bp_dp.bbl' not found.
 No file bp_dp.bbl.
 Package biblatex Info: Reference section=0 on input line 139.
 Package biblatex Info: Reference segment=0 on input line 139.
-<up_logo_bw.pdf, id=184, 96.36pt x 98.3675pt>
+<up_logo_bw.pdf, id=188, 96.36pt x 98.3675pt>
 File: up_logo_bw.pdf Graphic file (type pdf)
 <use up_logo_bw.pdf>
 Package pdftex.def Info: up_logo_bw.pdf  used on input line 163.
@@ -1050,7 +1050,7 @@ Chapter 1.
 [9
 
 ] [10]
-<./pictures/totalCross.png, id=297, 847.66687pt x 659.46375pt>
+<./pictures/totalCross.png, id=302, 847.66687pt x 659.46375pt>
 File: ./pictures/totalCross.png Graphic file (type png)
 <use ./pictures/totalCross.png>
 Package pdftex.def Info: ./pictures/totalCross.png  used on input line 89.
@@ -1089,27 +1089,59 @@ Chapter 3.
 LaTeX Warning: Citation 'Lutz_2007' on page 16 undefined on input line 74.
 
 [16] [17] [18]
-<./pictures/SiPINScheme.png, id=343, 1211.52625pt x 697.60625pt>
+<./pictures/SiPINScheme.png, id=349, 1211.52625pt x 697.60625pt>
 File: ./pictures/SiPINScheme.png Graphic file (type png)
 <use ./pictures/SiPINScheme.png>
-Package pdftex.def Info: ./pictures/SiPINScheme.png  used on input line 140.
+Package pdftex.def Info: ./pictures/SiPINScheme.png  used on input line 141.
 (pdftex.def)             Requested size: 424.04054pt x 244.16583pt.
 
 
-LaTeX Warning: Citation 'SiPINdirect' on page 19 undefined on input line 141.
+LaTeX Warning: Citation 'SiPINdirect' on page 19 undefined on input line 142.
 
 
-LaTeX Warning: Citation 'SiPINdirect' on page 19 undefined on input line 141.
+LaTeX Warning: Citation 'SiPINdirect' on page 19 undefined on input line 142.
 
-[19 <./pictures/SiPINScheme.png>]) (./Mossbauer.tex [20]
+
+LaTeX Warning: Citation 'datS14605' on page 19 undefined on input line 157.
+
+[19 <./pictures/SiPINScheme.png>]
+<./pictures/NoPicture.jpg, id=358, 1097.09875pt x 983.675pt>
+File: ./pictures/NoPicture.jpg Graphic file (type jpg)
+<use ./pictures/NoPicture.jpg>
+Package pdftex.def Info: ./pictures/NoPicture.jpg  used on input line 169.
+(pdftex.def)             Requested size: 383.99031pt x 344.29141pt.
+
+
+LaTeX Warning: Citation 'RAMIREZJIMENEZ2003577' on page 20 undefined on input l
+ine 176.
+
+
+LaTeX Warning: Citation 'datOPF430' on page 20 undefined on input line 178.
+
+File: ./pictures/NoPicture.jpg Graphic file (type jpg)
+<use ./pictures/NoPicture.jpg>
+Package pdftex.def Info: ./pictures/NoPicture.jpg  used on input line 190.
+(pdftex.def)             Requested size: 383.99031pt x 344.29141pt.
+[20 <./pictures/NoPicture.jpg>]
+
+LaTeX Warning: Citation 'betaBPW' on page 21 undefined on input line 197.
+
+
+LaTeX Warning: Citation 'datBPW34' on page 21 undefined on input line 201.
+
+File: ./pictures/NoPicture.jpg Graphic file (type jpg)
+<use ./pictures/NoPicture.jpg>
+Package pdftex.def Info: ./pictures/NoPicture.jpg  used on input line 213.
+(pdftex.def)             Requested size: 383.99031pt x 344.29141pt.
+[21]) (./Mossbauer.tex [22]
 Chapter 4.
-[21
+[23
 
 ]
 
-LaTeX Warning: Reference `transspec' on page 22 undefined on input line 51.
+LaTeX Warning: Reference `transspec' on page 24 undefined on input line 51.
 
-[22]
+[24]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
@@ -1122,49 +1154,49 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-<./pictures/Fe57.png, id=364, 458.71375pt x 249.93375pt>
+<./pictures/Fe57.png, id=385, 458.71375pt x 249.93375pt>
 File: ./pictures/Fe57.png Graphic file (type png)
 <use ./pictures/Fe57.png>
 Package pdftex.def Info: ./pictures/Fe57.png  used on input line 68.
 (pdftex.def)             Requested size: 344.03447pt x 187.44984pt.
 
-LaTeX Warning: Citation 'NOVAK2016thesis' on page 23 undefined on input line 69
+LaTeX Warning: Citation 'NOVAK2016thesis' on page 25 undefined on input line 69
 .
 
 
-LaTeX Warning: Citation 'NOVAK2016thesis' on page 23 undefined on input line 69
+LaTeX Warning: Citation 'NOVAK2016thesis' on page 25 undefined on input line 69
 .
 
-[23]
-<./pictures/transducer.png, id=371, 1023.07219pt x 545.78906pt>
+[25]
+<./pictures/transducer.png, id=391, 1023.07219pt x 545.78906pt>
 File: ./pictures/transducer.png Graphic file (type png)
 <use ./pictures/transducer.png>
 Package pdftex.def Info: ./pictures/transducer.png  used on input line 83.
 (pdftex.def)             Requested size: 409.22163pt x 218.31175pt.
 
 
-LaTeX Warning: Citation 'STEJSKAL2019thesis' on page 24 undefined on input line
+LaTeX Warning: Citation 'STEJSKAL2019thesis' on page 26 undefined on input line
  84.
 
 
-LaTeX Warning: Citation 'STEJSKAL2019thesis' on page 24 undefined on input line
+LaTeX Warning: Citation 'STEJSKAL2019thesis' on page 26 undefined on input line
  84.
 
-[24 <./pictures/Fe57.png> <./pictures/transducer.png>]
+[26 <./pictures/Fe57.png> <./pictures/transducer.png>]
 
-LaTeX Warning: Reference `spectrometric setup' on page 25 undefined on input li
+LaTeX Warning: Reference `spectrometric setup' on page 27 undefined on input li
 ne 92.
 
 
-LaTeX Warning: Citation 'compounds' on page 25 undefined on input line 95.
+LaTeX Warning: Citation 'compounds' on page 27 undefined on input line 95.
 
-) (./pulseAnalysis.tex [25]
+) (./pulseAnalysis.tex [27]
 Chapter 5.
-) (./Algorytms.tex [26
+) (./Algorytms.tex [28
 
 ]
 Chapter 6.
-) [27
+) [29
 
 ]
 
@@ -1172,7 +1204,7 @@ LaTeX Warning: Empty bibliography on input line 278.
 
 
 AED: lastpage setting LastPage
-[28
+[30
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
@@ -1187,8 +1219,8 @@ Package rerunfilecheck Warning: File `bp_dp.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `bp_dp.out':
-(rerunfilecheck)             Before: DF918B705875AD372C4095DDD79332FD;8425
-(rerunfilecheck)             After:  C7AAC4DDC0C0D0658D7063C6880294BA;8637.
+(rerunfilecheck)             Before: A9CB1B0ED5B4B773D2E2DEFB109A0349;8721
+(rerunfilecheck)             After:  4D7D57920A6092B296AFA7A752A408CB;8742.
 
 LaTeX Warning: There were undefined references.
 
@@ -1206,30 +1238,24 @@ Package logreq Info: Writing requests to 'bp_dp.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
  ) 
 Here is how much of TeX's memory you used:
- 18609 strings out of 494848
- 290403 string characters out of 6178430
+ 18622 strings out of 494848
+ 290607 string characters out of 6178430
  714234 words of memory out of 5000000
- 21631 multiletter control sequences out of 15000+600000
+ 21639 multiletter control sequences out of 15000+600000
  13567 words of font info for 50 fonts, out of 8000000 for 9000
  46 hyphenation exceptions out of 8191
- 44i,9n,46p,1121b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.5.4} has been referenced but does not exi
+ 44i,9n,46p,1121b,1940s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{chapter*.12} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
+pdfTeX warning (dest): name{section.3.9} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
-exist, replaced by a fixed one
+pdfTeX warning (dest): name{section.3.8} has been referenced but does not exist
+, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.1.3} has been referenced but does not 
-exist, replaced by a fixed one
+pdfTeX warning (dest): name{section.3.7} has been referenced but does not exist
+, replaced by a fixed one
 
  <./bssb10.720pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc1
@@ -1241,10 +1267,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bp_dp.pdf (28 pages, 493236 bytes).
+Output written on bp_dp.pdf (30 pages, 502540 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 408 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
- 386 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 479 PDF objects out of 1000 (max. 8388607)
+ 421 compressed objects within 5 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 
