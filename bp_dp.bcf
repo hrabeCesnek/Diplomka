@@ -1932,20 +1932,22 @@
     <bcf:citekey order="3">Optimized</bcf:citekey>
     <bcf:citekey order="4">Optimized</bcf:citekey>
     <bcf:citekey order="5">\IeC {\textbullet }</bcf:citekey>
-    <bcf:citekey order="6">Lutz_2007</bcf:citekey>
-    <bcf:citekey order="7">SiPINdirect</bcf:citekey>
-    <bcf:citekey order="8">SiPINdirect</bcf:citekey>
-    <bcf:citekey order="9">datS14605</bcf:citekey>
-    <bcf:citekey order="10">RAMIREZJIMENEZ2003577</bcf:citekey>
-    <bcf:citekey order="11">datOPF430</bcf:citekey>
-    <bcf:citekey order="12">betaBPW</bcf:citekey>
-    <bcf:citekey order="13">datBPW34</bcf:citekey>
-    <bcf:citekey order="14">NOVAK2016thesis</bcf:citekey>
-    <bcf:citekey order="15">NOVAK2016thesis</bcf:citekey>
-    <bcf:citekey order="16">STEJSKAL2019thesis</bcf:citekey>
-    <bcf:citekey order="17">STEJSKAL2019thesis</bcf:citekey>
-    <bcf:citekey order="18">compounds</bcf:citekey>
-    <bcf:citekey order="19">MARISCOTTI1967309</bcf:citekey>
+    <bcf:citekey order="6">\IeC {\textbullet }</bcf:citekey>
+    <bcf:citekey order="7">https://doi.org/10.1029/2003JE002138</bcf:citekey>
+    <bcf:citekey order="8">Lutz_2007</bcf:citekey>
+    <bcf:citekey order="9">SiPINdirect</bcf:citekey>
+    <bcf:citekey order="10">SiPINdirect</bcf:citekey>
+    <bcf:citekey order="11">datS14605</bcf:citekey>
+    <bcf:citekey order="12">RAMIREZJIMENEZ2003577</bcf:citekey>
+    <bcf:citekey order="13">datOPF430</bcf:citekey>
+    <bcf:citekey order="14">betaBPW</bcf:citekey>
+    <bcf:citekey order="15">datBPW34</bcf:citekey>
+    <bcf:citekey order="16">NOVAK2016thesis</bcf:citekey>
+    <bcf:citekey order="17">NOVAK2016thesis</bcf:citekey>
+    <bcf:citekey order="18">STEJSKAL2019thesis</bcf:citekey>
+    <bcf:citekey order="19">STEJSKAL2019thesis</bcf:citekey>
+    <bcf:citekey order="20">compounds</bcf:citekey>
+    <bcf:citekey order="21">MARISCOTTI1967309</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

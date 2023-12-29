@@ -10,34 +10,48 @@
 % -----------------------------------------------
 \section{Properties and parameters of detectors}
 % -----------------------------------------------
-There 
-The Mössbauer spectrometer setups on KEF are usually by gaseous or scintillation detectors.
+The main parameters which are crucial for purposes of Mössbauer are detection efficiency and energy resolution at low gamma energies.
+\par
+Nowadays three main types of detectors are employed on the field of nuclear physics - gas, scintillation and semiconductor.
+The Mössbauer spectrometer setups in laboratories of KEF are usually based on gas or scintillation detectors.
 
 
-\subsection{Gaseous detectors}
-The gas detectors are usually tubes with electrodes with applied voltage around filled with a special gas mixture. According to the voltage, the gaseous detector can be operated in 3 regimes - proportional , or as a geiger counter. The second mode offers amplification. The advantage of gaseous detectors is that they offer good energy resolution.
+\subsection{Gas proportional detectors}
+The gas detectors are usually tubes with electrodes filled with a special gas mixture. The incoming particle ionizes the gas, creating free ions and electrons.  According to the applied voltage, the gaseous detector can be operated in proportional regime, which is characterized by additional multiplication of charge carriers and thus, the signal can be amplified. The advantage of gaseous detectors is that they offer good energy resolution, but on the other hand their detection efficiency is low mainly due to the fact, that the gas density is small. Count rates are also affected by the long duration of the ionization effect. For operation they require high voltages (usually over 1000 V) and in case of flow counters they also require pressure cylinders along with other heavy equipment. 
 
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.55, angle = 0]{./pictures/GASdet.png}
- \caption{Toroidal proportional gas flow counter used in MS spectrometer. \cite{Optimized}.}
+ \caption{Toroidal proportional gas flow counter used in MS spectrometer \cite{Optimized}.}
  \label{toroid}
  
 \end{figure}
 
 
 \subsection{Scintillation detectors}
-By scintillation detector is usually meant a scintillation crystal coupled with a photomultiplier tube (PMT). The first conversion happens inside scintillation crystal, where the incoming particle generates number of photons linearly dependent on its energy. These photons are captured by PMT's photo-cathode, where are they converted into electrons, and then multiplied on PMT's dynodes. This amplification requires high voltages around $1000 - 2000$ V.
+By scintillation detector is usually meant a scintillation crystal coupled with a photomultiplier tube (PMT). The first conversion happens inside the scintillation crystal, where the incoming particle generates number of photons linearly dependent on its energy. These photons are captured by PMT's photo-cathode, where are they converted into electrons, and then multiplied on PMT's dynodes. This amplification requires high voltages around $1000 - 2000$ V. The internal amplification inside PMT can be around $10^6$.
 \par
-The PMT's have The internal amplification inside PMT can be around $10^6$. However, the energy resolution is not 
+The detection efficiency is very high and due to the short duration of excitation effects, they can be used at high count rates.
 \par
-The gamma spectra obtained this way usually have distorted wide peaks, which negatively affects Mössbauer spectrometry. The PMTs also cannot be employed in magnetic fields. 
+However, their energy resolution is much worse than in case of gases and semiconductors. The gamma spectra obtained this way usually have distorted wide peaks, which negatively affects Mössbauer spectrometry. The PMTs also cannot be employed inside the magnetic fields. 
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+ \caption{Scintilator crystal coupled with PMT \cite{•}.}
+ \label{PMT}
+ 
+\end{figure}
 
 
 \subsection{Detectors based on semiconductors}
-The one problem with semiconductor detector is that there is no internal amplification, so the signals coming out of the detectors have to be amplified by electronics.
+The semiconductors offer the best energy resolution and a very good efficiency, however, they are usually expensive.
+
 \par
-The semiconductors are small and compact. They also don't require high voltage sources and heavy pressure cylinders. These facts can of making more compact Mössbauer spectrometers. The Mössbauer spectrometer MIMOS II \cite{•} based on 4 Si PIN diodes was a part a its mission to mars. 
+The one problem with semiconductor detector is that there is no internal amplification, so the signals coming out of the detectors have to be strongly amplified by electronics.
+\par
+The semiconductors are small and compact. They also don't require high voltage sources and heavy pressure cylinders. These facts are crucial if it comes to making more compact Mössbauer spectrometers. The Mössbauer spectrometer MIMOS II \cite{https://doi.org/10.1029/2003JE002138} based on 4 Si PIN diodes was a part of two rowers Spirit and Opportunity and their mission on Mars. 
 
 
 

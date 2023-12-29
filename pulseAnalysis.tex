@@ -5,15 +5,40 @@
 % -----------------------------------------------
 \chapter{Electronics for signal readout and analysis}
 % -----------------------------------------------
+The signals coming out the detector has to be properly preamplified, amplified and shaped. This is a very complicated task and it requires special analog circuits with properly designed layout. 
+There are two main companies offering such special instruments, modules and parts - ORTEC and CREMAT.
+\par
+The task of realizing the spectrometric chain can be fulfilled in two ways. The first and more straightforward way is to build it from stand-alone robust instruments and modules. This can be more practical approach for testing of the detectors themselves since we are not forced to solve problems arising from badly designed PCBs. However, these modules are usually very expensive and measurement setups build this way are unnecessarily large.
+\par
+The second possibility is to design PCB circuit with required functionalities from electronic parts, However it requires many electronic engineering skills and additional time for development. The analog PCBs are very hard to design. The pros are that the final product can be very compact, and the electronic parts and PCB manufacturing is much cheaper. 
+\par
+In this thesis, we apply both methods for the development.
+
+
+
 \section{Diode detector connection and support electronics}
-\subsection{High voltage source}
+\subsection{Voltage source}
+The p-n detectors require voltage bias to reduce the capacitance.
+These voltage sources don't have to be stiff since the detector's current consumption is very low and in pulses.
+\par
+Gas and scintillation detector usually require high voltage source. These high voltages are usually achieved by switching power supplies.
+However, these supplies are usually very noisy and since the semiconductors can be operated at much lower voltages, there is no need for them. The better alternative is charge pump build of capacitors and diodes.
 \subsection{Shielding and grounding}
+
+In case of sensitive analog signal circuits, the shielding is a very important part.
+
 \subsection{Cooling}
-To reduce thermal noise and achieve better SNR it is necessary to cool the detector.
+To reduce thermal noise and achieve better SNR it is necessary to cool the detector. The cooling can be achieved by various ways. In most setups, the appropriate  it 
 
 \section{Spectrometric chain}
 \subsection{Pre-amplification}
-\subsection{Amplification and shaping}
+Charge preamplifiers are usually very sensitive amplifiers and can be very easily damaged by electrostatics.
+
+\subsection{Amplification}
+
+\subsection{Shaping}
+In modules the shapers are usually integrated along with amplifiers.
+
 \subsection{Pulse-height measurement and spectra accumulation}
 
 
