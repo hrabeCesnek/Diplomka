@@ -21,25 +21,95 @@ In this thesis, we apply both methods for the development.
 The p-n detectors require voltage bias to reduce the capacitance.
 These voltage sources don't have to be stiff since the detector's current consumption is very low and in pulses.
 \par
-Gas and scintillation detector usually require high voltage source. These high voltages are usually achieved by switching power supplies.
-However, these supplies are usually very noisy and since the semiconductors can be operated at much lower voltages, there is no need for them. The better alternative is charge pump build of capacitors and diodes.
+Gas and scintillation detectors usually require high voltage source. These high voltages are usually achieved by switching power supplies.
+However, these supplies are usually very noisy and since the semiconductors can be operated at much lower voltages, there is no need for them. The better alternative is charge pump build of capacitors and diodes, which requires lesser frequencies to operate.
 \subsection{Shielding and grounding}
 
 In case of sensitive analog signal circuits, the shielding is a very important part.
 
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/shielding.png}
+ \caption{Theoretical schematic of proper shielding \cite{appCSPnote}.}
+ \label{shielding}
+ 
+\end{figure}
+
+
+
 \subsection{Cooling}
-To reduce thermal noise and achieve better SNR it is necessary to cool the detector. The cooling can be achieved by various ways. In most setups, the appropriate  it 
+To reduce thermal noise and achieve better SNR it is necessary to cool the detector. The cooling can be achieved by various ways. In most setups, the appropriate solution can be provided by a peltier cooler. These setups with peltier are the easy to implement, however, their cooling efficiency is highly dependent on the ability to sink the heat from the hot side.
 
 \section{Spectrometric chain}
+The measurement chain for gamma spectroscopy is usually realized in following order - gamma detector, preamplifier, amplifier, MCA, microprocessor/computer.
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+ \caption{Spectrometric chain.}
+ \label{trans}
+ 
+\end{figure}
+
 \subsection{Pre-amplification}
-Charge preamplifiers are usually very sensitive amplifiers and can be very easily damaged by electrostatics.
+The signal coming out of the p-n detector is weak, and it is also in form of charge (current pulse), so it is necessary to convert it into voltage pulse. For performing the charge-voltage conversion, one and the best solution is circuit called charge amplifier. The principal functional scheme can be described by one opamp with a capacitor in feedback. The functionality is similar to $I/U$ transimpedance amplifier, but the charge amplifier works mainly as an integrator. In ideal case (opamp amplification $A >> 0$), the measured voltage per unit charge is approximately equal to:
+
+\begin{equation}
+\frac{dU}{dQ} = \frac{1}{C_{f}}.
+\end{equation}
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+ \caption{Transimpedance ampifier.}
+ \label{trans}
+ 
+\end{figure}
+
+
+
+\par
+In real circuit there is also a resistor parallel to the feedback capacitor. The feedback resistor slowly discharges the capacitor after a accumulation of charge, restoring the transimpedance amplifier to be ready to capture another pulse.
+
+
+However, the functionality is also negatively altered by the detector's capacitance $C_{det}$.
+
+\par
+The charge sensitive preamplifiers modules usually also contain the second stage - classical $U/U$ amplifier. The internal scheme of CR-110-R2 charge sensitive preamplifier made by Cremat Inc, which we use in the case of PCB design can be seen of fig. \ref{internal}.
+
+\par
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/CRpreamp.png}
+ \caption{Internal scheme of CR-110-R2 charge sensitive preamplifier \cite{cr110}.}
+ \label{internal}
+ 
+\end{figure}
+
+
+The ORTEC module suitable for our application is 
+
+
+\par
+
+Charge preamplifiers are usually very sensitive devices and can be very easily damaged by electrostatics. 
+
+
+
+
+\par
+
+
 
 \subsection{Amplification}
 
 \subsection{Shaping}
 In modules the shapers are usually integrated along with amplifiers.
 
-\subsection{Pulse-height measurement and spectra accumulation}
+\subsection{Pulse-height measurement(multichannel analysis)}
 
 
 

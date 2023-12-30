@@ -69,6 +69,43 @@
       \field{type}{Master's thesis}
       \field{year}{2019 [cit. 2023-11-06]}
     \endentry
+    \entry{MARISCOTTI1967309}{article}{}
+      \name{author}{1}{}{%
+        {{hash=28d9c5fc92dbe912767deacd176a1f68}{%
+           family={Mariscotti},
+           familyi={M\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{28d9c5fc92dbe912767deacd176a1f68}
+      \strng{fullhash}{28d9c5fc92dbe912767deacd176a1f68}
+      \strng{bibnamehash}{28d9c5fc92dbe912767deacd176a1f68}
+      \strng{authorbibnamehash}{28d9c5fc92dbe912767deacd176a1f68}
+      \strng{authornamehash}{28d9c5fc92dbe912767deacd176a1f68}
+      \strng{authorfullhash}{28d9c5fc92dbe912767deacd176a1f68}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A computer method is described that permits automatic analysis of high resolution spectra, provided that the data are stored in a way suitable for computer input (i.e., on magnetic or paper tape). The program reads the entire spectrum, locates the peaks and determines their amplitudes, centroids and widths by least squares fitting. Doublets are handled automatically.}
+      \field{issn}{0029-554X}
+      \field{journaltitle}{Nuclear Instruments and Methods}
+      \field{number}{2}
+      \field{title}{A method for automatic identification of peaks in the presence of background and its application to spectrum analysis}
+      \field{volume}{50}
+      \field{year}{1967}
+      \field{pages}{309\bibrangedash 320}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0029-554X(67)90058-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0029554X67900584
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0029554X67900584
+      \endverb
+    \endentry
     \entry{Leo1987-wy}{book}{}
       \name{author}{1}{}{%
         {{hash=eca715988948933cd082dfafe0690bd2}{%
@@ -212,6 +249,48 @@
       \field{title}{Practical gamma-ray spectroscopy}
       \field{year}{2008}
     \endentry
+    \entry{Optimized}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=d82333f58868cf72eaebbe8a1f395419}{%
+           family={Kouril},
+           familyi={K\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1e45496064a95dda7c0d93bfa8641f9c}{%
+           family={Pechousek},
+           familyi={P\bibinitperiod},
+           given={Jiri},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4972642fd14a76df69215af9045f98ce}{%
+           family={Kohout},
+           familyi={K\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6b92a9483fc743347237af2e2dfe633a}{%
+           family={Jiruš},
+           familyi={J\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1994187e0fa43de44c8995ecd76f72e6}{%
+           family={Schlattauer},
+           familyi={S\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{9914e70d28797fd25fcc00f2896a94f0}
+      \strng{fullhash}{020cf941e1cf8ec138dc56af42b62e6f}
+      \strng{bibnamehash}{020cf941e1cf8ec138dc56af42b62e6f}
+      \strng{authorbibnamehash}{020cf941e1cf8ec138dc56af42b62e6f}
+      \strng{authornamehash}{9914e70d28797fd25fcc00f2896a94f0}
+      \strng{authorfullhash}{020cf941e1cf8ec138dc56af42b62e6f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{Optimized conversion X-rays Mössbauer setup for efficient bulk sample surface analysis}
+      \field{year}{2021}
+    \endentry
     \entry{betaBPW}{misc}{}
       \list{language}{1}{%
         {english}%
@@ -301,6 +380,62 @@
       \field{labeltitlesource}{title}
       \field{note}{\url{https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/high_energy_kspd9002e.pdf}}
       \field{title}{Si detectors for high energy particles}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{appCSPnote}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e112f3d7507923693989db4d6025717b}{%
+           family={Inc},
+           familyi={I\bibinitperiod},
+           given={Cremat},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e112f3d7507923693989db4d6025717b}
+      \strng{fullhash}{e112f3d7507923693989db4d6025717b}
+      \strng{bibnamehash}{e112f3d7507923693989db4d6025717b}
+      \strng{authorbibnamehash}{e112f3d7507923693989db4d6025717b}
+      \strng{authornamehash}{e112f3d7507923693989db4d6025717b}
+      \strng{authorfullhash}{e112f3d7507923693989db4d6025717b}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.cremat.com/applications/csp-application-notes/}}
+      \field{title}{Advice in using Cremat CSP modules}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{cr110}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e112f3d7507923693989db4d6025717b}{%
+           family={Inc},
+           familyi={I\bibinitperiod},
+           given={Cremat},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e112f3d7507923693989db4d6025717b}
+      \strng{fullhash}{e112f3d7507923693989db4d6025717b}
+      \strng{bibnamehash}{e112f3d7507923693989db4d6025717b}
+      \strng{authorbibnamehash}{e112f3d7507923693989db4d6025717b}
+      \strng{authornamehash}{e112f3d7507923693989db4d6025717b}
+      \strng{authorfullhash}{e112f3d7507923693989db4d6025717b}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.cremat.com/CR-110-R2.pdf}}
+      \field{title}{CR-110-R2 charge sensitive preamplifier}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}
@@ -451,6 +586,37 @@
       \field{labeltitlesource}{title}
       \field{note}{\url{https://www.vishay.com/docs/81521/bpw34.pdf}}
       \field{title}{BPW34, BPW34S}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{FrontEnd}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=65f138f6d6e155c18bc3b50085fc5a4a}{%
+           family={Spieler},
+           familyi={S\bibinitperiod},
+           given={Helmuth},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Lawrence Berkeley National Laboratory, Physics Division, Berkeley, CA 94720, U.S.A.}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{65f138f6d6e155c18bc3b50085fc5a4a}
+      \strng{fullhash}{65f138f6d6e155c18bc3b50085fc5a4a}
+      \strng{bibnamehash}{65f138f6d6e155c18bc3b50085fc5a4a}
+      \strng{authorbibnamehash}{65f138f6d6e155c18bc3b50085fc5a4a}
+      \strng{authornamehash}{65f138f6d6e155c18bc3b50085fc5a4a}
+      \strng{authorfullhash}{65f138f6d6e155c18bc3b50085fc5a4a}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www-physics.lbl.gov/~spieler/ICFA_Morelia/text/Front_End_Electronics_old.pdf}}
+      \field{title}{Front-End Electronics and Signal Processing}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}

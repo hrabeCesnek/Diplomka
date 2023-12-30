@@ -89,18 +89,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Spectrometric chain}{31}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Pre-amplification}{31}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Pre-amplification}{32}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Amplification}{31}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}Amplification}{34}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Shaping}{31}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.3}Shaping}{34}{subsection.5.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Pulse-height measurement and spectra accumulation}{31}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.4}Pulse-height measurement(multichannel analysis)}{34}{subsection.5.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Gamma spectrum software analysis}{32}{chapter.6}
+\contentsline {chapter}{\numberline {6}Gamma spectrum software analysis}{35}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Peak searching procedure}{32}{section.6.1}
+\contentsline {section}{\numberline {6.1}Peak searching procedure}{35}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Intensities calculation}{33}{section.6.2}
+\contentsline {section}{\numberline {6.2}Intensities calculation}{36}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{34}{chapter*.19}
+\contentsline {chapter}{Conclusion}{37}{chapter*.23}

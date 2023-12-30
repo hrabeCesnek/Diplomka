@@ -1947,7 +1947,11 @@
     <bcf:citekey order="18">STEJSKAL2019thesis</bcf:citekey>
     <bcf:citekey order="19">STEJSKAL2019thesis</bcf:citekey>
     <bcf:citekey order="20">compounds</bcf:citekey>
-    <bcf:citekey order="21">MARISCOTTI1967309</bcf:citekey>
+    <bcf:citekey order="21">appCSPnote</bcf:citekey>
+    <bcf:citekey order="22">appCSPnote</bcf:citekey>
+    <bcf:citekey order="23">cr110</bcf:citekey>
+    <bcf:citekey order="24">cr110</bcf:citekey>
+    <bcf:citekey order="25">MARISCOTTI1967309</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
