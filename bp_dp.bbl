@@ -114,6 +114,12 @@
            given={William\bibnamedelima R},
            giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
       \strng{namehash}{eca715988948933cd082dfafe0690bd2}
       \strng{fullhash}{eca715988948933cd082dfafe0690bd2}
       \strng{bibnamehash}{eca715988948933cd082dfafe0690bd2}
@@ -124,7 +130,8 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Techniques for nuclear and particle physics experiments}
+      \field{isbn}{9783540572800}
+      \field{title}{Techniques for nuclear and particle physics experiments: A how to approach}
       \field{year}{1987}
     \endentry
     \entry{RAMIREZJIMENEZ2003577}{article}{}
@@ -160,11 +167,11 @@
            given={J.O.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{c5574b712ebcdff1e45268234862cd3c}
+      \strng{namehash}{85b2f5ef4d3241da83262e51ffa63d99}
       \strng{fullhash}{85b2f5ef4d3241da83262e51ffa63d99}
       \strng{bibnamehash}{85b2f5ef4d3241da83262e51ffa63d99}
       \strng{authorbibnamehash}{85b2f5ef4d3241da83262e51ffa63d99}
-      \strng{authornamehash}{c5574b712ebcdff1e45268234862cd3c}
+      \strng{authornamehash}{85b2f5ef4d3241da83262e51ffa63d99}
       \strng{authorfullhash}{85b2f5ef4d3241da83262e51ffa63d99}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
@@ -198,8 +205,8 @@
            given={Gerhad},
            giveni={G\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
+      \list{location}{1}{%
+        {Berlin}%
       }
       \list{publisher}{1}{%
         {Springer}%
@@ -214,7 +221,8 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Semiconductor radiation detectors}
+      \field{isbn}{9783540716785}
+      \field{title}{Semiconductor radiation detectors: Device physics}
       \field{year}{2007}
     \endentry
     \entry{Gilmore2008-jw}{book}{}
@@ -225,11 +233,8 @@
            given={Gordon},
            giveni={G\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \list{location}{1}{%
-        {Hoboken, NJ}%
+        {Chichester u.a.}%
       }
       \list{publisher}{1}{%
         {Wiley-Blackwell}%
@@ -245,11 +250,43 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2}
+      \field{isbn}{9780470861967}
       \field{month}{4}
       \field{title}{Practical gamma-ray spectroscopy}
       \field{year}{2008}
     \endentry
-    \entry{Optimized}{misc}{}
+    \entry{ArtOfEl}{book}{}
+      \name{author}{2}{}{%
+        {{hash=2944a7ce2a1917ae43a534cdb6c75c07}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Paul\bibnamedelima Horowitz},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0063694b3cbef40881a31a990439ee72}{%
+           family={Winfield},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{58439ba080e9d928d84f613497d4c2a1}
+      \strng{fullhash}{58439ba080e9d928d84f613497d4c2a1}
+      \strng{bibnamehash}{58439ba080e9d928d84f613497d4c2a1}
+      \strng{authorbibnamehash}{58439ba080e9d928d84f613497d4c2a1}
+      \strng{authornamehash}{58439ba080e9d928d84f613497d4c2a1}
+      \strng{authorfullhash}{58439ba080e9d928d84f613497d4c2a1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0521809266}
+      \field{title}{The Art of Electronics, 3rd Edition}
+      \field{year}{2015}
+    \endentry
+    \entry{Optimized}{online}{}
       \name{author}{5}{}{%
         {{hash=d82333f58868cf72eaebbe8a1f395419}{%
            family={Kouril},
@@ -277,11 +314,11 @@
            given={Leo},
            giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{9914e70d28797fd25fcc00f2896a94f0}
+      \strng{namehash}{020cf941e1cf8ec138dc56af42b62e6f}
       \strng{fullhash}{020cf941e1cf8ec138dc56af42b62e6f}
       \strng{bibnamehash}{020cf941e1cf8ec138dc56af42b62e6f}
       \strng{authorbibnamehash}{020cf941e1cf8ec138dc56af42b62e6f}
-      \strng{authornamehash}{9914e70d28797fd25fcc00f2896a94f0}
+      \strng{authornamehash}{020cf941e1cf8ec138dc56af42b62e6f}
       \strng{authorfullhash}{020cf941e1cf8ec138dc56af42b62e6f}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
@@ -291,21 +328,26 @@
       \field{title}{Optimized conversion X-rays Mössbauer setup for efficient bulk sample surface analysis}
       \field{year}{2021}
     \endentry
-    \entry{betaBPW}{misc}{}
+    \entry{betaBPW}{online}{}
       \list{language}{1}{%
         {english}%
       }
       \field{sortinit}{9}
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://physicsopenlab.org/2020/06/15/cern-diy-particle-detector/}}
       \field{title}{CERN DIY Particle Detector}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://physicsopenlab.org/2020/06/15/cern-diy-particle-detector/
+      \endverb
+      \verb{url}
+      \verb https://physicsopenlab.org/2020/06/15/cern-diy-particle-detector/
+      \endverb
     \endentry
-    \entry{datOPF430}{misc}{}
+    \entry{datOPF430}{online}{}
       \name{author}{1}{}{%
         {{hash=c59d4e795c3c3de34636459ed44be874}{%
            family={Electronics},
@@ -326,14 +368,19 @@
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://cz.mouser.com/datasheet/2/414/OPF430-3241495.pdf}}
       \field{title}{OPF430}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cz.mouser.com/datasheet/2/414/OPF430-3241495.pdf
+      \endverb
+      \verb{url}
+      \verb https://cz.mouser.com/datasheet/2/414/OPF430-3241495.pdf
+      \endverb
     \endentry
-    \entry{datS14605}{misc}{}
+    \entry{datS14605}{online}{}
       \name{author}{1}{}{%
         {{hash=79a85f1262dd6e7b374eb01cd454a95a}{%
            family={Hamamatsu},
@@ -352,14 +399,19 @@
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s14605_kpin1091e.pdf}}
       \field{title}{S14605}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s14605_kpin1091e.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s14605_kpin1091e.pdf
+      \endverb
     \endentry
-    \entry{SiPINdirect}{misc}{}
+    \entry{SiPINdirect}{online}{}
       \name{author}{1}{}{%
         {{hash=79a85f1262dd6e7b374eb01cd454a95a}{%
            family={Hamamatsu},
@@ -378,14 +430,19 @@
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/high_energy_kspd9002e.pdf}}
       \field{title}{Si detectors for high energy particles}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/high_energy_kspd9002e.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/high_energy_kspd9002e.pdf
+      \endverb
     \endentry
-    \entry{appCSPnote}{misc}{}
+    \entry{appCSPnote}{online}{}
       \name{author}{1}{}{%
         {{hash=e112f3d7507923693989db4d6025717b}{%
            family={Inc},
@@ -406,14 +463,19 @@
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.cremat.com/applications/csp-application-notes/}}
       \field{title}{Advice in using Cremat CSP modules}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cremat.com/applications/csp-application-notes/
+      \endverb
+      \verb{url}
+      \verb https://www.cremat.com/applications/csp-application-notes/
+      \endverb
     \endentry
-    \entry{cr110}{misc}{}
+    \entry{cr110}{online}{}
       \name{author}{1}{}{%
         {{hash=e112f3d7507923693989db4d6025717b}{%
            family={Inc},
@@ -434,12 +496,17 @@
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.cremat.com/CR-110-R2.pdf}}
       \field{title}{CR-110-R2 charge sensitive preamplifier}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cremat.com/CR-110-R2.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cremat.com/CR-110-R2.pdf
+      \endverb
     \endentry
     \entry{https://doi.org/10.1029/2003JE002138}{article}{}
       \name{author}{15}{}{%
@@ -523,8 +590,8 @@
       }
       \strng{namehash}{4fd330325d59928c978eb922ca1279b3}
       \strng{fullhash}{0063ac5ce330398d398b9cbac6656374}
-      \strng{bibnamehash}{0063ac5ce330398d398b9cbac6656374}
-      \strng{authorbibnamehash}{0063ac5ce330398d398b9cbac6656374}
+      \strng{bibnamehash}{4fd330325d59928c978eb922ca1279b3}
+      \strng{authorbibnamehash}{4fd330325d59928c978eb922ca1279b3}
       \strng{authornamehash}{4fd330325d59928c978eb922ca1279b3}
       \strng{authorfullhash}{0063ac5ce330398d398b9cbac6656374}
       \field{sortinit}{9}
@@ -559,11 +626,16 @@
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl}}
       \field{title}{Atomic Weights and Isotopic Compositions for All Elements}
+      \verb{urlraw}
+      \verb https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl
+      \endverb
+      \verb{url}
+      \verb https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl
+      \endverb
       \warn{\item Entry 'compounds' (citations.bib): Invalid format '2023-11-2' of date field 'urldate' - ignoring}
     \endentry
-    \entry{datBPW34}{misc}{}
+    \entry{datBPW34}{online}{}
       \name{author}{1}{}{%
         {{hash=c37e44b81a8e287180ca7a89d25a54d1}{%
            family={Semiconductors},
@@ -584,14 +656,19 @@
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.vishay.com/docs/81521/bpw34.pdf}}
       \field{title}{BPW34, BPW34S}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.vishay.com/docs/81521/bpw34.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.vishay.com/docs/81521/bpw34.pdf
+      \endverb
     \endentry
-    \entry{FrontEnd}{misc}{}
+    \entry{FrontEnd}{online}{}
       \name{author}{1}{}{%
         {{hash=65f138f6d6e155c18bc3b50085fc5a4a}{%
            family={Spieler},
@@ -615,12 +692,17 @@
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://www-physics.lbl.gov/~spieler/ICFA_Morelia/text/Front_End_Electronics_old.pdf}}
       \field{title}{Front-End Electronics and Signal Processing}
       \field{urlday}{26}
       \field{urlmonth}{12}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www-physics.lbl.gov/~spieler/ICFA_Morelia/text/Front_End_Electronics_old.pdf
+      \endverb
+      \verb{url}
+      \verb https://www-physics.lbl.gov/~spieler/ICFA_Morelia/text/Front_End_Electronics_old.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

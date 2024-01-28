@@ -51,15 +51,16 @@
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
+      <file>iso-numeric.dbx</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>phys.bbx</file>
-      <file>numeric-comp.bbx</file>
-      <file>numeric.bbx</file>
-      <file>standard.bbx</file>
-      <file>phys.cbx</file>
-      <file>numeric-comp.cbx</file>
+      <file>iso-numeric.bbx</file>
+      <file>iso.bbx</file>
+      <file>iso-numeric.cbx</file>
+      <file>numeric.cbx</file>
+      <file>iso-fullcite.cbx</file>
       <file>biblatex.cfg</file>
+      <file>english-iso.lbx</file>
       <file>english.lbx</file>
     </requires>
   </internal>
