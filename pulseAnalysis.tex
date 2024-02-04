@@ -71,10 +71,10 @@ The signal coming out of the p-n detector is weak, and it is also in form of cha
 
 
 \par
-In real circuit there is also a resistor parallel to the feedback capacitor. The feedback resistor slowly discharges the capacitor after a accumulation of charge, restoring the transimpedance amplifier to be ready to capture another pulse.
+In real circuit there is also a resistor parallel to the feedback capacitor. The feedback resistor slowly discharges the capacitor after a accumulation of charge, restoring the transimpedance amplifier to be ready to capture another pulse.  
 
 
-However, the functionality is also negatively altered by the detector's capacitance $C_{det}$.
+However, the functionality is also negatively affected by the detector's capacitance $C_{det}$.
 
 \par
 The charge sensitive preamplifiers modules usually also contain the second stage - classical $U/U$ amplifier. The internal scheme of CR-110-R2 charge sensitive preamplifier made by Cremat Inc, which we use in the case of PCB design can be seen of fig. \ref{internal}.
@@ -89,8 +89,19 @@ The charge sensitive preamplifiers modules usually also contain the second stage
  
 \end{figure}
 
+The output voltage has the shape of exponential decay with amplitude defined by energy, short rise time (in orders of nanoseconds) and a longer decay constant (microseconds).
 
-The ORTEC module suitable for our application is 
+
+CR-110-R2 offers the conversion gain $G = 1.4$ V/pC, decay constant $\tau = 140$ $\mu$s CR-110-R2) and noise (FWMH) in silicon equal to 1.7 keV \cite{cr110}. It can be easily calculated, that for 14.4 keV photon, the output pulse has amplitude equal to $U_{A} = 0.8928$ mV. 
+Note that the noise caused by the preamplifier is much larger than the intrinsic fano noise.
+
+
+\par
+The modular version suitable for our application is ORTEC 142A charge preamplifier with $G = 1.016$ V/pC, $\tau = 500$ $\mu$s and noise in silicon equal to 1.6 keV \cite{ORTECpreamp}.  
+
+
+
+
 
 
 \par
@@ -105,8 +116,14 @@ Charge preamplifiers are usually very sensitive devices and can be very easily d
 
 
 \subsection{Amplification}
+Since the output of preamplifier is in range of millivolts, it has to be strongly amplified. Very fast and low noise amplifier consisting of multiple opamps is an appropriate solution of this problem.
+
+
 
 \subsection{Shaping}
+
+To perform the accurate energy discrimination, the pulse has to be altered . The frequency band is filtered, increasing the SNR. 
+
 In modules the shapers are usually integrated along with amplifiers.
 
 \subsection{Pulse-height measurement(multichannel analysis)}
