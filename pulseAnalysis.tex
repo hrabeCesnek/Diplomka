@@ -6,7 +6,7 @@
 \chapter{Electronics for signal readout and analysis}
 % -----------------------------------------------
 The signals coming out the detector has to be properly preamplified, amplified and shaped. This is a very complicated task and it requires special analog circuits with properly designed layout. 
-There are two main companies offering such special instruments, modules and parts - ORTEC and CREMAT.
+There are two main companies offering such special instruments, modules and parts - ORTEC and CREMAT. When designing the spectrometric measurement chain, we select components in order to achieve sufficient parameters for our application - energy resolution, low dead time to increase maximum possible counting rates e.g. 
 \par
 The task of realizing the spectrometric chain can be fulfilled in two ways. The first and more straightforward way is to build it from stand-alone robust instruments and modules. This can be more practical approach for testing of the detectors themselves since we are not forced to solve problems arising from badly designed PCBs. However, these modules are usually very expensive and measurement setups build this way are unnecessarily large.
 \par
@@ -122,12 +122,26 @@ Since the output of preamplifier is in range of millivolts, it has to be strongl
 
 \subsection{Shaping}
 
-To perform the accurate energy discrimination, the pulse has to be altered . The frequency band is filtered, increasing the SNR. 
+To perform the accurate energy discrimination, the pulse shape has to be altered from exponential decay shape by a special shaping circuit. The shaping results into filtering the frequency band (reducing the noise) and also into shortening the long decay times of original exponential shapes. The lower duration of pulses prevents the negative effect in which is one pulse superimposed onto another (pile-up effect).
 
+\par
+The Gaussian shape meets the sufficient parameters of SNR and duration. This type of shaping is usually achieved by several integration stages. The cremat module CR-200-1us-R2.1 offers gaussian shaping with shaping time 1 $\mu$s \cite{cr200}. Its simplified internal schematic can be seen on fig.\ref{internal2}. 
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/CRshaper.png}
+ \caption{Internal scheme of CR-200 Gaussian shaping amplifier \cite{cr200}.}
+ \label{internal2}
+ 
+\end{figure}
+
+However, shapers are usually very sensitive on the shape of the input pulse. They expect step-like input pulse. The deviation from the expected shapes may result into undefined shapes on output of the shaper.
+\par
 In modules the shapers are usually integrated along with amplifiers.
 
-\subsection{Pulse-height measurement(multichannel analysis)}
-
+\subsection{Multichannel analysis (MCA)}
+To obtain the full energy spectra information in a digital form, it is necessary to measure and digitize pulse height of incoming pulses to perform energy discrimination and increment the corresponding digital counting channels. For these purposes can be employed multichannel analyser (MCA). The EASY-MCA-2K from ORTEC \cite{MCAOrtec}, which we use in experiments, is capable of processing Gaussian shaped pulses with constants from 0.25 $\mu$s to 30 $\mu$s and amplitudes ranging from 0 to +10 V.
 
 
 

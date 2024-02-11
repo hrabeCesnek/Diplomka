@@ -64,7 +64,7 @@ The interaction effects for gamma rays are described more detail in the followin
 Due to the fact, that the gamma rays are photons, the gradual losses of kinetic energy inside materials (characteristic for the charged particles) are not observed. Instead the main observed effect is the attenuation of intensity of photon flux with the increasing thickness of the absorber material. 
 
 \par
-Three mayor interaction effects of gamma photons and matter are Photoelectric effect, Compton scattering and Pair production. The cross section of these effect vary with gamma photon energy, with material and its density - high dependence on atomic number $Z$. There are also possible nuclear reaction such as the Mössbauer effect, but their observation requires very special conditions to be met.
+Three mayor interaction effects of gamma photons and matter are: Photoelectric effect, Compton scattering and Pair production. The cross section of these effect vary with gamma photon energy, with material and its density - high dependence on atomic number $Z$. There are also possible nuclear reaction such as the Mössbauer effect, but their observation requires very special conditions to be met.
 
 
 \par
@@ -105,12 +105,21 @@ The Photoelectric effect can be observed only on electron bounded in atomic shel
 
 \par
 
-The photoelectric effect plays the key role when it comes to the detection of gamma photons.
+The photoelectric effect plays a key role when it comes to the detection of gamma photons.
 
 \subsubsection{Compton scattering}
 Compton scattering is an effect, which is mainly observed on free electrons. It needs to be said, that the electrons in material are usually bounded, however, if the photon energy is much higher than the binding energy 
 \par
-This effect causes, that the photon loses only a part of its energy and changes its direction. The energy is transferred to an electron accordingly to the laws of energy and momentum conservation.
+This effect causes, that the photon loses only a part of its energy and changes its direction. The energy is transferred to an electron accordingly to the laws of energy and momentum conservation and can be described by following relation:
+
+\begin{equation}
+E_{\textrm{e}} = E_1 - E_2 = E_1 (1- \frac{1}{1+\frac{E_1}{m_{\textrm{e}}c^2}(1 - \cos{\theta})})
+\end{equation}
+
+
+\par
+Where $E_{\textrm{e}}$ - energy transferred to an electron, $E_1$ - initial photon energy, $E_2$ - scattered photon energy, $m_{\textrm{e}}$ - the electron mass and $\theta$ - angle of scattering. This equation can be used to calculate the positions of Compton edges in energy spectra by plugging the angle of maximum energy transfer ($\theta = 180^\circ$).
+
 
 \subsubsection{Pair production}
 At much higher energies, the photon can be converted into electron-positron pair. This effect happens near the nucleus, which absorbs a part of the original photon momentum.
