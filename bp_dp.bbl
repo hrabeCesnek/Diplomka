@@ -255,6 +255,37 @@
       \field{title}{Practical gamma-ray spectroscopy}
       \field{year}{2008}
     \endentry
+    \entry{moss}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b08b1ef17845aeda70926676b89b7cbd}{%
+           family={Procházka},
+           familyi={P\bibinitperiod},
+           given={Vít},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {czech}%
+      }
+      \list{location}{1}{%
+        {Olomouc}%
+      }
+      \list{publisher}{1}{%
+        {Palacký University Olomouc}%
+      }
+      \strng{namehash}{b08b1ef17845aeda70926676b89b7cbd}
+      \strng{fullhash}{b08b1ef17845aeda70926676b89b7cbd}
+      \strng{bibnamehash}{b08b1ef17845aeda70926676b89b7cbd}
+      \strng{authorbibnamehash}{b08b1ef17845aeda70926676b89b7cbd}
+      \strng{authornamehash}{b08b1ef17845aeda70926676b89b7cbd}
+      \strng{authorfullhash}{b08b1ef17845aeda70926676b89b7cbd}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9788024440118}
+      \field{title}{Neobvyklá Mőssbauerova spektroskopie}
+      \field{year}{2014}
+    \endentry
     \entry{ArtOfEl}{book}{}
       \name{author}{2}{}{%
         {{hash=2944a7ce2a1917ae43a534cdb6c75c07}{%
@@ -327,6 +358,64 @@
       \field{month}{09}
       \field{title}{Optimized conversion X-rays Mössbauer setup for efficient bulk sample surface analysis}
       \field{year}{2021}
+    \endentry
+    \entry{SiCdTe}{online}{}
+      \name{author}{1}{}{%
+        {{hash=63bd1762e21c292b8e280daba9b350d7}{%
+           family={amptek},
+           familyi={a\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{63bd1762e21c292b8e280daba9b350d7}
+      \strng{fullhash}{63bd1762e21c292b8e280daba9b350d7}
+      \strng{bibnamehash}{63bd1762e21c292b8e280daba9b350d7}
+      \strng{authorbibnamehash}{63bd1762e21c292b8e280daba9b350d7}
+      \strng{authornamehash}{63bd1762e21c292b8e280daba9b350d7}
+      \strng{authorfullhash}{63bd1762e21c292b8e280daba9b350d7}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Si-PIN vs CdTe Comparison}
+      \verb{urlraw}
+      \verb https://www.amptek.com/internal-products/si-pin-vs-cdte-comparison
+      \endverb
+      \verb{url}
+      \verb https://www.amptek.com/internal-products/si-pin-vs-cdte-comparison
+      \endverb
+      \warn{\item Entry 'SiCdTe' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{co57}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8ec889db45a3dba540ffa7f44e9d3ffa}{%
+           family={Becquerel},
+           familyi={B\bibinitperiod},
+           given={Laboratoire\bibnamedelimb National\bibnamedelima Henri},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{8ec889db45a3dba540ffa7f44e9d3ffa}
+      \strng{fullhash}{8ec889db45a3dba540ffa7f44e9d3ffa}
+      \strng{bibnamehash}{8ec889db45a3dba540ffa7f44e9d3ffa}
+      \strng{authorbibnamehash}{8ec889db45a3dba540ffa7f44e9d3ffa}
+      \strng{authornamehash}{8ec889db45a3dba540ffa7f44e9d3ffa}
+      \strng{authorfullhash}{8ec889db45a3dba540ffa7f44e9d3ffa}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Co-57}
+      \verb{urlraw}
+      \verb http://www.lnhb.fr/nuclides/Co-57_tables.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.lnhb.fr/nuclides/Co-57_tables.pdf
+      \endverb
+      \warn{\item Entry 'co57' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
     \endentry
     \entry{betaBPW}{online}{}
       \list{language}{1}{%
@@ -442,6 +531,34 @@
       \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/high_energy_kspd9002e.pdf
       \endverb
     \endentry
+    \entry{charge}{online}{}
+      \name{author}{1}{}{%
+        {{hash=73f801ff4f44895c5aabb9d8ddd37130}{%
+           family={hamamatsu},
+           familyi={h\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{fullhash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{bibnamehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{authorbibnamehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{authornamehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{authorfullhash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Characteristics and use of Charge amplifier}
+      \verb{urlraw}
+      \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/charge_amp_kacc9001e.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/charge_amp_kacc9001e.pdf
+      \endverb
+      \warn{\item Entry 'charge' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
+    \endentry
     \entry{appCSPnote}{online}{}
       \name{author}{1}{}{%
         {{hash=e112f3d7507923693989db4d6025717b}{%
@@ -506,6 +623,39 @@
       \endverb
       \verb{url}
       \verb https://www.cremat.com/CR-110-R2.pdf
+      \endverb
+    \endentry
+    \entry{cr200}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e112f3d7507923693989db4d6025717b}{%
+           family={Inc},
+           familyi={I\bibinitperiod},
+           given={Cremat},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e112f3d7507923693989db4d6025717b}
+      \strng{fullhash}{e112f3d7507923693989db4d6025717b}
+      \strng{bibnamehash}{e112f3d7507923693989db4d6025717b}
+      \strng{authorbibnamehash}{e112f3d7507923693989db4d6025717b}
+      \strng{authornamehash}{e112f3d7507923693989db4d6025717b}
+      \strng{authorfullhash}{e112f3d7507923693989db4d6025717b}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CR-200 Gaussian shaping amplifier}
+      \field{urlday}{26}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cremat.com/CR-200-R2.1.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cremat.com/CR-200-R2.1.pdf
       \endverb
     \endentry
     \entry{https://doi.org/10.1029/2003JE002138}{article}{}
@@ -634,6 +784,90 @@
       \verb https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl
       \endverb
       \warn{\item Entry 'compounds' (citations.bib): Invalid format '2023-11-2' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{MCAOrtec}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e1e1b278127b57454c8a3a058413aa31}{%
+           family={ORTEC},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{fullhash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{bibnamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authorbibnamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authornamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authorfullhash}{e1e1b278127b57454c8a3a058413aa31}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EASY-MCA-8K EASY-MCA-2K Digital Gamma-Ray Spectrometer User’s Manual}
+      \verb{urlraw}
+      \verb https://www.ortec-online.com/-/media/ametekortec/manuals/e/easy-mca-mnl.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ortec-online.com/-/media/ametekortec/manuals/e/easy-mca-mnl.pdf
+      \endverb
+      \warn{\item Entry 'MCAOrtec' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{maestro}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e1e1b278127b57454c8a3a058413aa31}{%
+           family={ORTEC},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{fullhash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{bibnamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authorbibnamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authornamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authorfullhash}{e1e1b278127b57454c8a3a058413aa31}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MAESTRO Multichannel Analyzer Emulation Software}
+      \verb{urlraw}
+      \verb https://www.ortec-online.com/products/software/maestro-mca
+      \endverb
+      \verb{url}
+      \verb https://www.ortec-online.com/products/software/maestro-mca
+      \endverb
+      \warn{\item Entry 'maestro' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{ORTECpreamp}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e1e1b278127b57454c8a3a058413aa31}{%
+           family={ORTEC},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{fullhash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{bibnamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authorbibnamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authornamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authorfullhash}{e1e1b278127b57454c8a3a058413aa31}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Models 142A, 142B, and 142C Preamplifiers Operating and Service Manual}
+      \verb{urlraw}
+      \verb https://www.ortec-online.com/-/media/ametekortec/manuals/1/142abc-mnl.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ortec-online.com/-/media/ametekortec/manuals/1/142abc-mnl.pdf
+      \endverb
+      \warn{\item Entry 'ORTECpreamp' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
     \endentry
     \entry{datBPW34}{online}{}
       \name{author}{1}{}{%

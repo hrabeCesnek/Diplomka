@@ -21,7 +21,7 @@ In this thesis, we apply both methods for the development.
 The p-n detectors require voltage bias to reduce the capacitance.
 These voltage sources don't have to be stiff since the detector's current consumption is very low and in pulses.
 \par
-Gas and scintillation detectors usually require high voltage source. These high voltages are usually achieved by switching power supplies.
+Gas and scintillation detectors usually require high voltage source. These high voltages are usually supplied by switching power supplies.
 However, these supplies are usually very noisy and since the semiconductors can be operated at much lower voltages, there is no need for them. The better alternative is charge pump build of capacitors and diodes, which requires lesser frequencies to operate.
 \subsection{Shielding and grounding}
 
@@ -48,7 +48,7 @@ The measurement chain for gamma spectroscopy is usually realized in following or
  \centering
  \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
  \caption{Spectrometric chain.}
- \label{trans}
+ \label{chain}
  
 \end{figure}
 
@@ -62,8 +62,8 @@ The signal coming out of the p-n detector is weak, and it is also in form of cha
 
 \begin{figure}[H]
  \centering
- \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
- \caption{Transimpedance ampifier.}
+ \includegraphics[scale=0.4, angle = 0]{./pictures/champlifier.png}
+ \caption{Charge ampifier. $Qs$ is total charge of pulse and $to$ is the interval of charge generation inside the detector. Taken from \cite{charge}.}
  \label{trans}
  
 \end{figure}

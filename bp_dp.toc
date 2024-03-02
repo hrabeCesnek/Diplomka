@@ -57,68 +57,72 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Available Si PIN detectors}{21}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Hamamatsu S14605}{21}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.1}Hamamatsu S14605}{22}{subsection.3.6.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6.2}OPF430}{22}{subsection.3.6.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6.3}BPW34}{23}{subsection.3.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}M\IeC {\"o}ssbauer effect and spectroscopy}{25}{chapter.4}
+\contentsline {chapter}{\numberline {4}M\IeC {\"o}ssbauer effect and spectroscopy}{24}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Physical concept}{25}{section.4.1}
+\contentsline {section}{\numberline {4.1}Physical concept}{24}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Resonace emission and absorption}{25}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Resonace emission and absorption}{24}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Interaction of nuclei with local fields}{26}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Interaction of nuclei with local fields}{25}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}M\IeC {\"o}ssbauer spectroscopy}{26}{section.4.2}
+\contentsline {section}{\numberline {4.2}M\IeC {\"o}ssbauer spectroscopy}{25}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}$^{57}$Fe spectroscopy}{27}{section.4.3}
+\contentsline {section}{\numberline {4.3}$^{57}$Fe spectroscopy}{26}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Spectre properties and parameters}{29}{section.4.4}
+\contentsline {section}{\numberline {4.4}Spectre properties and parameters}{28}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Electronics for signal readout and analysis}{30}{chapter.5}
+\contentsline {chapter}{\numberline {5}Electronics for signal readout and analysis}{29}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Diode detector connection and support electronics}{30}{section.5.1}
+\contentsline {section}{\numberline {5.1}Diode detector connection and support electronics}{29}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Voltage source}{30}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.1}Voltage source}{29}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Shielding and grounding}{31}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.2}Shielding and grounding}{30}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Cooling}{31}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.3}Cooling}{30}{subsection.5.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Spectrometric chain}{31}{section.5.2}
+\contentsline {section}{\numberline {5.2}Spectrometric chain}{30}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Pre-amplification}{32}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Pre-amplification}{31}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Amplification}{34}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}Amplification}{33}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Shaping}{34}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.3}Shaping}{33}{subsection.5.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Multichannel analysis (MCA)}{34}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.4}Multichannel analysis (MCA)}{33}{subsection.5.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Gamma spectrum software analysis}{36}{chapter.6}
+\contentsline {chapter}{\numberline {6}Gamma spectrum software analysis}{34}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Peak searching procedure}{36}{section.6.1}
+\contentsline {section}{\numberline {6.1}Peak searching procedure}{34}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Intensities calculation}{37}{section.6.2}
+\contentsline {section}{\numberline {6.2}Intensities calculation}{35}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Gamma detection testing}{38}{chapter.7}
+\contentsline {chapter}{\numberline {7}Gamma detection testing}{36}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Photodiodes testing}{38}{section.7.1}
+\contentsline {section}{\numberline {7.1}Noise and its reduction}{38}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Detection test of the Co$^{57}$ spectra}{38}{section.7.2}
+\contentsline {subsection}{\numberline {7.1.1}Electromagnetic noise reduction}{38}{subsection.7.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Noise and its reduction}{38}{section.7.3}
+\contentsline {subsection}{\numberline {7.1.2}Thermal noise reduction}{39}{subsection.7.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Electromagnetic noise reduction}{38}{subsection.7.3.1}
+\contentsline {section}{\numberline {7.2}Detection test of the $^{57}$Co spectra}{41}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Thermal noise reduction}{39}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.2.1}S14605 test}{41}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Spectrometric chain PCB integration}{41}{chapter.8}
+\contentsline {subsection}{\numberline {7.2.2}BPW34 test}{42}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Spectra measurement with developed }{42}{chapter.9}
+\contentsline {subsection}{\numberline {7.2.3}OPF430 test}{42}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{43}{chapter.10}
+\contentsline {chapter}{\numberline {8}Spectrometric chain PCB integration}{44}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{44}{chapter*.28}
+\contentsline {chapter}{\numberline {9}Spectra measurement with developed }{45}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{46}{chapter.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{47}{chapter*.29}

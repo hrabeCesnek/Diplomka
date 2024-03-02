@@ -68,7 +68,7 @@ The voltage across the depleted layer could be modelled as a simple plate capaci
 \section{Detection mechanism}
 
 \par
-If we want to detect a particle or photon, is has to interact with the detector material - in semiconductor the creation of electron-hole pairs is observed. This could be achieved by interaction mechanisms described in previous chapters, which differ for every type of particle and energy. In case of low-energy gamma the two main mechanisms which take place in producing the charge carriers are photo-effect and Compton scattering.
+If we want to detect a particle or photon, is has to interact with the detector material - in semiconductor the creation of electron-hole pairs is observed. This could be achieved by interaction mechanisms described in previous chapters, which differ for every type of particle and energy. In case of low-energy gamma the two main mechanisms which take place in producing the charge carriers are photo-effect (internal) and Compton scattering.
 
 \par
 The main of purpose of semiconductor as a detector, is to perform a linear conversion of the particle/photon energy into the free charge carriers - electrons in conduction band and holes in valence band. The average energy needed to create a single electron-hole pair is usually a fix constant - in Si it is $\epsilon = 3.6$ eV \cite{Lutz_2007}. Since the Si is an indirect semiconductor, this value is not equal to gap energy, which is lower ($E_{\textrm{g}} = 1.12$ eV).  
@@ -146,9 +146,15 @@ The dead region (P) has to be thin as possible to reduce probability that the pa
 
 
 \section{Available Si PIN detectors}
-For testing we have chosen one professional Hamamatsu S14605 PIN diode and two commercial PIN diodes: OPF420 - originally designed to be used in optical fibres, BPW34 - visible and near infrared radiation detector.  
+For testing we have chosen one professional Hamamatsu S14605 PIN diode and two commercial PIN diodes: OPF430 - originally designed to be used in optical fibres, BPW34 - visible and near infrared radiation detector.  
 
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.1, angle = 0]{./pictures/PINdiodes.png}
+ \caption{PIN diodes - OPF430, BPW34 and S14605.}
+ \label{PIN diodes}
 
+\end{figure}
 
 \subsection{Hamamatsu S14605}
 The professional S14605 is designed to be used as a direct radiation detector. It offers a very large photosensitive area and a low capacitance.
@@ -163,13 +169,13 @@ Parameters \cite{datS14605}:
 \item Cost: 5000 CZK
 \end{itemize}
 
-\begin{figure}[H]
- \centering
- \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
- \caption{Hamamatsu S14605.}
- \label{S14605}
- 
-\end{figure}
+%\begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+% \caption{Hamamatsu S14605.}
+% \label{S14605}
+% 
+%\end{figure}
 
 \subsection{OPF430}
 OPF430 is originally ment to be a low-cost detector for fiber optic applications. However, there were publications \cite{RAMIREZJIMENEZ2003577}, which described the possibility of using similar diode OPF420 in low-energy gamma spectroscopic chains as a low-cost detector.
@@ -177,20 +183,20 @@ OPF430 is originally ment to be a low-cost detector for fiber optic applications
 Parameters \cite{datOPF430}:
 \begin{itemize}
 \item Maximum reverse voltage $U_\textrm{R}$: 100 V
-\item Photosensitive area: not specified, <value
+\item Photosensitive area: not specified, small value
 \item Capacitance: 1.5  pF at $U_\textrm{R} = 5$ V
 \item Dark current: 0.1 nA at $U_\textrm{R} = 5$ V
 \item Depletion layer: not specified
 \item Cost: 340 CZK
 \end{itemize}
 
-\begin{figure}[H]
- \centering
- \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
- \caption{OPF430.}
- \label{OPF430}
- 
-\end{figure}
+%\begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+% \caption{OPF430.}
+% \label{OPF430}
+% 
+%\end{figure}
 
 \subsection{BPW34}
 BPW34 is a very low cost radiation detector. There were manuals \cite{betaBPW} how to use BPW34 as a beta particle detector, and since it is a Si PIN diode, it worths a try and test it for our gamma detection purposes.
@@ -207,12 +213,12 @@ Parameters \cite{datBPW34}:
 \item Cost: 11 CZK
 \end{itemize}
 
-\begin{figure}[H]
- \centering
- \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
- \caption{BPW34.}
- \label{BPW34}
- 
-\end{figure}
+%\begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+% \caption{BPW34.}
+% \label{BPW34}
+% 
+%\end{figure}
 
 % %%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%%%%%%%%%%
