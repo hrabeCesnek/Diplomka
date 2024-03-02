@@ -97,28 +97,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.4}Multichannel analysis (MCA)}{34}{subsection.5.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Gamma spectrum software analysis}{35}{chapter.6}
+\contentsline {chapter}{\numberline {6}Gamma spectrum software analysis}{36}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Peak searching procedure}{35}{section.6.1}
+\contentsline {section}{\numberline {6.1}Peak searching procedure}{36}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Intensities calculation}{36}{section.6.2}
+\contentsline {section}{\numberline {6.2}Intensities calculation}{37}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Gamma detection testing}{37}{chapter.7}
+\contentsline {chapter}{\numberline {7}Gamma detection testing}{38}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Photodiodes testing}{37}{section.7.1}
+\contentsline {section}{\numberline {7.1}Photodiodes testing}{38}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Testing the Co$^{57}$}{37}{section.7.2}
+\contentsline {section}{\numberline {7.2}Detection test of the Co$^{57}$ spectra}{38}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Noise and reduction}{37}{section.7.3}
+\contentsline {section}{\numberline {7.3}Noise and its reduction}{38}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Electromagnetic noise reduction}{37}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.1}Electromagnetic noise reduction}{38}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Thermal noise reduction}{38}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.2}Thermal noise reduction}{39}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Spectrometric chain PCB integration}{40}{chapter.8}
+\contentsline {chapter}{\numberline {8}Spectrometric chain PCB integration}{41}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Spectra measurement with developed }{41}{chapter.9}
+\contentsline {chapter}{\numberline {9}Spectra measurement with developed }{42}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{42}{chapter.10}
+\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{43}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{43}{chapter*.27}
+\contentsline {chapter}{Conclusion}{44}{chapter*.28}

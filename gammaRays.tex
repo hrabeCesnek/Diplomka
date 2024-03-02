@@ -9,12 +9,12 @@
 
 % -----------------------------------------------
 \section{Gamma emission}
-In opposite to alpha and beta particles, the gamma rays are without charge and their rest mass is zero, and thus they are considered to be high-energetic photons, but the mayor difference to the X-Ray photons they originate only from atomic nucleus upon its deexcitation from higher energy level to lower. The energy levels of nucleus are similar to the levels in electron shell - discrete, characteristic for every isotope and can be described by quantum numbers. The gamma emission is usually follows alpha or beta decays. The gamma photon is emitted, because the new nucleus is created in an excited state.
+Gamma rays are high-energetic photons, but the mayor difference to the X-Ray photons is that they originate only from atomic nucleus upon its deexcitation from higher energy level to lower. The energy levels of nucleus are similar to the levels in electron shell - discrete, characteristic for every isotope and can be described by quantum numbers. The gamma emission usually follows alpha or beta decays. The gamma photon is emitteddue to the fact, that the new nucleus is created in an excited state.
 
 
 % -----------------------------------------------
 \section{Passage of radiation and particles through matter}
-Interaction of a particle (radiation) with another particle (atom, nuclei, free electron) or with continuous matter can result into many types of reactions and effects - scattering of a particle from incident direction, creation of new particles and nuclei, annihilation of incident particle etc. It mainly depends on particle's energy, electric charge, spin and mass, but also on the properties of target particle or matter. The physical quantity describing the probability of a specific interaction of particle with single point target is known as the cross section. Normalized to the unit solid angle - differential cross section:
+Interaction of a particle (radiation) with another particle (atom, nuclei, free electron) or with continuous matter can result into many types of interactions and effects - scattering of a particle from incident direction, creation of new particles and nuclei, annihilation of incident particle etc. It mainly depends on particle's energy, electric charge, spin and mass, but also on the properties of target particle or matter. The physical quantity describing the probability of a specific interaction of particle with single point target is known as the cross section. Normalized to the unit solid angle - differential cross section:
 
 
 
@@ -34,7 +34,7 @@ However, to characterize the interaction probability of particle with continuous
  \end{equation}
 
 
-and integrated:
+and integrated over the entire solid angle:
 
  \begin{equation}
  N_{tot} = FAN\sigma \delta x 
@@ -68,12 +68,12 @@ Three mayor interaction effects of gamma photons and matter are: Photoelectric e
 
 
 \par
-The attenuation of of photon flux has a form of exponential decay:
+The attenuation of photon flux has a form of exponential decay:
 
 \begin{equation}
  I = I_{0}exp(-\mu x)
  \end{equation}
-where $I_{0}$ and $I$ are the intensities and the parameter $\mu$ is the total absorption coefficient, which describes the probability of interaction per unit length and is bounded with total cross section of single atom $\sigma$ (combination of cross section of three main effects) by relation:
+where $I_{0}$ and $I$ are the radiation intensities and the parameter $\mu$ is the total absorption coefficient, which describes the probability of interaction per unit length and is bounded with total cross section of single atom $\sigma$ (combination of cross section of three main effects) by relation:
 
 \begin{equation}
  \mu = N \sigma = \sigma(N_{a}\rho/A)
@@ -81,13 +81,12 @@ where $I_{0}$ and $I$ are the intensities and the parameter $\mu$ is the total a
  
 where $N$ - density of atoms, $N_{a}$ - Avogadro number, $\rho$ - material density and $A$ - molecular weight.
 
-\par
 The dependence of total cross section combined of the three main effect for lead on photon energy can be seen on fig. \ref{cross}.
 
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.6, angle = 0]{./pictures/totalCross}
- \caption{Total absorption cross section for high-energy photons. Taken and modified from \cite{Leo1987-wy}.}
+ \caption{Exapmpe of total absorption cross section for high-energy photons for lead. Taken and modified from \cite{Leo1987-wy}.}
  \label{cross}
  
 \end{figure}
@@ -108,7 +107,7 @@ The Photoelectric effect can be observed only on electron bounded in atomic shel
 The photoelectric effect plays a key role when it comes to the detection of gamma photons.
 
 \subsubsection{Compton scattering}
-Compton scattering is an effect, which is mainly observed on free electrons. It needs to be said, that the electrons in material are usually bounded, however, if the photon energy is much higher than the binding energy 
+Compton scattering is an effect, which is mainly observed on free electrons. It needs to be said, that the electrons in material are usually bounded, however, if the photon energy is much higher than the binding energy, the electron can be considered as free.
 \par
 This effect causes, that the photon loses only a part of its energy and changes its direction. The energy is transferred to an electron accordingly to the laws of energy and momentum conservation and can be described by following relation:
 
@@ -124,7 +123,7 @@ Where $E_{\textrm{e}}$ - energy transferred to an electron, $E_1$ - initial phot
 \subsubsection{Pair production}
 At much higher energies, the photon can be converted into electron-positron pair. This effect happens near the nucleus, which absorbs a part of the original photon momentum.
 \par
-The pair production along with electron bremsstrahlung radiation  are key effects for electron-photon shower development. If the created electron/positron has sufficient energy, it emits bremsstrahlung photons. These bremsstrahlung photons can again interact via the pair production, and thus creating new electrons again. This process of shower development continues until the energy of electron/positron pairs drops under the energy, which is required to produce bremsstrahlung radiation.
+The pair production along with electron bremsstrahlung radiation  are key effects for electron-photon shower development. If the created electron/positron has sufficient energy, it emits bremsstrahlung photons. These bremsstrahlung photons can again interact via the pair production, and thus creating new electrons again. This process of shower development continues until the energy of electron/positron pairs drops under the energy, which is required to produce bremsstrahlung radiation. At lower energies, the electrons lose more of their energy by the atomic collisions rather than by bremsstrahlung.
 \par
 Negative effects arising from this type of interaction like creation of single and double escape peaks or annihilation peaks in spectra will not be observed, because for low-energy gammas the cross-section is very small. That means that for the purposes of this thesis, this interaction effect could be neglected.   
 
@@ -133,21 +132,21 @@ Negative effects arising from this type of interaction like creation of single a
 Every gamma source emits its characteristic photons with certain probabilities. However, before these photons are captured by detector, many effects can occur in environment or inside the detector - photons can interact various materials without detection purpose such as shielding, spectrum can be altered by 
 noise events in detector etc.
 \par
-Inside detector the low-energy spectre can be affected by:
+Inside detector the low-energy spectra can be affected by:
 \begin{itemize}
 \item X-ray escape peaks - If the photo-effect occurs on atomic energy levels, the characteristic X-ray of the detector material is emitted. The escape peak has the energy of captured photon minus the energy of escaped gamma ray.
 \item Compton continuum with edge - the photon interacts inside detector by Compton scattering, scattered photon leaves the detector.
 
 \end{itemize}
 
-In environment the low-energy spectre can be affected by:
+In environment the low-energy spectra can be affected by:
 \begin{itemize}
-\item Characteristic X-rays - radiation induced fluoresce usually from the shielding material (Pb).
+\item Characteristic X-rays - radiation induced fluorescence usually from the shielding material (Pb).
 \item Backscatter peak - Compton scattering which occurred over a large angle.
 \end{itemize}
 
 
-For Mössbauer spectroscopy the $^{57}$Co is usually used with gamma spectre shown below:
+For Mössbauer spectroscopy the $^{57}$Co is usually used with gamma spectra shown below:
 
 
 % %%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%%%%%%%%%%
