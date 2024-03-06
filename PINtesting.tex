@@ -27,7 +27,7 @@ As radiation source we use $^{57}$Co 50 mCi Mössbauer source from 2016 and thus
 
 
 \section{Noise and its reduction}
-When performing gamma spectroscopy measurements, the energy spectra are affected by noise. In order to reduce noise as much as possible, two approaches were tested - shielding the detector by various ways and cooling to temperatures near 0 $\circ$C.
+When performing gamma spectroscopy measurements, the energy spectra are affected by noise. In order to reduce noise as much as possible, two approaches were tested - shielding the detector by various ways and cooling to temperatures near 0  $^\circ$C.
 \subsection{Electromagnetic noise reduction}
 Photodiodes have to be sufficiently electromagnetically shielded and their distance to the preamplifier input should be as short as possible. Using the diodes with poor shielding leads into high levels of electromagnetic noise, which make mayor part of energetic spectra unobservable.
 \par
@@ -42,13 +42,13 @@ On the behalf of many tests it was proven that the best way to shield the photod
 \end{figure}
 
 
-\begin{figure}[H]
- \centering
- \includegraphics[scale=0.09, angle = 0]{./pictures/chlazeniLedem.jpg}
- \caption{Example of $^{57}$Co spectra from poorly shielded detector setup and from sufficiently shielded detector.}
- \label{notShielded}
- 
-\end{figure}
+%\begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.09, angle = 0]{./pictures/chlazeniLedem.jpg}
+% \caption{Example of $^{57}$Co spectra from poorly shielded detector setup and from sufficiently shielded detector.}
+% \label{notShielded}
+% 
+%\end{figure}
 
 
 
@@ -101,38 +101,43 @@ The analysed spectre is analysed by peak finder program to find the characterist
 The Compton edge caused by interaction of 122.1 keV photons inside the detector can be expected. The equation \ref{compton} estimates the position to be around 39.5 keV. 
 
 \subsection{S14605 test}
-From the S14605 capacity graph \ref{datS14605} can be deduced optimal voltage - we decided to set it to 50 V. It was observed that any further increase of voltage do not improves the SNR.
+From the S14605 capacity graph \ref{datS14605} can be deduced optimal voltage - we decided to set it to 50 V. It was observed that any further increase of voltage do not improves the SNR. The measured spectra with no filter and with attached 3 filters plus background are on the fig. \ref{S14605 spectra}.
 
 
 \begin{figure}[H]
  \centering
- \includegraphics[scale=0.13, angle = 0]{./pictures/TempDiff.png}
- \caption{S14605 spectra with founded energy peaks (green lines) and estimated compton edge (red line).}
+ \includegraphics[scale=0.125, angle = 0]{./pictures/S14GammaTest.png}
+ \caption{S14605 spectra with founded energy peaks (green lines) and estimated Compton edge (red line).}
  \label{S14605 spectra}
  
 \end{figure}
 
 
-\subsection{BPW34 test}
+\par
 
+Due to the first peak's attenuation by mentioned filters it can be considered as 14.4 keV full energy peak. The 21.9 keV peak originates from characteristic RTG of rhodium matrice. 59.4 and 67.5 keV 85.3 keV is characteristic RTG of lead shielding. The last two peaks (123.0 keV, 137.7 keV) are from $^{57}$Co. It can be seen that the full energy detection efficiency of higher energies (122 keV) is very small and that the Compton scattering is preferred interaction effect inside detector at these energies, which results into expected Compton edge. The expected peak of 6.4 keV was unfounded possibly due to the insufficient SNR. The modular ORTEC setup do not allows any further upgrades, so the only way to improve SNR is to integrate the spectrometric chain into PCB. 
+
+\subsection{BPW34 test}
+The instrumentation was similar as before, but BPW34 had to be operated at lower bias voltage - 20 V.
 
 \begin{figure}[H]
  \centering
- \includegraphics[scale=0.13, angle = 0]{./pictures/TempDiff.png}
-  \caption{BPW34 spectra with founded energy peaks (green lines) and estimated compton edge (red line).}
+ \includegraphics[scale=0.125, angle = 0]{./pictures/BPW34GammaTest.png}
+  \caption{BPW34 spectra with founded energy peaks (green lines) and estimated Compton edge (red line).}
  \label{BPW34 spectra}
  
 \end{figure}
 
+The measured spectra of BPW34 is very similar to the previous one, however the peak's heights are about 25 times lower.
 
-It is surprising that this cheap photodiode is capable of capturing gamma rays. The efficiency is lower than S14605 about .
+It is surprising that this cheap photodiode is capable of capturing gamma rays with sufficient energy resolution. The efficiency is lower than S14605 about .
 \subsection{OPF430 test}
 OPF430 was operated on 20 V. There was a problem with the very low detection efficiency, so the source had to be put into the shielding box right before the photodiode.
 
 \begin{figure}[H]
  \centering
- \includegraphics[scale=0.13, angle = 0]{./pictures/TempDiff.png}
- \caption{OPF430 spectra with founded energy peaks (green lines) and estimated compton edge (red line).}
+ \includegraphics[scale=0.125, angle = 0]{./pictures/OPF430GammaTest.png}
+ \caption{OPF430 spectra with founded energy peaks (green lines) and estimated Compton edge (red line).}
  \label{OPF430 spectra}
  
 \end{figure}

@@ -111,11 +111,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.2}Thermal noise reduction}{39}{subsection.7.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Detection test of the $^{57}$Co spectra}{41}{section.7.2}
+\contentsline {section}{\numberline {7.2}Detection test of the $^{57}$Co spectra}{40}{section.7.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.1}S14605 test}{41}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}BPW34 test}{42}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}BPW34 test}{41}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.3}OPF430 test}{42}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
@@ -125,4 +125,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{46}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{47}{chapter*.29}
+\contentsline {chapter}{Conclusion}{47}{chapter*.28}
