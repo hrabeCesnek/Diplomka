@@ -1,1 +1,61 @@
 \chapter{Spectrometric chain PCB integration}
+The only way to improve the performances of the spectrometric chain is to integrate it into small PCB - short the signal routes, reduce parasitic capacitances at preamplifier input and improve the shielding. The various prototypes were designed as 2-side PCB and manufactured by using the special milling machine to remove cooper from cuprextit plates. The PCB consisting mainly of smd parts was then assembled by manual soldering.
+
+\section{•} 
+
+
+
+\section{Scheme and Layout}
+The main parts of spectrometric chain integrated PCB are: photodiode input connector preamplifier, second stage amplifier, shaper module, output buffer optimized for 50 $\Omega$ transmission line, bipolar voltage supply for modules and bias voltage supply for photodiode. To surround the sensitive parts with sufficient shielding the PCB is placed into aluminium box with drilled photodiode window. The functional scheme can be seen on fig. and the real layout for PCB can be seen on figs. \ref{layout top} and \ref{layout bottom}.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+ \caption{Schematic of spectrometric chain PCB designed in EAGLE \cite{eagle}.}
+ \label{schematic}
+ 
+\end{figure}
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+ \caption{Layout of spectrometric chain PCB designed in EAGLE \cite{eagle}, top side layer.}
+ \label{layout top}
+ 
+\end{figure}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+ \caption{Layout of spectrometric chain PCB designed in EAGLE \cite{eagle}, bottom side layer.}
+ \label{layout bottom}
+ 
+\end{figure}
+
+\section{Photodiode input and preamplifier}
+The photodiode is situated inside the box, and the cathode is connected to bias voltage and to preamplifier (Cr-110) by capacitive coupling (10 nF capacitor). Cr-110 application note also mentions an optional 220 $\Omega$ resistor connected before coupling capacitor to prevent Cr-110 breakdown by large current spikes. Our experiences show that this resistor  should not be omitted.
+
+\par
+The signal route has to be as short as possible. The layout should also be designed in ways to reduce the parasitic capacitances at the preamplifier input - the cooper connected to GND should be removed from areas around the signal input route and around input bias voltage route.
+
+\section{Amplification}
+The preamplifier output is and then connected to the again by capacitive coupling to eliminate unwanted offset. 
+
+The amplification is achie . The experiences show that the fast opamps 
+
+\section{Voltage supply}
+The , lm337 and lm330 regulators, which convert from external source into: +7 V and -4 V. The voltage 
+
+\par
+S14605 requires bias voltage around + 50 V, which can be supplied by 3-stage charge pump, assembled simply from capacitors, diodes and PWM generator - for example NE555. The charge pump multiplies the input supply +15 V to + 60 V. However, the charge pump is  The pump's output has to be filtered, because it can contain voltage spikes from PWM (NE555's frequency is set to 10 kHz). To filter this high voltage output the high-power opamp OPA is connected as buffer - the pump's voltage is connected as opamp supply, and the voltage from regulator (+7 V) is connected into opamp negative input pin. There is also a jumper which allows to switch between +15 V (for BPW34 photodiode) and +50 V.
+
+\section{}
+
+
+
+\section{Shielding}
+
+The shield is and in near the voltage input connector.
+
+\section{Grounding}

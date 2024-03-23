@@ -121,8 +121,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Spectrometric chain PCB integration}{44}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Spectra measurement with developed }{45}{chapter.9}
+\contentsline {section}{\numberline {8.1}\IeC {\textbullet }}{44}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{46}{chapter.10}
+\contentsline {section}{\numberline {8.2}Scheme and Layout}{44}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{47}{chapter*.28}
+\contentsline {section}{\numberline {8.3}Photodiode input and preamplifier}{47}{section.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}Amplification}{47}{section.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.5}Voltage supply}{48}{section.8.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.6}}{48}{section.8.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.7}Shielding}{48}{section.8.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.8}Grounding}{48}{section.8.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Spectra measurement with developed }{49}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{50}{chapter.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{51}{chapter*.31}
