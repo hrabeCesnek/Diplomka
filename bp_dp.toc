@@ -121,24 +121,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Spectrometric chain PCB integration}{44}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}\IeC {\textbullet }}{44}{section.8.1}
+\contentsline {section}{\numberline {8.1}Scheme and Layout}{44}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Scheme and Layout}{44}{section.8.2}
+\contentsline {section}{\numberline {8.2}Grounding and Shielding}{49}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Photodiode input and preamplifier}{47}{section.8.3}
+\contentsline {section}{\numberline {8.3}Photodiode input and preamplifier}{49}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Amplification}{47}{section.8.4}
+\contentsline {section}{\numberline {8.4}Amplification}{50}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Voltage supply}{48}{section.8.5}
+\contentsline {section}{\numberline {8.5}Voltage supply}{50}{section.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}}{48}{section.8.6}
+\contentsline {section}{\numberline {8.6}}{50}{section.8.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.7}Shielding}{48}{section.8.7}
+\contentsline {section}{\numberline {8.7}}{50}{section.8.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.8}Grounding}{48}{section.8.8}
+\contentsline {chapter}{\numberline {9}Spectra measurement with developed }{51}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Spectra measurement with developed }{49}{chapter.9}
+\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{52}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{50}{chapter.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{51}{chapter*.31}
+\contentsline {chapter}{Conclusion}{53}{chapter*.33}
