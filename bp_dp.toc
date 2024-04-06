@@ -127,16 +127,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.3}Photodiode input and preamplifier}{49}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Amplification}{50}{section.8.4}
+\contentsline {section}{\numberline {8.4}Amplification}{49}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Voltage supply}{50}{section.8.5}
+\contentsline {section}{\numberline {8.5}Voltage supply}{49}{section.8.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.6}}{50}{section.8.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.7}}{50}{section.8.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Spectra measurement with developed }{51}{chapter.9}
+\contentsline {chapter}{\numberline {9}PCB chain spectra measurement}{51}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{52}{chapter.10}
+\contentsline {section}{\numberline {9.1}Measurement setup}{51}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{53}{chapter*.33}
+\contentsline {section}{\numberline {9.2}S14605 PCB measurement}{53}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Scintillator detector measurement}{55}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.4}Gaseous detector measurement}{57}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.5}Results}{59}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{60}{chapter.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{61}{chapter*.37}

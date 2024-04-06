@@ -1,1 +1,74 @@
-\chapter{Spectra measurement with developed } 
+\chapter{PCB chain spectra measurement} 
+
+To properly test the assembled PCB along with the S14605 photodiode and to compare its detection efficiency of 14.4 keV photons with the detection efficiency of the other detectors (scintillator and gaseous detector), the measurement setup with carefully designed geometry was constructed.
+
+\par
+
+Another goal is to compare the S14605 PIN photodiode detection efficiency of 14.4 keV photons with the detection efficiency of the other detectors - the scintillator and gaseous detectors.
+
+\par
+
+The onboard amplification is set in a way to have 14.4 keV energy peak in the second half of the channel range, which on the other hand result into saturation of the higher energies. 
+
+
+
+\section{Measurement setup}
+The measurement setup mainly consist of 3D printed parts - plastic holders for every detector, holders for Cu,Al and Pb filters etc. All the holders have to be modular and easily interchangeable to allow the geometry to be kept same for every detector.
+$^{57}$Co 2020 source is mounted onto the transducer (switched off in this measurement). To compare detection efficiency of the defined detection surface, the detector is irradiated through a hole in a lead brick, which works as collimator for $^{57}$Co source.
+
+\par
+For every detector, the sequence of five measurement was performed - without filter, with three filters and without source. The detection efficiency of 14.4 keV is determined by gaussian fit of the 14.4 keV peak in spectra with subtracted background. Every measurement of spectra ran 900 s of live time.
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.8, angle = 90]{./pictures/NoPicture.jpg}
+ \caption{Measurement setup.}
+ \label{meas setup}
+ 
+\end{figure}
+
+\section{S14605 PCB measurement}
+
+The output SMA connector is connected directly to the ORTEC MCA.
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.8, angle = 90]{./pictures/NoPicture.jpg}
+ \caption{S14605 PCB $^{57}$Co spectra.}
+ \label{S14605 PCB spectra.}
+\end{figure}
+
+
+It can be seen, that the noise in spectrum is much lesser than in case of ORTEC setups. The part of 6.4 keV peak can be seen also seen. Various ways were performed in order to reduce noise it was tried to reduce noise - cooling by ice, improving the shielding etc. However, none of them resulted into 6.4 keV energy peak without noise. Main part of remaining noise probably arises from Si PIN diode capacity ($C_{\textrm{S14605}} \approx 25$ pF). This fact can be confirmed by using the same PCB with photodiode with smaller capacity (for example BPW34, $C_{\textrm{BPW34}} \approx 10$ pF). Spectra of BPW34 attached to PCB can be seen on fig.
+
+
+
+\section{Scintillator detector measurement}
+To measure the scintillator detector efficiency (type) the same setup was used. However, due to the mayor differences in detection mechanism, the spectrum is slightly different - the 14.4 keV peak is noticeably wider.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8, angle = 90]{./pictures/NoPicture.jpg}
+\caption{Scintillator $^{57}$Co spectra.}
+\label{Scintillator spectra.}
+\end{figure}
+
+
+\section{Gaseous detector measurement}
+As a gas detector was used tube (type), optimized for 14.4 keV detection.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8, angle = 90]{./pictures/NoPicture.jpg}
+\caption{Gas $^{57}$Co spectra.}
+\label{Gas spectra.}
+
+\end{figure}
+
+\section{Results}
+
+
+
+
