@@ -139,14 +139,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.1}Measurement setup}{51}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}S14605 PCB measurement}{53}{section.9.2}
+\contentsline {section}{\numberline {9.2}Si PIN detector measurement}{53}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Scintillator detector measurement}{55}{section.9.3}
+\contentsline {section}{\numberline {9.3}Scintillator detector measurement}{53}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Gaseous detector measurement}{57}{section.9.4}
+\contentsline {section}{\numberline {9.4}Gaseous detector measurement}{54}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Results}{59}{section.9.5}
+\contentsline {section}{\numberline {9.5}Results}{55}{section.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{60}{chapter.10}
+\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{57}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{61}{chapter*.37}
+\contentsline {chapter}{Conclusion}{58}{chapter*.39}

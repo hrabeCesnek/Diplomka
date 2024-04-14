@@ -1,10 +1,10 @@
 \chapter{PCB chain spectra measurement} 
 
-To properly test the assembled PCB along with the S14605 photodiode and to compare its detection efficiency of 14.4 keV photons with the detection efficiency of the other detectors (scintillator and gaseous detector), the measurement setup with carefully designed geometry was constructed.
+To properly test the assembled PCB with attached S14605 photodiode (further referred as Si PIN detector) and to compare its detection efficiency of 14.4 keV photons with the detection efficiency of the other detectors (scintillator and gaseous detector), the measurement setup with carefully designed geometry was constructed.
 
-\par
-
-Another goal is to compare the S14605 PIN photodiode detection efficiency of 14.4 keV photons with the detection efficiency of the other detectors - the scintillator and gaseous detectors.
+%\par
+%
+%The goal is to compare the Si PIN detector's detection efficiency of 14.4 keV photons with the detection efficiency of the other detectors - the scintillator and gaseous detectors.
 
 \par
 
@@ -13,11 +13,11 @@ The onboard amplification is set in a way to have 14.4 keV energy peak in the se
 
 
 \section{Measurement setup}
-The measurement setup mainly consist of 3D printed parts - plastic holders for every detector, holders for Cu,Al and Pb filters etc. All the holders have to be modular and easily interchangeable to allow the geometry to be kept same for every detector.
-$^{57}$Co 2020 source is mounted onto the transducer (switched off in this measurement). To compare detection efficiency of the defined detection surface, the detector is irradiated through a hole in a lead brick, which works as collimator for $^{57}$Co source.
+The measurement setup mainly consist of 3D printed parts - plastic holders for every detector, holders for radiation filters etc. All the holders have to be modular and easily interchangeable to allow the geometry to be kept same for every detector.
+$^{57}$Co 2020 source is mounted onto the transducer (switched off in this measurement). Due to the fact, that the detectors have a different size of detection area, the irradiation has to be done through a collimator. To compare detection efficiency of the defined detection surface, the detector is irradiated through a hole in a lead brick, which works as collimator for $^{57}$Co source.
 
 \par
-For every detector, the sequence of five measurement was performed - without filter, with three filters and without source. The detection efficiency of 14.4 keV is determined by gaussian fit of the 14.4 keV peak in spectra with subtracted background. Every measurement of spectra ran 900 s of live time.
+For every detector, the sequence of five measurement was performed - without filter, with three filters and without a source. The detection efficiency of 14.4 keV is determined by gaussian fit of the 14.4 keV peak in spectra with subtracted background. Every measurement of spectra ran 1200 s of live time.
 
 
 \begin{figure}[H]
@@ -28,16 +28,16 @@ For every detector, the sequence of five measurement was performed - without fil
  
 \end{figure}
 
-\section{S14605 PCB measurement}
+\section{Si PIN detector measurement}
 
 The output SMA connector is connected directly to the ORTEC MCA.
-
+Three filters were placed before lead collimator - Cu (255 $\mu$m), Al (780 $\mu$m), Pb ( $\mu$m).
 
 \begin{figure}[H]
  \centering
- \includegraphics[scale=0.8, angle = 90]{./pictures/NoPicture.jpg}
- \caption{S14605 PCB $^{57}$Co spectra.}
- \label{S14605 PCB spectra.}
+ \includegraphics[scale=0.125, angle = 0]{./pictures/SemiSpectre.png}
+ \caption{Si PIN detector $^{57}$Co spectra.}
+ \label{Si PIN detector spectra.}
 \end{figure}
 
 
@@ -50,25 +50,63 @@ To measure the scintillator detector efficiency (type) the same setup was used. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8, angle = 90]{./pictures/NoPicture.jpg}
+\includegraphics[scale=0.125, angle = 0]{./pictures/PMTSpectre.png}
 \caption{Scintillator $^{57}$Co spectra.}
-\label{Scintillator spectra.}
+\label{Scintillator detector spectra.}
 \end{figure}
 
 
 \section{Gaseous detector measurement}
-As a gas detector was used tube (type), optimized for 14.4 keV detection.
+As a gas detector was used tube (type), optimized for the 14.4 keV detection.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8, angle = 90]{./pictures/NoPicture.jpg}
+\includegraphics[scale=0.125, angle = 0]{./pictures/GasSpectre.png}
 \caption{Gas $^{57}$Co spectra.}
-\label{Gas spectra.}
+\label{Gas detector spectra.}
 
 \end{figure}
 
 \section{Results}
+The sum of total counts for 14.4 keV and 6.4 keV full energy peaks along with the relative detection efficiency with respect to the most effective detector was calculated in the following way:
 
+\begin{enumerate}
+\item From the spectra without filter is subtracted the spectra with Cu filter. This provides a sufficient elimination of Compton continuum caused by 122 keV photons. 
+\item The spectra obtained in previous step is fitted by a sum of Gaussians. Each requires For gas spectra the sum of 3 Gaussians is used.
+\item The value of absolute counts (Gaussian's area) for the given energy spectra is calculated from the fit parameters with the uncertainties are also taken from the fit.
+\end{enumerate}
+
+
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+   & absolute & relative \\ \hline
+Si PIN & $142783 \pm 2746.95$    & $0.290591 \pm 0.00767919$  \\ \hline
+gas & $231075 \pm 1473.42$    & $0.470281 \pm  0.00903226$ \\ \hline
+scintillator  & $491355 \pm 8901.75$    & $1$ \\ \hline
+\end{tabular}
+\caption{Table of calculated absolute and relative counts of 14.4 keV photons for every detector.}
+ \label{144kevEFF}
+\end{table}
+
+
+The peak of 6.4 keV photons is not fully observable in the case of Si PIN detector. However, a raw estimation can be calculated using parameters obtained from Gaussian fit of partial 6.4 keV peak. Results in table \ref{64kevEFF} are considered to be only indicative. Note also that the setup wasn't designed to detect 6.4 keV photons - some detectors have slices of Al coating in .  
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+   & absolute & relative \\ \hline
+Si PIN & $272650 \pm 7436.96$    & $1$  \\ \hline
+gas & $20057.9 \pm 3389.6$    & $0.0735665 \pm 0.012593$ \\ \hline
+scintillator  & $184170 \pm 4606.45$    & $0.675483 \pm 0.0249984$ \\ \hline
+\end{tabular}
+\caption{Table of calculated absolute and relative counts of 6.4 keV photons for every detector.}
+ \label{64kevEFF}
+\end{table}
 
 
 
