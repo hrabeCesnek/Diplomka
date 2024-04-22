@@ -119,7 +119,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.3}OPF430 test}{42}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Spectrometric chain PCB integration}{44}{chapter.8}
+\contentsline {chapter}{\numberline {8}Design of integrated amplifier}{44}{chapter.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}Scheme and Layout}{44}{section.8.1}
 \defcounter {refsection}{0}\relax 
@@ -131,11 +131,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.5}Voltage supply}{49}{section.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}}{50}{section.8.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.7}}{50}{section.8.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}PCB chain spectra measurement}{51}{chapter.9}
+\contentsline {chapter}{\numberline {9}$^{57}$Co spectra measurement with integrated amplifier}{51}{chapter.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.1}Measurement setup}{51}{section.9.1}
 \defcounter {refsection}{0}\relax 

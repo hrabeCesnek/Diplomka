@@ -1,6 +1,6 @@
-\chapter{PCB chain spectra measurement} 
+\chapter{$^{57}$Co spectra measurement with integrated amplifier} 
 
-To properly test the assembled PCB with attached S14605 photodiode (further referred as Si PIN detector) and to compare its detection efficiency of 14.4 keV photons with the detection efficiency of the other detectors (scintillator and gaseous detector), the measurement setup with carefully designed geometry was constructed.
+To properly test the assembled PCB with attached S14605 photodiode (further referred as Si PIN detector) and to compare its detection efficiency for 14.4 keV photons with the detection efficiency of the other types of detectors - scintillator and gaseous detectors, the measurement setup with carefully designed geometry was constructed.
 
 %\par
 %
@@ -8,16 +8,16 @@ To properly test the assembled PCB with attached S14605 photodiode (further refe
 
 \par
 
-The onboard amplification is set in a way to have 14.4 keV energy peak in the second half of the channel range, which on the other hand result into saturation of the higher energies. 
+The onboard amplification is set in a way to have 14.4 keV energy peak in the second half of the channel range, which on the other hand result into the saturation of the higher energies, but the detection of these energies is not our focus.
 
 
 
 \section{Measurement setup}
-The measurement setup mainly consist of 3D printed parts - plastic holders for every detector, holders for radiation filters etc. All the holders have to be modular and easily interchangeable to allow the geometry to be kept same for every detector.
-$^{57}$Co 2020 source is mounted onto the transducer (switched off in this measurement). Due to the fact, that the detectors have a different size of detection area, the irradiation has to be done through a collimator. To compare detection efficiency of the defined detection surface, the detector is irradiated through a hole in a lead brick, which works as collimator for $^{57}$Co source.
+The measurement setup mainly consist of 3D printed parts - plastic holders for every detector and holders for radiation filters. All the holders have to be modular and easily interchangeable to allow the geometry to be kept same for every detector.
+$^{57}$Co 2020 source is mounted onto the transducer (switched off in this measurement). Due to the fact, that the detectors have a different size of detection area, the irradiation has to be done through a collimator. To compare detection efficiency of the defined detection surface, the detector is irradiated through a hole in a lead shielding, which works as collimator for $^{57}$Co source.
 
 \par
-For every detector, the sequence of five measurement was performed - without filter, with three filters and without a source. The detection efficiency of 14.4 keV is determined by gaussian fit of the 14.4 keV peak in spectra with subtracted background. Every measurement of spectra ran 1200 s of live time.
+For every detector, the sequence of five measurement was performed - without filter, with three filters and without a source. The relative detection efficiency for 14.4 keV is determined by gaussian fit of the 14.4 keV peak in spectra with subtracted background. Every measurement of spectra ran 1200 s of live time.
 
 
 \begin{figure}[H]
@@ -31,7 +31,7 @@ For every detector, the sequence of five measurement was performed - without fil
 \section{Si PIN detector measurement}
 
 The output SMA connector is connected directly to the ORTEC MCA.
-Three filters were placed before lead collimator - Cu (255 $\mu$m), Al (780 $\mu$m), Pb ( $\mu$m).
+Three filters were placed before lead collimator - Cu (255 $\mu$m), Al (780 $\mu$m), Pb (5 mm).
 
 \begin{figure}[H]
  \centering
@@ -41,7 +41,7 @@ Three filters were placed before lead collimator - Cu (255 $\mu$m), Al (780 $\mu
 \end{figure}
 
 
-It can be seen, that the noise in spectrum is much lesser than in case of ORTEC setups. The part of 6.4 keV peak can be seen also seen. Various ways were performed in order to reduce noise it was tried to reduce noise - cooling by ice, improving the shielding etc. However, none of them resulted into 6.4 keV energy peak without noise. Main part of remaining noise probably arises from Si PIN diode capacity ($C_{\textrm{S14605}} \approx 25$ pF). This fact can be confirmed by using the same PCB with photodiode with smaller capacity (for example BPW34, $C_{\textrm{BPW34}} \approx 10$ pF). Spectra of BPW34 attached to PCB can be seen on fig.
+It can be seen, that the noise in spectrum is much lesser than in case of ORTEC setups. The part of 6.4 keV peak can be also seen. Various ways were performed in order to reduce noise - cooling by ice, improving the shielding etc. However, none of them resulted into 6.4 keV energy peak without noise. Main part of remaining noise probably arises from Si PIN diode capacity ($C_{\textrm{S14605}} \approx 25$ pF). This fact can be confirmed by using the same PCB with photodiode with smaller capacity (for example BPW34, $C_{\textrm{BPW34}} \approx 10$ pF). Spectra of BPW34 attached to PCB can be seen on fig.
 
 
 
@@ -57,7 +57,7 @@ To measure the scintillator detector efficiency (type) the same setup was used. 
 
 
 \section{Gaseous detector measurement}
-As a gas detector was used tube (type), optimized for the 14.4 keV detection.
+As a gas detector was used tube (LND45479), optimized for the 14.4 keV detection.
 
 \begin{figure}[H]
 \centering
