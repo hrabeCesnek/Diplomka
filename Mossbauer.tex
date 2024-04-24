@@ -31,7 +31,7 @@ The nucleus bound inside the lattice surrounded by electrons arranged according 
 The main properties of nucleus which induces the interactions with local electric and magnetic fields are: atomic number $Z$, quadrupole momentum $Q$ and its spin $I$ along with its projections. For spectroscopy there are three main interaction:
 
 \begin{itemize}
-\item Electric monopole interaction - the interaction between the protons of nucleus and the s-electrons (which have non-zero probability of being found inside nucleus). It results into isomer shift of energy levels $\delta = E_M - E_0$. The $\delta$ has to be defined with respect to some fixed energy level, for example to the level of the used source.
+\item Electric monopole interaction - the interaction between the protons of nucleus and the s-electrons (which have non-zero probability of being found inside nucleus). It results into isomer shift of energy levels $\delta = E_M - E_0$. The $\delta$ has to be defined with respect to some fixed energy level, for example to the level of the used source. This type of MS spectra is usually referred as a singlet. 
 \item Electric quadrupole interaction - the inhomogeneous electric field inside nucleus interacts the quadrupole momentum $Q$ of the nuclei. It results into energy variations with respect to the square of magnetic quantum number $E_Q \sim m^{2}$- the states which allows different values of $|m|$ are splitted into sub-states.
 
 \item Magnetic dipole interaction - the spin $I$ is tied up with magnetic momentum via relation $\mu = \gamma I$, where $\gamma$ is a gyromagnetic ratio. This magnetic momentum interacts with magnetic fields inside nucleus and results into nuclear Zeeman effects - the splitting of the states with respect to possible values of magnetic quantum number $m$. The main difference from the quadrupole interaction is that the spin orientation also matters. The magnetic dipole interaction has a significant role when it comes to study the magnetic properties of materials.
@@ -96,7 +96,41 @@ The functional diagram can be seen on fig. \ref{spectrometric setup}.
 \par
 It is also necessary to consider, that the $^{57}$Fe isotope have relative abundance only $2.21 \%$ \cite{compounds}. Although this fact, the spectra are still measured with very respectable precision and efficiency, which makes the Mössbauer spectroscopy very sensitive measurement method.
 
-\section{Spectre properties and parameters}
+\section{MS spectra quality parameters}
+The MS spectra shape can be modelled by Lorentzian curves. The singlet spectra in transmission geometry can be modelled by a single Lorentzian curve in the following form:
+
+\begin{equation}
+\begin{aligned}
+L(v) = -I\frac{(\frac{\Gamma}{2})^2}{(v - v_0)^2 + (\frac{\Gamma}{2})^2} + B
+\end{aligned}
+\label{lor}
+\end{equation}
+
+Where $I$ is the amplitude, the $\Gamma$ is the FWHM, and the $B$ is a background level. The Lorentzian in this form has the associated area $A$ equal to:
+
+\begin{equation}
+\begin{aligned}
+A = \pi I \Gamma
+\end{aligned}
+\label{area}
+\end{equation}
+
+There are two properties of MS spectra which characterize its quality: SNR and the Effect $E_{\textrm{MS}}$. They can be calculated from spectra parameters by following equations:
+
+\begin{equation}
+\begin{aligned}
+\textrm{SNR} = \frac{I}{\sqrt{B}}
+\end{aligned}
+\label{SNR}
+\end{equation}
+
+\begin{equation}
+\begin{aligned}
+E_{\textrm{MS}} = \frac{I}{B}
+\end{aligned}
+\label{effect}
+\end{equation}
+
 
 
 % %%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%%%%%%%%%%

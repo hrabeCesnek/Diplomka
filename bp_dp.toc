@@ -75,7 +75,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}$^{57}$Fe spectroscopy}{26}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Spectre properties and parameters}{28}{section.4.4}
+\contentsline {section}{\numberline {4.4}MS spectra quality parameters}{28}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Electronics for signal readout and analysis}{29}{chapter.5}
 \defcounter {refsection}{0}\relax 
@@ -137,12 +137,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.2}Si PIN detector measurement}{53}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Scintillator detector measurement}{53}{section.9.3}
+\contentsline {section}{\numberline {9.3}Scintillator and gaseous detector measurement}{53}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Gaseous detector measurement}{54}{section.9.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Results}{55}{section.9.5}
+\contentsline {section}{\numberline {9.4}Results}{55}{section.9.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{57}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{58}{chapter*.39}
+\contentsline {chapter}{Conclusion}{60}{chapter*.42}
