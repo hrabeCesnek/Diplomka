@@ -74,10 +74,7 @@ The signal route has to be as short as possible. The layout should also be desig
 \section{Amplification}
 The preamplifier output is routed over capacitive coupling (to eliminate unwanted offset) and over potentiometer divider (to adjust signal amplitude) to the amplification stages. 
 
-First amplification is achieved by two non-inverting amplifiers with OPA847 opamps. Each stage has the amplification of 32$\times$ (or less, this is different for every of our prototypes). Additional amplification 10$\times$ is done by shaper module CR-220. The OPA847 opamp datasheet \cite{OPA847} describes that these fast opamps are prone to unwanted oscillations, and therefore the GND around the opamp must be removed from both sides of the PCB. The output of shaper module is routed directly to output buffer opamp MAXnumber. The end of chain is buffered and connected to the output SMA connector mounted onto the aluminium box.
-
-\par
-
+First amplification is achieved by two non-inverting amplifiers with OPA847 opamps. Each stage has the amplification of 32$\times$ (or less, this is different for every of our prototypes). Additional amplification 10$\times$ is done by shaper module CR-220. The OPA847 opamp datasheet \cite{OPA847} describes that these fast opamps are prone to unwanted oscillations, and therefore the GND around the opamp must be removed from both sides of the PCB. The output of shaper module is routed directly to output buffer opamp Max4201. The end of chain is buffered and connected to the output SMA connector mounted onto the aluminium box.
 
 
 \section{Voltage supply}
