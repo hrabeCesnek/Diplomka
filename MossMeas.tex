@@ -39,7 +39,7 @@ The three measurements (figures \ref{Si PIN detector MS spectra.}, \ref{Gas dete
 \end{figure}
 
 
-Every spectra is fitted by the Lorentzian in the form described by equation \ref{lor}. However, in order to compare the MS parameters between detectors, there was a problem with the different $\Gamma$ in every spectra, which is not caused by the detector, but probably by the transducer. If the SNR and $E_{\textrm{MS}}$ (equations \ref{SNR} and \ref{effect}), which both depend on $I$, are to be comparable between the measurements, it is necessary to recalculate the $I$ for every Lorentzian. The recalculation is based on the following consideration: The altered velocity signal can cause the variations in $\Gamma$ of a singlet Lorentzian curve, however, its area $A$ (total number of counts) given by equation \ref{area} should be left unchanged by this effect. So if the $A$ is conserved although the $\Gamma$ is changed, the new amplitudes $I_{rec}$ corresponding to the recalculated Lorentzians with the same $\Gamma_{\textrm{ref}}$  can be obtained by a simple relation $I_{rec} = \frac{\Gamma}{\Gamma_{ref}}I$. As a reference $\Gamma_{\textrm{ref}}$ is taken the smallest $\Gamma$ of the three detectors.
+Every spectra is fitted by the Lorentzian in the form described by equation \ref{lor}. However, in order to compare the MS parameters between detectors, there was a problem with the different $\Gamma$ in every spectra, which is not caused by the detector, but probably by the transducer. If the SNR$_{\textrm{MS}}$ and $E_{\textrm{MS}}$ (equations \ref{SNR} and \ref{effect}), which both depend on $I$, are to be comparable between the measurements, it is necessary to recalculate the $I$ for every Lorentzian. The recalculation is based on the following consideration: The altered velocity signal can cause the variations in $\Gamma$ of a singlet Lorentzian curve, however, its area $A$ (total number of counts) given by equation \ref{area} should be left unchanged by this effect. So if the $A$ is conserved although the $\Gamma$ is changed, the new amplitudes $I_{\textrm{rec}}$ corresponding to the recalculated Lorentzians with the same $\Gamma_{\textrm{ref}}$  can be obtained by a simple relation $I_{\textrm{rec}} = \frac{\Gamma}{\Gamma_{\textrm{ref}}}I$. As a reference $\Gamma_{\textrm{ref}}$ is taken the smallest $\Gamma$ of the three detectors.
 The results obtained for every detector can be seen in table \ref{mossres}.
 
 \begin{table}[H]
@@ -47,9 +47,9 @@ The results obtained for every detector can be seen in table \ref{mossres}.
 \begin{tabular}{|c|c|c|}
 \hline
    & SNR$_{\textrm{MS}}$ & $E_{\textrm{MS}}$ \\ \hline
-Si PIN & $273000 \pm 8000$    & $1$  \\ \hline
-gas & $20000 \pm 4000$    & $0.07 \pm 0.02$ \\ \hline
-scintillator  & $184000 \pm 5000$    & $0.68 \pm 0.03$ \\ \hline
+Si PIN & $27.4 \pm 0.5$    & $0.444 \pm 0.007$  \\ \hline
+gas & $35.7 \pm 0.5$    & $0.338 \pm 0.005$ \\ \hline
+scintillator  & $54.3 \pm 0.3$    & $0.355 \pm 0.002$ \\ \hline
 \end{tabular}
 \caption{Measured SNR$_{\textrm{MS}}$ and $E_{\textrm{MS}}$ for every detector.}
  \label{mossres}

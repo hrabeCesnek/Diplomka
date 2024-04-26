@@ -95,52 +95,52 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.3}Shaping}{33}{subsection.5.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Multichannel analysis (MCA)}{33}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.4}Multichannel analysis (MCA)}{34}{subsection.5.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Gamma spectrum software analysis}{34}{chapter.6}
+\contentsline {chapter}{\numberline {6}Gamma spectrum software analysis}{35}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Peak searching procedure}{34}{section.6.1}
+\contentsline {section}{\numberline {6.1}Peak searching procedure}{35}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Intensities calculation}{35}{section.6.2}
+\contentsline {section}{\numberline {6.2}Intensities calculation}{36}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Gamma detection testing}{36}{chapter.7}
+\contentsline {chapter}{\numberline {7}Gamma detection testing}{37}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Noise and its reduction}{38}{section.7.1}
+\contentsline {section}{\numberline {7.1}Noise and its reduction}{39}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Electromagnetic noise reduction}{38}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.1}Electromagnetic noise reduction}{39}{subsection.7.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}Thermal noise reduction}{39}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.2}Thermal noise reduction}{40}{subsection.7.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Detection test of the $^{57}$Co spectra}{40}{section.7.2}
+\contentsline {section}{\numberline {7.2}Detection test of the $^{57}$Co spectra}{41}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}S14605 test}{41}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.1}S14605 test}{42}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}BPW34 test}{41}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}BPW34 test}{42}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}OPF430 test}{42}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.3}OPF430 test}{43}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Design of integrated amplifier}{44}{chapter.8}
+\contentsline {chapter}{\numberline {8}Design of integrated amplifier}{45}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Scheme and Layout}{44}{section.8.1}
+\contentsline {section}{\numberline {8.1}Scheme and Layout}{45}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Grounding and Shielding}{49}{section.8.2}
+\contentsline {section}{\numberline {8.2}Grounding and Shielding}{50}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Photodiode input and preamplifier}{49}{section.8.3}
+\contentsline {section}{\numberline {8.3}Photodiode input and preamplifier}{50}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Amplification}{49}{section.8.4}
+\contentsline {section}{\numberline {8.4}Amplification}{50}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Voltage supply}{49}{section.8.5}
+\contentsline {section}{\numberline {8.5}Voltage supply}{50}{section.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}$^{57}$Co spectra measurement with integrated amplifier}{51}{chapter.9}
+\contentsline {chapter}{\numberline {9}$^{57}$Co spectra measurement with integrated amplifier}{52}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Measurement setup}{51}{section.9.1}
+\contentsline {section}{\numberline {9.1}Measurement setup}{52}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Si PIN detector measurement}{53}{section.9.2}
+\contentsline {section}{\numberline {9.2}Si PIN detector measurement}{54}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Scintillator and gaseous detector measurement}{53}{section.9.3}
+\contentsline {section}{\numberline {9.3}Scintillator and gaseous detector measurement}{54}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Results}{55}{section.9.4}
+\contentsline {section}{\numberline {9.4}Results}{56}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{57}{chapter.10}
+\contentsline {chapter}{\numberline {10}M\IeC {\"o}ssbauer spectra measurement}{58}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{60}{chapter*.43}
+\contentsline {chapter}{Conclusion}{61}{chapter*.44}
