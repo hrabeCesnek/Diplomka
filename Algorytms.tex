@@ -1,9 +1,10 @@
 \chapter{Gamma spectrum software analysis}
-As was mentioned before, the measured gamma spectrum contains many unwanted artifacts like noise, Compton continuum and edges, additional peaks created by various interactions. To properly obtain the count rates on defined energies, the only way is to perform a numerical analysis of measured data.
+As was mentioned before in section \ref{char}, the measured gamma spectrum contains many unwanted artifacts like noise, Compton continuum and edges and additional peaks created by various interactions. To properly obtain the count rates on defined energies, the only way is to perform a numerical analysis of measured data. Locations of energy peaks are to be found for example by their characteristic second derivatives. Absolute count rates are then obtained by Gaussian fitting.
 
 
 \section{Peak searching procedure}
-Many commercial programs use peak searching procedures based on algorytm originally developed by M.A. Mariscotti \cite{MARISCOTTI1967309}. This method is based on the numerical second difference assuming that the background can be approximated only by linear functions and thus it vanishes in case of the second derivative. The second fact is that the searched peaks are Gaussians with their specific second derivatives and thus their positions can be found in local minimums (Gaussians have negative second derivatives since their are concave functions). To reduce noise, the second difference is averaged by defined number of steps.
+\label{search}
+Many commercial programs use peak searching procedures based on algorithm originally developed by M.A. Mariscotti \cite{MARISCOTTI1967309}. This method is based on the numerical second difference assuming that the background can be approximated only by linear functions and thus it vanishes in case of the second derivative. The second fact is that the searched peaks are Gaussians with their specific second derivatives and thus their positions can be found in local minimums (Gaussians have negative second derivatives since their are concave functions). To reduce noise, the second difference is averaged by defined number of steps.
 \par
 To determine if the found minimum should be considered as peak position (not as a Compton edge etc.), standard deviation and other additional rules based on number of points in specified intervals can be employed. However, algorithm needs input parameters, which are based on raw estimation of FWHM of searched peaks.
 \par
@@ -26,5 +27,3 @@ For the analysis of measured gamma spectra, this algorithm was implemented in C+
  \label{Example}
  
 \end{figure}
-
-\section{Intensities calculation}

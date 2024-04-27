@@ -1,8 +1,8 @@
 \chapter{Gamma detection testing}
 
-The purpose of this experiment is to determine the necessary conditions under which the gamma spectroscopy with selected photodiodes can be performed and find out whether the photodiodes are even capable of detecting gamma rays since the purpose of some them is not defined as a detector of gamma rays. The determination of detection efficiency is precisely done in following chapters for selected photodiodes. 
+The purpose of this experiment is to determine the necessary conditions under which the gamma spectroscopy with selected photodiodes can be performed and find out whether the photodiodes are even capable of detecting gamma rays since some of them are not determined for detection of gamma rays. The determination of detection efficiency is precisely done in following chapters for selected photodiodes. 
 \par
-For the very first test of photodiodes we assembled a spectrometric setup from ORTEC modules including preamplifier ORTEC142A, shaping amplifier 575A and high voltage source inside the ORTEC minibin. The pulses were captured by ORTEC MCA connected to PC running the MAESTRO Multichannel Analyzer Emulation Software \cite{maestro}. 
+For the very first test of photodiodes we assembled a spectrometric setup from ORTEC modules including preamplifier ORTEC142A, shaping amplifier 575A and high voltage power supply 556 inside the ORTEC minibin. The pulses were captured by EASY-MCA-2K from ORTEC connected to PC running the MAESTRO Multichannel Analyzer Emulation Software \cite{maestro}. As radiation source we used $^{57}$Co 50 mCi Mössbauer source from 2016. It was also necessary to cover the part with radiation source with lead shielding blocks.
 
 
 \begin{figure}[H]
@@ -12,15 +12,14 @@ For the very first test of photodiodes we assembled a spectrometric setup from O
  \label{minibin}
  
 \end{figure}
-\par
-As radiation source we use $^{57}$Co 50 mCi Mössbauer source from 2016 and thus it was necessary to cover the part with radiation source with lead shielding blocks.
+
 
 
 
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.09, angle = 0]{./pictures/ORTECsetup.jpg}
- \caption{PIN diode inside the shielding crate connected to the preamplifier to measure the $^{57}$Co source with filter.}
+ \caption{PIN diode inside the shielding crate connected to the preamplifier to measure the spectrum of $^{57}$Co source with filter.}
  \label{setup}
  
 \end{figure}
@@ -31,12 +30,12 @@ When performing gamma spectroscopy measurements, the energy spectra are affected
 \subsection{Electromagnetic noise reduction}
 Photodiodes have to be sufficiently electromagnetically shielded and their distance to the preamplifier input should be as short as possible. Using the diodes with poor shielding leads into high levels of electromagnetic noise, which make mayor part of energetic spectra unobservable.
 \par
-On the behalf of many tests it was proven that the best way to shield the photodiode is to put it into the aluminium crate (see \ref{crate}). This crate has to be small as possible and has to be connected to the grounding potential. However, the front side of the crate has to be open to allow the sufficient transmission of gamma photons to the detector. A drilled hole covered by a thin aluminium foil has sufficient gamma transmission parameters as well as electromagnetic shielding parameters.
+Based on many test it was proven that  the optimal way to shield the photodiode is to put it into the aluminium crate (see Figure \ref{crate}). This crate has to be as small as possible and has to be connected to the grounding potential. However, the front side of the crate has to be open to allow the sufficient transmission of gamma photons to the detector. To preserve the shielding properties, this drilled hole has to be still covered by a conductive material. Our choice was a thin aluminium foil, which has sufficient gamma transmission parameters as well as electromagnetic shielding parameters.
 
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.09, angle = 0]{./pictures/ShieldCrate.jpg}
- \caption{Photodiode inside aluminium shielding crates.}
+ \caption{Photodiodes inside aluminium shielding crates.}
  \label{crate}
  
 \end{figure}
@@ -55,7 +54,7 @@ On the behalf of many tests it was proven that the best way to shield the photod
 
 
 \subsection{Thermal noise reduction}
-To reduce the thermal noise, the S14605 photodiode was cooled by ice. It was placed in shielding box, which had attached heat sink to the bottom. This heat sink was submerged into the small tub filled with a melting ice (picture \ref{cooler}). The thermal conduction was improved by sticking the photodiode to the of the floor of the shielding box by conduction paste. The photodiode was cooled this way to temperatures around 7-8 $^\circ$C.
+To reduce the thermal noise, the S14605 photodiode was cooled by ice. It was placed in shielding box, which had attached heat sink to the bottom. This heat sink was submerged into the small tub filled with an ice (see Figure \ref{cooler}). The thermal conduction was improved by sticking the photodiode to the floor of the shielding box by a conduction paste. The photodiode was cooled this way to temperatures around 7-8 $^\circ$C.
 
 
 \begin{figure}[H]
@@ -88,7 +87,7 @@ The results show that the cooling improves SNR, but its effect is small when com
 %It was also tried to use the peltier cooler instead, however, the cooling efficiency was low when compared to the ice.
 
 \section{Detection test of the $^{57}$Co spectra}
-The spectra for every photodiode taken for 30 min of real time (MCA allows dead time compensation) with the source's distance 1 cm from the front shielding crate. There is a simple test with a set of filters, which can help us to find out the corresponding energies to the measured peaks:
+The spectra for every photodiode were taken for 30 min of real time (MCA allows dead time compensation) with the source's distance 1 cm from the front shielding crate. There is a simple test with a set of filters, which can help us to find out the corresponding energies to the measured peaks:
 
 \begin{itemize}
 \item Pb filter: everything should be attenuated.
@@ -96,12 +95,12 @@ The spectra for every photodiode taken for 30 min of real time (MCA allows dead 
 \item Al filter: transmitted - 122.1 keV, 136.5 keV, 14.4 keV not transmitted - 6.4 keV.
 \end{itemize}
 
-The analysed spectre is analysed by peak finder program to find the characteristic energy components. By filter test it can be determined which peak corresponds to 14.4 keV (Cu - attenuated, Al - not attenuated). The channel position of 14.4 keV is then used to recalculate the other peak's channel positions to energies.
+The analysed spectrum is analysed by our peak finder program (described in section \ref{search}) to find the characteristic energy components. By filter test it can be determined which peak corresponds to 14.4 keV (Cu - attenuated, Al - not attenuated). The channel position of 14.4 keV is then used to to calibrate the energy axis of the MCA spectrum.
 \par
 The Compton edge caused by interaction of 122.1 keV photons inside the detector can be expected. The equation \ref{compton} estimates the position to be around 39.5 keV. 
 
 \subsection{S14605 test}
-From the S14605 capacity graph \ref{datS14605} can be deduced optimal voltage - we decided to set it to 50 V. It was observed that any further increase of voltage do not improves the SNR. The measured spectra with no filter and with attached 3 filters plus background are on the fig. \ref{S14605 spectra}.
+From the S14605 capacity and dark current graphs (data-sheet \ref{datS14605}) can be deduced optimal voltage. We decided to set it to 50 V, because any further increase of voltage does not improve the SNR. The measured spectra with no filter, with particular filters and only background (fully shielded) are in the Fig. \ref{S14605 spectra}.
 
 
 \begin{figure}[H]

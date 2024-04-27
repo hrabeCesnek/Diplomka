@@ -14,7 +14,7 @@ The second possibility is to design printed circuit board (PCB) with required fu
 
 
 
-\section{Diode detector connection and support electronics}
+\section{PIN detector connection and support electronics}
 \subsection{Voltage source}
 The PN and PIN detectors require voltage bias to reduce the capacitance.
 These voltage sources don't have to be stiff since the detector's current consumption is very low.
@@ -51,7 +51,7 @@ The measurement chain for gamma spectroscopy is usually realized in following or
 \end{figure}
 
 \subsection{Pre-amplification}
-The signal coming out of the PIN detector is weak, and it is also in form of charge (current pulse), so it is necessary to convert it into voltage pulse. For performing the charge-voltage conversion, one and the best solution is circuit called charge amplifier. The principal functional scheme can be described by one opamp with a capacitor in feedback. The functionality is similar to $I/U$ transimpedance amplifier, but the charge amplifier works mainly as an integrator. In ideal case (opamp amplification $A >> 0$), the measured voltage per unit charge is approximately equal to:
+The signal coming out of the PIN detector is weak, and it is also in form of charge (current pulse), so it is necessary to convert it into voltage pulse. For performing the charge-voltage conversion, one and the best solution is circuit called charge amplifier (also referred as a preamplifier). The principal functional scheme can be described by one opamp with a capacitor in feedback. The functionality is similar to $I/U$ transimpedance amplifier, but the charge amplifier works mainly as an integrator. In ideal case (opamp amplification $A >> 0$), the measured voltage per unit charge is approximately equal to:
 
 \begin{equation}
 \frac{dU}{dQ} = \frac{1}{C_{f}}.
@@ -80,27 +80,63 @@ In real circuit there is also a resistor parallel to the feedback capacitor. The
 \end{figure}
 
 
-However, the functionality is also negatively affected by noise, which is dependent on including the detector's capacitance $C_{\textrm{det}}$. Thermal noise dependency on $C_{\textrm{det}}$ of the first-stage FET transistor can be approximated by equation \cite{charge}:
+However, the functionality of charge amplifier is also negatively affected by an electronic noise, which depends on the values of the feedback resistance and capacitance and also on the internal parameters of the connected semiconductor detector and FET (field-effect transistor) inside the amplifier.
+
+This electronic noise can be divided into three contributions, each described by euqations for noise voltages and currents \cite{charge}:
+
+% on including the detector's capacitance $C_{\textrm{det}}$. Thermal noise dependency on $C_{\textrm{det}}$ of the first-stage FET transistor can be approximated by equation \cite{charge}:
+\begin{itemize}
+
+\item Thermal noise of first-stage FET:
 
 \begin{equation}
-en_1 = \sqrt{\frac{8}{3}\frac{KT}{gm}}
+en_1 = \sqrt{\frac{8}{3}\frac{kT}{gm}},
 \end{equation}
+
+where $k$ - Boltzmann constant, $T$ - absolute temperature and $gm$ - transconductance of FET. 
+
+\item 
+
+Shot noise caused by FET's gate current and detector's dark current:
+
+\begin{equation}
+in = \sqrt{2e(I_{\textrm{G}} + I_{\textrm{D}})},
+\end{equation}
+
+where $e$ - elementary charge, $I_{\textrm{G}}$ - gate leakage current of first-stage FET and $I_{\textrm{D}}$ - dark current of detector.
+
+
+
+\item
+
+Thermal noise caused by feedback resistance: 
+
+\begin{equation}
+en_2 = \sqrt{4KTR_{\textrm{f}}},
+\end{equation}
+
+where $R_{\textrm{f}}$ - the feedback resistance.
+
+\end{itemize}
+
+
+The square of total noise $ent^2(j \omega)$ is given by equation:
 
 
 \begin{equation}
-in = \sqrt{2q(I_{\textrm{G}} + I_{\textrm{D}})}
+\begin{aligned}
+ent^2(j \omega) = en_1^2 \cdot (1+\frac{C_{\textrm{in}}}{C_{\textrm{f}}})^2 + \{in^2 + (\frac{en_2}{R_{\textrm{f}}})^2 \}\frac{1}{(j \omega C_{\textrm{f}})^2},
+\end{aligned}
+\label{finalNoise}
 \end{equation}
 
-\begin{equation}
-en_2 = \sqrt{4KTRf}
-\end{equation}
+where the $C_{\textrm{f}}$ - the feedback capacitance and $C_{\textrm{in}}$ - the total input capacitance, resulting capacitance on the input of amplifier (there - parallel combination of detector's capacitance $C_{\textrm{j}}$ and amplifier's input capacitance $C_{\textrm{s}}$).   
+\par
+The first term in equation \ref{finalNoise} depends on the ration between the input capacitance $C_{\textrm{in}}$ and the feedback capacitance $C_{\textrm{f}}$ and thus the preamplifier's feedback capacitance has to be optimized in order to reduce the electronic noise.
 
-%\begin{equation}
-%ent^2(j \omega) = en_1^2 \cdot (1+\frac{C_{\textrm{in}}}{C_{\textrm{f}}) + \{ \}\frac{1}{(j \omega C_{\textrm{f}})^2}
-%\end{equation}
 
 \par
-The charge sensitive preamplifiers modules usually also contain the second stage - classical $U/U$ amplifier. The internal scheme of CR-110-R2 charge sensitive preamplifier made by Cremat Inc, which we use in the case of PCB design can be seen of fig. \ref{internal}.
+The charge sensitive preamplifiers modules usually also contain the second stage - common voltage amplifier. The internal scheme of CR-110-R2 charge amplifier made by Cremat Inc., which we use in the case of PCB design can be seen In the Fig. \ref{internal}.
 
 \par
 
@@ -112,43 +148,28 @@ The charge sensitive preamplifiers modules usually also contain the second stage
  
 \end{figure}
 
-The output voltage has the shape of exponential decay with amplitude defined by energy, short rise time (in orders of nanoseconds) and a longer decay constant (microseconds).
+The output voltage has the shape of exponential decay with amplitude defined by energy deposited into detector, short rise time (in orders of nanoseconds) and a longer decay constant (microseconds).
 
 
-CR-110-R2 offers the conversion gain $G = 1.4$ V/pC, decay constant $\tau = 140$ $\mu$s CR-110-R2) and noise (FWMH) in silicon equal to 1.7 keV \cite{cr110}. It can be easily calculated, that for 14.4 keV photon, the output pulse has amplitude equal to $U_{A} = 0.8928$ mV. 
-Note that the noise caused by the preamplifier is much larger than the intrinsic fano noise.
-
-
-\par
-The modular version suitable for our application is ORTEC 142A charge preamplifier with $G = 1.016$ V/pC, $\tau = 500$ $\mu$s and noise in silicon equal to 1.6 keV \cite{ORTECpreamp}.  
-
-
-
-
+CR-110-R2 offers the conversion gain $G = 1.4$ V/pC, decay constant $\tau = 140$ $\mu$s CR-110-R2) and noise (FWHM) in silicon equal to 1.7 keV \cite{cr110}. It can be easily calculated, that for 14.4 keV photon, the output pulse has amplitude equal to $U_{A} = 0.8928$ mV. 
+Note that the noise caused by the preamplifier is much larger than the intrinsic fano noise (FWHM = 185.4 eV).
 
 
 \par
-
-Charge preamplifiers are usually very sensitive devices and can be very easily damaged by electrostatics. 
-
-
-
+The modular version suitable for our application is ORTEC 142A charge preamplifier with $G = 1.016$ V/pC, $\tau = 500$ $\mu$s and noise in silicon equal to 1.6 keV \cite{ORTECpreamp}. Charge preamplifiers are usually very sensitive devices and can be very easily damaged by electrostatics. 
 
 \par
 
-
-
-\subsection{Amplification}
 Since the output of preamplifier is in order of millivolts, it has to be strongly amplified. Very fast and low noise amplifier consisting of multiple opamps is an appropriate solution of this problem.
 
 
 
 \subsection{Shaping}
 
-To perform the accurate energy discrimination, the pulse shape has to be altered from exponential decay shape by a special shaping circuit. The shaping results into filtering the frequency band (reducing the noise) and also into shortening the long decay times of original exponential shapes. The lower duration of pulses prevents the negative effect in which is one pulse superimposed onto another (pile-up effect).
+To perform the accurate energy discrimination, the pulse shape has to be altered from exponential decay shape by a shaping circuit. The shaping results into filtering the frequency band (reducing the noise) and also into shortening the long decay times of original exponential shapes. The shorter duration of pulses prevents the negative effect in which is one pulse superimposed onto another (pile-up effect).
 
 \par
-The Gaussian shape meets the sufficient parameters of SNR and duration. This type of shaping is usually achieved by several integration stages. The cremat module CR-200-1us-R2.1 offers gaussian shaping with shaping time 1 $\mu$s \cite{cr200}. Its simplified internal schematic can be seen on fig.\ref{internal2}. 
+The Gaussian shape meets the sufficient parameters of SNR and duration \cite{Shapflify}. This type of shaping is usually achieved by several integration stages. The Cremat module CR-200-1us-R2.1 offers gaussian shaping with shaping time 1 $\mu$s \cite{cr200}. Its simplified internal schematic can be seen on fig.\ref{internal2}. 
 
 
 \begin{figure}[H]
@@ -159,12 +180,10 @@ The Gaussian shape meets the sufficient parameters of SNR and duration. This typ
  
 \end{figure}
 
-However, shapers are usually very sensitive on the shape of the input pulse. They expect step-like input pulse. The deviation from the expected shapes may result into undefined shapes on output of the shaper.
-\par
-In modules the shapers are usually integrated along with amplifiers.
+However, shapers are usually very sensitive on the shape of the input pulse. They expect step-like input pulse. The deviation from the expected shapes may result into undefined shapes on output of the shaper. In modules the shapers are usually integrated along with amplifiers.
 
 \subsection{Multichannel analysis (MCA)}
-To obtain the full energy spectra information in a digital form, it is necessary to measure and digitize pulse height of incoming pulses to perform energy discrimination and increment the corresponding digital counting channels. For these purposes can be employed multichannel analyser (MCA). The EASY-MCA-2K from ORTEC \cite{MCAOrtec}, which we use in experiments, is capable of processing Gaussian shaped pulses with constants from 0.25 $\mu$s to 30 $\mu$s and amplitudes ranging from 0 to +10 V.
+To obtain the full energy spectra information, it is necessary to measure and digitize pulse height of incoming pulses to perform energy discrimination and increment the corresponding channels. The multichannel analyser (MCA) can be employed for these purposes. The EASY-MCA-2K from ORTEC \cite{MCAOrtec}, which we use in experiments, is capable of processing Gaussian shaped pulses with shaping times from 0.25 $\mu$s to 30 $\mu$s and amplitudes ranging from 0 to +10 V.
 
 
 
