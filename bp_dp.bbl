@@ -387,6 +387,34 @@
       \endverb
       \warn{\item Entry 'SiCdTe' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
     \endentry
+    \entry{eagle}{online}{}
+      \name{author}{1}{}{%
+        {{hash=983ea436405fa9ab72f858e1f1b874a7}{%
+           family={Autodesk},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{983ea436405fa9ab72f858e1f1b874a7}
+      \strng{fullhash}{983ea436405fa9ab72f858e1f1b874a7}
+      \strng{bibnamehash}{983ea436405fa9ab72f858e1f1b874a7}
+      \strng{authorbibnamehash}{983ea436405fa9ab72f858e1f1b874a7}
+      \strng{authornamehash}{983ea436405fa9ab72f858e1f1b874a7}
+      \strng{authorfullhash}{983ea436405fa9ab72f858e1f1b874a7}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Autodesk Eagle}
+      \verb{urlraw}
+      \verb https://www.autodesk.com/products/eagle/overview?term=1-YEAR&tab=subscription
+      \endverb
+      \verb{url}
+      \verb https://www.autodesk.com/products/eagle/overview?term=1-YEAR&tab=subscription
+      \endverb
+      \warn{\item Entry 'eagle' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
+    \endentry
     \entry{co57}{online}{}
       \name{author}{1}{}{%
         {{hash=8ec889db45a3dba540ffa7f44e9d3ffa}{%
@@ -468,6 +496,34 @@
       \verb{url}
       \verb https://cz.mouser.com/datasheet/2/414/OPF430-3241495.pdf
       \endverb
+    \endentry
+    \entry{Geant4}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a03c70530e6ab09c84d240894318c0d2}{%
+           family={Geant4},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a03c70530e6ab09c84d240894318c0d2}
+      \strng{fullhash}{a03c70530e6ab09c84d240894318c0d2}
+      \strng{bibnamehash}{a03c70530e6ab09c84d240894318c0d2}
+      \strng{authorbibnamehash}{a03c70530e6ab09c84d240894318c0d2}
+      \strng{authornamehash}{a03c70530e6ab09c84d240894318c0d2}
+      \strng{authorfullhash}{a03c70530e6ab09c84d240894318c0d2}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geant4, a toolkit for the simulation of the passage of particles through matter}
+      \verb{urlraw}
+      \verb https://geant4.web.cern.ch/
+      \endverb
+      \verb{url}
+      \verb https://geant4.web.cern.ch/
+      \endverb
+      \warn{\item Entry 'Geant4' (citations.bib): Invalid format '2024-4-22' of date field 'urldate' - ignoring}
     \endentry
     \entry{datS14605}{online}{}
       \name{author}{1}{}{%
@@ -558,6 +614,62 @@
       \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/charge_amp_kacc9001e.pdf
       \endverb
       \warn{\item Entry 'charge' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{C9028}{online}{}
+      \name{author}{1}{}{%
+        {{hash=73f801ff4f44895c5aabb9d8ddd37130}{%
+           family={hamamatsu},
+           familyi={h\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{fullhash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{bibnamehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{authorbibnamehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{authornamehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{authorfullhash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{HIGH VOLTAGE POWER SUPPLY SOCKET ASSEMBLY (DP-TYPE) C9028-01}
+      \verb{urlraw}
+      \verb https://www.digchip.com/datasheets/parts/datasheet/190/C9028-01-pdf.php
+      \endverb
+      \verb{url}
+      \verb https://www.digchip.com/datasheets/parts/datasheet/190/C9028-01-pdf.php
+      \endverb
+      \warn{\item Entry 'C9028' (citations.bib): Invalid format '2024-4-22' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{R6095}{online}{}
+      \name{author}{1}{}{%
+        {{hash=73f801ff4f44895c5aabb9d8ddd37130}{%
+           family={hamamatsu},
+           familyi={h\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{fullhash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{bibnamehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{authorbibnamehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{authornamehash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \strng{authorfullhash}{73f801ff4f44895c5aabb9d8ddd37130}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Photomultiplier tubes R6094, R6095}
+      \verb{urlraw}
+      \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/etd/R6094_R6095_TPMH1382E.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/etd/R6094_R6095_TPMH1382E.pdf
+      \endverb
+      \warn{\item Entry 'R6095' (citations.bib): Invalid format '2024-4-22' of date field 'urldate' - ignoring}
     \endentry
     \entry{appCSPnote}{online}{}
       \name{author}{1}{}{%
@@ -657,6 +769,66 @@
       \verb{url}
       \verb https://www.cremat.com/CR-200-R2.1.pdf
       \endverb
+    \endentry
+    \entry{star}{online}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Grounding in mixed-signal systems demystified, Part 1}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/an/slyt499/slyt499.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/an/slyt499/slyt499.pdf
+      \endverb
+      \warn{\item Entry 'star' (citations.bib): Invalid format '2024-4-22' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{OPA847}{online}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{OPA847}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/opa847.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/opa847.pdf
+      \endverb
+      \warn{\item Entry 'OPA847' (citations.bib): Invalid format '2024-4-22' of date field 'urldate' - ignoring}
     \endentry
     \entry{https://doi.org/10.1029/2003JE002138}{article}{}
       \name{author}{15}{}{%
@@ -812,6 +984,34 @@
       \verb https://www.ortec-online.com/-/media/ametekortec/manuals/e/easy-mca-mnl.pdf
       \endverb
       \warn{\item Entry 'MCAOrtec' (citations.bib): Invalid format '2024-2-3' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Shapflify}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e1e1b278127b57454c8a3a058413aa31}{%
+           family={ORTEC},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{fullhash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{bibnamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authorbibnamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authornamehash}{e1e1b278127b57454c8a3a058413aa31}
+      \strng{authorfullhash}{e1e1b278127b57454c8a3a058413aa31}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Amplifiers}
+      \verb{urlraw}
+      \verb https://www.ortec-online.com/-/media/ametekortec/other/amplifier-introduction.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ortec-online.com/-/media/ametekortec/other/amplifier-introduction.pdf
+      \endverb
+      \warn{\item Entry 'Shapflify' (citations.bib): Invalid format '2024-4-22' of date field 'urldate' - ignoring}
     \endentry
     \entry{maestro}{online}{}
       \name{author}{1}{}{%

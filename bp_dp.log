@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.6.18)  27 APR 2024 04:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.6.18)  28 APR 2024 10:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -886,12 +886,12 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 ))
 \minusbox=\box30
-LaTeX Font Info:    Try loading font information for U+msa on input line 98.
+LaTeX Font Info:    Try loading font information for U+msa on input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 98.
+LaTeX Font Info:    Try loading font information for U+msb on input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -920,22 +920,22 @@ LaTeX Warning: Label `trans' multiply defined.
 )
 \openout1 = `bp_dp.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1007,7 +1007,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 145.
+Package hyperref Info: Link coloring OFF on input line 146.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1017,9 +1017,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count320
 )
-LaTeX Info: Redefining \ref on input line 145.
-LaTeX Info: Redefining \pageref on input line 145.
-LaTeX Info: Redefining \nameref on input line 145.
+LaTeX Info: Redefining \ref on input line 146.
+LaTeX Info: Redefining \pageref on input line 146.
+LaTeX Info: Redefining \nameref on input line 146.
 
 (./bp_dp.out) (./bp_dp.out)
 \@outlinefile=\write5
@@ -1027,7 +1027,7 @@ LaTeX Info: Redefining \nameref on input line 145.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 145.
+(lastpage)             ! on input line 146.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1044,15 +1044,51 @@ Package biblatex Warning: Biber reported the following issues
 
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'eagle':
+(biblatex)                - Entry 'eagle' (citations.bib): Invalid format '2024
+-2-3' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'co57':
 (biblatex)                - Entry 'co57' (citations.bib): Invalid format '2024-
 2-3' of date field 'urldate' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Geant4':
+(biblatex)                - Entry 'Geant4' (citations.bib): Invalid format '202
+4-4-22' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'charge':
 (biblatex)                - Entry 'charge' (citations.bib): Invalid format '202
 4-2-3' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'C9028':
+(biblatex)                - Entry 'C9028' (citations.bib): Invalid format '2024
+-4-22' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'R6095':
+(biblatex)                - Entry 'R6095' (citations.bib): Invalid format '2024
+-4-22' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'star':
+(biblatex)                - Entry 'star' (citations.bib): Invalid format '2024-
+4-22' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'OPA847':
+(biblatex)                - Entry 'OPA847' (citations.bib): Invalid format '202
+4-4-22' of date field 'urldate' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
@@ -1068,6 +1104,12 @@ Package biblatex Warning: Biber reported the following issues
 
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Shapflify':
+(biblatex)                - Entry 'Shapflify' (citations.bib): Invalid format '
+2024-4-22' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'maestro':
 (biblatex)                - Entry 'maestro' (citations.bib): Invalid format '20
 24-2-3' of date field 'urldate' - ignoring.
@@ -1079,12 +1121,12 @@ Package biblatex Warning: Biber reported the following issues
  '2024-2-3' of date field 'urldate' - ignoring.
 
 )
-Package biblatex Info: Reference section=0 on input line 145.
-Package biblatex Info: Reference segment=0 on input line 145.
-<up_logo_bw.pdf, id=277, 96.36pt x 98.3675pt>
+Package biblatex Info: Reference section=0 on input line 146.
+Package biblatex Info: Reference segment=0 on input line 146.
+<up_logo_bw.pdf, id=273, 96.36pt x 98.3675pt>
 File: up_logo_bw.pdf Graphic file (type pdf)
 <use up_logo_bw.pdf>
-Package pdftex.def Info: up_logo_bw.pdf  used on input line 169.
+Package pdftex.def Info: up_logo_bw.pdf  used on input line 170.
 (pdftex.def)             Requested size: 83.61488pt x 85.35826pt.
  [1
 
@@ -1103,7 +1145,7 @@ Chapter 1.
 [9
 
 ]
-<./pictures/totalCross.png, id=404, 847.66687pt x 659.46375pt>
+<./pictures/totalCross.png, id=399, 847.66687pt x 659.46375pt>
 File: ./pictures/totalCross.png Graphic file (type png)
 <use ./pictures/totalCross.png>
 Package pdftex.def Info: ./pictures/totalCross.png  used on input line 88.
@@ -1131,13 +1173,13 @@ Chapter 3.
 [16
 
 ] [17] [18] [19]
-<./pictures/SiPINScheme.png, id=478, 1211.52625pt x 697.60625pt>
+<./pictures/SiPINScheme.png, id=473, 1211.52625pt x 697.60625pt>
 File: ./pictures/SiPINScheme.png Graphic file (type png)
 <use ./pictures/SiPINScheme.png>
 Package pdftex.def Info: ./pictures/SiPINScheme.png  used on input line 140.
 (pdftex.def)             Requested size: 424.04054pt x 244.16583pt.
  [20]
-<./pictures/PINdiodes.png, id=485, 4143.48pt x 3107.61pt>
+<./pictures/PINdiodes.png, id=480, 4143.48pt x 3107.61pt>
 File: ./pictures/PINdiodes.png Graphic file (type png)
 <use ./pictures/PINdiodes.png>
 Package pdftex.def Info: ./pictures/PINdiodes.png  used on input line 153.
@@ -1164,250 +1206,219 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 63.
 
-<./pictures/Fe57.png, id=527, 458.71375pt x 249.93375pt>
+<./pictures/Fe57.png, id=524, 458.71375pt x 249.93375pt>
 File: ./pictures/Fe57.png Graphic file (type png)
 <use ./pictures/Fe57.png>
 Package pdftex.def Info: ./pictures/Fe57.png  used on input line 69.
 (pdftex.def)             Requested size: 344.03447pt x 187.44984pt.
 [26]
-<./pictures/transducer.png, id=535, 1023.07219pt x 545.78906pt>
+<./pictures/transducer.png, id=533, 1023.07219pt x 545.78906pt>
 File: ./pictures/transducer.png Graphic file (type png)
 <use ./pictures/transducer.png>
-Package pdftex.def Info: ./pictures/transducer.png  used on input line 84.
+Package pdftex.def Info: ./pictures/transducer.png  used on input line 89.
 (pdftex.def)             Requested size: 409.22163pt x 218.31175pt.
- [27 <./pictures/Fe57.png> <./pictures/transducer.png>]
-
-LaTeX Warning: Reference `spectrometric setup' on page 28 undefined on input li
-ne 94.
-
-) (./pulseAnalysis.tex [28]
+ [27 <./pictures/Fe57.png>]
+<./pictures/NoPicture.jpg, id=543, 1097.09875pt x 983.675pt>
+File: ./pictures/NoPicture.jpg Graphic file (type jpg)
+<use ./pictures/NoPicture.jpg>
+Package pdftex.def Info: ./pictures/NoPicture.jpg  used on input line 100.
+(pdftex.def)             Requested size: 438.83173pt x 393.46303pt.
+ [28 <./pictures/transducer.png> <./pictures/NoPicture.jpg>]) (./pulseAnalysis.
+tex [29]
 Chapter 5.
-[29
+[30
 
 ]
-<./pictures/shielding.png, id=562, 932.48375pt x 844.15375pt>
+<./pictures/shielding.png, id=565, 932.48375pt x 844.15375pt>
 File: ./pictures/shielding.png Graphic file (type png)
 <use ./pictures/shielding.png>
 Package pdftex.def Info: ./pictures/shielding.png  used on input line 30.
 (pdftex.def)             Requested size: 326.3742pt x 295.45824pt.
-<./pictures/chain.png, id=565, 234.43683pt x 1025.00012pt>
+<./pictures/chain.png, id=568, 234.43683pt x 1025.00012pt>
 File: ./pictures/chain.png Graphic file (type png)
 <use ./pictures/chain.png>
 Package pdftex.def Info: ./pictures/chain.png  used on input line 47.
 (pdftex.def)             Requested size: 82.05411pt x 358.75542pt.
- [30 <./pictures/shielding.png>]
-<./pictures/champlifier.png, id=573, 961.5925pt x 514.92375pt>
+ [31 <./pictures/shielding.png>]
+<./pictures/champlifier.png, id=577, 961.5925pt x 514.92375pt>
 File: ./pictures/champlifier.png Graphic file (type png)
 <use ./pictures/champlifier.png>
 Package pdftex.def Info: ./pictures/champlifier.png  used on input line 63.
 (pdftex.def)             Requested size: 384.63019pt x 205.96585pt.
- [31 <./pictures/chain.png>]
-<./pictures/NoiseEquiv.png, id=584, 920.43875pt x 723.70375pt>
+ [32 <./pictures/chain.png>]
+<./pictures/NoiseEquiv.png, id=587, 920.43875pt x 723.70375pt>
 File: ./pictures/NoiseEquiv.png Graphic file (type png)
 <use ./pictures/NoiseEquiv.png>
 Package pdftex.def Info: ./pictures/NoiseEquiv.png  used on input line 76.
 (pdftex.def)             Requested size: 368.16898pt x 289.47636pt.
- [32 <./pictures/champlifier.png> <./pictures/NoiseEquiv.png>]
-<./pictures/CRpreamp.png, id=600, 652.4375pt x 481.8pt>
+ [33 <./pictures/champlifier.png> <./pictures/NoiseEquiv.png>]
+<./pictures/CRpreamp.png, id=603, 652.4375pt x 481.8pt>
 File: ./pictures/CRpreamp.png Graphic file (type png)
 <use ./pictures/CRpreamp.png>
 Package pdftex.def Info: ./pictures/CRpreamp.png  used on input line 145.
 (pdftex.def)             Requested size: 228.35654pt x 168.63252pt.
- [33 <./pictures/CRpreamp.png>]
-
-LaTeX Warning: Citation 'Shapflify' on page 34 undefined on input line 172.
-
-
-Overfull \hbox (6.75188pt too wide) in paragraph at lines 172--173
-[]\OT1/cmr/m/n/12 The Gaus-sian shape meets the suf-fi-cient pa-ram-e-ters of S
-NR and du-ra-tion [[]].
- []
-
-<./pictures/CRshaper.png, id=618, 951.555pt x 277.035pt>
+ [34 <./pictures/CRpreamp.png>]
+<./pictures/CRshaper.png, id=622, 951.555pt x 277.035pt>
 File: ./pictures/CRshaper.png Graphic file (type png)
 <use ./pictures/CRshaper.png>
 Package pdftex.def Info: ./pictures/CRshaper.png  used on input line 177.
 (pdftex.def)             Requested size: 333.04924pt x 96.9637pt.
-) (./Algorytms.tex [34 <./pictures/CRshaper.png>] [35]
+) (./Algorytms.tex [35 <./pictures/CRshaper.png>] [36]
 Chapter 6.
-<./pictures/SecondDerivGraph.png, id=638, 4512.86pt x 2481.27pt>
+<./pictures/SecondDerivGraph.png, id=642, 4512.86pt x 2481.27pt>
 File: ./pictures/SecondDerivGraph.png Graphic file (type png)
 <use ./pictures/SecondDerivGraph.png>
-Package pdftex.def Info: ./pictures/SecondDerivGraph.png  used on input line 16
+Package pdftex.def Info: ./pictures/SecondDerivGraph.png  used on input line 17
 .
 (pdftex.def)             Requested size: 473.82986pt x 260.52211pt.
 
-Overfull \hbox (32.81213pt too wide) in paragraph at lines 16--17
+Overfull \hbox (32.81213pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-[36
+[37
 
 ]
-<./pictures/DataGraph.png, id=644, 4512.86pt x 2481.27pt>
+<./pictures/DataGraph.png, id=649, 4512.86pt x 2481.27pt>
 File: ./pictures/DataGraph.png Graphic file (type png)
 <use ./pictures/DataGraph.png>
-Package pdftex.def Info: ./pictures/DataGraph.png  used on input line 24.
+Package pdftex.def Info: ./pictures/DataGraph.png  used on input line 25.
 (pdftex.def)             Requested size: 473.82986pt x 260.52211pt.
 
-Overfull \hbox (32.81213pt too wide) in paragraph at lines 24--25
+Overfull \hbox (32.81213pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) (./PINtesting.tex [37 <./pictures/SecondDerivGraph.png> <./pictures/DataGraph
+) (./PINtesting.tex [38 <./pictures/SecondDerivGraph.png> <./pictures/DataGraph
 .png>]
 Chapter 7.
-<./pictures/ORTECbin.jpg, id=653, 4143.48pt x 3107.61pt>
+<./pictures/ORTECbin.jpg, id=657, 4143.48pt x 3107.61pt>
 File: ./pictures/ORTECbin.jpg Graphic file (type jpg)
 <use ./pictures/ORTECbin.jpg>
 Package pdftex.def Info: ./pictures/ORTECbin.jpg  used on input line 10.
 (pdftex.def)             Requested size: 372.89711pt x 279.67284pt.
-[38
+[39
 
 ]
-<./pictures/ORTECsetup.jpg, id=659, 4143.48pt x 3107.61pt>
+<./pictures/ORTECsetup.jpg, id=663, 4143.48pt x 3107.61pt>
 File: ./pictures/ORTECsetup.jpg Graphic file (type jpg)
 <use ./pictures/ORTECsetup.jpg>
-Package pdftex.def Info: ./pictures/ORTECsetup.jpg  used on input line 22.
+Package pdftex.def Info: ./pictures/ORTECsetup.jpg  used on input line 21.
 (pdftex.def)             Requested size: 372.89711pt x 279.67284pt.
- [39 <./pictures/ORTECbin.jpg>]
-<./pictures/ShieldCrate.jpg, id=666, 4143.48pt x 3107.61pt>
+ [40 <./pictures/ORTECbin.jpg>]
+<./pictures/ShieldCrate.jpg, id=670, 4143.48pt x 3107.61pt>
 File: ./pictures/ShieldCrate.jpg Graphic file (type jpg)
 <use ./pictures/ShieldCrate.jpg>
-Package pdftex.def Info: ./pictures/ShieldCrate.jpg  used on input line 38.
+Package pdftex.def Info: ./pictures/ShieldCrate.jpg  used on input line 37.
 (pdftex.def)             Requested size: 372.89711pt x 279.67284pt.
- [40 <./pictures/ORTECsetup.jpg>]
-<./pictures/chlazeniLedem.jpg, id=674, 2315.65125pt x 2330.7075pt>
+ [41 <./pictures/ORTECsetup.jpg>]
+<./pictures/chlazeniLedem.jpg, id=678, 2315.65125pt x 2330.7075pt>
 File: ./pictures/chlazeniLedem.jpg Graphic file (type jpg)
 <use ./pictures/chlazeniLedem.jpg>
-Package pdftex.def Info: ./pictures/chlazeniLedem.jpg  used on input line 63.
+Package pdftex.def Info: ./pictures/chlazeniLedem.jpg  used on input line 62.
 (pdftex.def)             Requested size: 208.39961pt x 209.75462pt.
-<./pictures/TempDiff.png, id=675, 3509.11pt x 2481.27pt>
+<./pictures/TempDiff.png, id=679, 3509.11pt x 2481.27pt>
 File: ./pictures/TempDiff.png Graphic file (type png)
 <use ./pictures/TempDiff.png>
-Package pdftex.def Info: ./pictures/TempDiff.png  used on input line 73.
+Package pdftex.def Info: ./pictures/TempDiff.png  used on input line 72.
 (pdftex.def)             Requested size: 456.20032pt x 322.57643pt.
 
-Overfull \hbox (15.18259pt too wide) in paragraph at lines 73--74
+Overfull \hbox (15.18259pt too wide) in paragraph at lines 72--73
  [][] 
  []
 
-[41 <./pictures/ShieldCrate.jpg> <./pictures/chlazeniLedem.jpg>]
+[42 <./pictures/ShieldCrate.jpg> <./pictures/chlazeniLedem.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 90.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 90.
+(hyperref)                removing `math shift' on input line 89.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 90.
+(hyperref)                removing `superscript' on input line 89.
 
 
-LaTeX Warning: Reference `datS14605' on page 42 undefined on input line 104.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 89.
 
-[42 <./pictures/TempDiff.png>]
-<./pictures/S14GammaTest.png, id=688, 4010.985pt x 2481.27pt>
+
+LaTeX Warning: Reference `datS14605' on page 43 undefined on input line 103.
+
+[43 <./pictures/TempDiff.png>]
+<./pictures/S14GammaTest.png, id=694, 4010.985pt x 2481.27pt>
 File: ./pictures/S14GammaTest.png Graphic file (type png)
 <use ./pictures/S14GammaTest.png>
-Package pdftex.def Info: ./pictures/S14GammaTest.png  used on input line 109.
+Package pdftex.def Info: ./pictures/S14GammaTest.png  used on input line 108.
 (pdftex.def)             Requested size: 501.3719pt x 310.15799pt.
 
-Overfull \hbox (60.35417pt too wide) in paragraph at lines 109--110
+Overfull \hbox (60.35417pt too wide) in paragraph at lines 108--109
  [][] 
  []
 
-<./pictures/BPW34GammaTest.png, id=689, 4010.985pt x 2481.27pt>
+<./pictures/BPW34GammaTest.png, id=695, 4010.985pt x 2481.27pt>
 File: ./pictures/BPW34GammaTest.png Graphic file (type png)
 <use ./pictures/BPW34GammaTest.png>
-Package pdftex.def Info: ./pictures/BPW34GammaTest.png  used on input line 125.
+Package pdftex.def Info: ./pictures/BPW34GammaTest.png  used on input line 124.
 
 (pdftex.def)             Requested size: 501.3719pt x 310.15799pt.
 
-Overfull \hbox (60.35417pt too wide) in paragraph at lines 125--126
+Overfull \hbox (60.35417pt too wide) in paragraph at lines 124--125
  [][] 
  []
 
-[43 <./pictures/S14GammaTest.png>]
-<./pictures/OPF430GammaTest.png, id=696, 4010.985pt x 2481.27pt>
+[44 <./pictures/S14GammaTest.png>]
+<./pictures/OPF430GammaTest.png, id=701, 4010.985pt x 2481.27pt>
 File: ./pictures/OPF430GammaTest.png Graphic file (type png)
 <use ./pictures/OPF430GammaTest.png>
-Package pdftex.def Info: ./pictures/OPF430GammaTest.png  used on input line 139
+Package pdftex.def Info: ./pictures/OPF430GammaTest.png  used on input line 138
 .
 (pdftex.def)             Requested size: 501.3719pt x 310.15799pt.
 
-Overfull \hbox (60.35417pt too wide) in paragraph at lines 139--140
+Overfull \hbox (60.35417pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
-[44 <./pictures/BPW34GammaTest.png>]) (./PCBconstruct.tex [45 <./pictures/OPF43
+[45 <./pictures/BPW34GammaTest.png>]) (./PCBconstruct.tex [46 <./pictures/OPF43
 0GammaTest.png>]
 Chapter 8.
-<./pictures/NoPicture.jpg, id=710, 1097.09875pt x 983.675pt>
-File: ./pictures/NoPicture.jpg Graphic file (type jpg)
-<use ./pictures/NoPicture.jpg>
-Package pdftex.def Info: ./pictures/NoPicture.jpg  used on input line 11.
-(pdftex.def)             Requested size: 383.99031pt x 344.29141pt.
-[46
+<./pictures/SemiInCrateInside.png, id=715, 3114.38531pt x 4148.7497pt>
+File: ./pictures/SemiInCrateInside.png Graphic file (type png)
+<use ./pictures/SemiInCrateInside.png>
+Package pdftex.def Info: ./pictures/SemiInCrateInside.png  used on input line 1
+1.
+(pdftex.def)             Requested size: 311.45677pt x 414.89928pt.
+[47
 
 ]
-File: ./pictures/NoPicture.jpg Graphic file (type jpg)
-<use ./pictures/NoPicture.jpg>
-Package pdftex.def Info: ./pictures/NoPicture.jpg  used on input line 20.
-(pdftex.def)             Requested size: 383.99031pt x 344.29141pt.
- [47 <./pictures/NoPicture.jpg>] [48]
-<./pictures/schemaPopis.png, id=729, 1275.26437pt x 670.00313pt>
+<./pictures/SemiInCrate.png, id=723, 4147.99687pt x 3113.6325pt>
+File: ./pictures/SemiInCrate.png Graphic file (type png)
+<use ./pictures/SemiInCrate.png>
+Package pdftex.def Info: ./pictures/SemiInCrate.png  used on input line 20.
+(pdftex.def)             Requested size: 414.82399pt x 311.38148pt.
+ [48 <./pictures/SemiInCrateInside.png>] [49 <./pictures/SemiInCrate.png>]
+<./pictures/schemaPopis.png, id=738, 1275.26437pt x 670.00313pt>
 File: ./pictures/schemaPopis.png Graphic file (type png)
 <use ./pictures/schemaPopis.png>
 Package pdftex.def Info: ./pictures/schemaPopis.png  used on input line 32.
 (pdftex.def)             Requested size: 637.63063pt x 335.00075pt.
 
-
-LaTeX Warning: Citation 'eagle' on page 49 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'eagle' on page 49 undefined on input line 33.
-
-[49 <./pictures/schemaPopis.png>]
-<./pictures/S14topLay.png, id=736, 255.20343pt x 462.22687pt>
+[50 <./pictures/schemaPopis.png>]
+<./pictures/S14topLay.png, id=747, 255.20343pt x 462.22687pt>
 File: ./pictures/S14topLay.png Graphic file (type png)
 <use ./pictures/S14topLay.png>
 Package pdftex.def Info: ./pictures/S14topLay.png  used on input line 42.
 (pdftex.def)             Requested size: 204.16301pt x 369.782pt.
-
-
-LaTeX Warning: Citation 'eagle' on page 50 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'eagle' on page 50 undefined on input line 43.
-
-<./pictures/S14bottomLay.png, id=737, 255.20343pt x 465.99094pt>
+<./pictures/S14bottomLay.png, id=750, 255.20343pt x 465.99094pt>
 File: ./pictures/S14bottomLay.png Graphic file (type png)
 <use ./pictures/S14bottomLay.png>
 Package pdftex.def Info: ./pictures/S14bottomLay.png  used on input line 50.
 (pdftex.def)             Requested size: 204.16301pt x 372.79324pt.
-
-LaTeX Warning: Citation 'eagle' on page 50 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'eagle' on page 50 undefined on input line 51.
-
-[50 <./pictures/S14topLay.png> <./pictures/S14bottomLay.png>]
-
-LaTeX Warning: Citation 'star' on page 51 undefined on input line 62.
-
-
-LaTeX Warning: Citation 'OPA847' on page 51 undefined on input line 77.
-
-
+ [51 <./pictures/S14topLay.png> <./pictures/S14bottomLay.png>]
 Overfull \hbox (1.8138pt too wide) in paragraph at lines 77--78
 []\OT1/cmr/m/n/12 First am-pli-fi-ca-tion is achieved by two non-inverting am-p
 li-fiers with OPA847 opamps.
  []
 
-[51]) (./PCBmeas.tex [52]
+[52]) (./PCBmeas.tex [53]
 Chapter 9.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1430,14 +1441,14 @@ Overfull \hbox (345.92336pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-[53
+[54
 
 ]
 Overfull \vbox (185.17073pt too high) has occurred while \output is active []
 
 
-[54]
-<./pictures/SemiSpectre.png, id=761, 4010.985pt x 2481.27pt>
+[55]
+<./pictures/SemiSpectre.png, id=781, 4010.985pt x 2481.27pt>
 File: ./pictures/SemiSpectre.png Graphic file (type png)
 <use ./pictures/SemiSpectre.png>
 Package pdftex.def Info: ./pictures/SemiSpectre.png  used on input line 38.
@@ -1451,14 +1462,8 @@ File: ./pictures/NoPicture.jpg Graphic file (type jpg)
 <use ./pictures/NoPicture.jpg>
 Package pdftex.def Info: ./pictures/NoPicture.jpg  used on input line 49.
 (pdftex.def)             Requested size: 137.13701pt x 122.95908pt.
-
-LaTeX Warning: Citation 'R6095' on page 55 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'C9028' on page 55 undefined on input line 57.
-
-[55 <./pictures/SemiSpectre.png>]
-<./pictures/PMTSpectre.png, id=771, 4010.985pt x 2481.27pt>
+[56 <./pictures/SemiSpectre.png>]
+<./pictures/PMTSpectre.png, id=792, 4010.985pt x 2481.27pt>
 File: ./pictures/PMTSpectre.png Graphic file (type png)
 <use ./pictures/PMTSpectre.png>
 Package pdftex.def Info: ./pictures/PMTSpectre.png  used on input line 61.
@@ -1468,7 +1473,7 @@ Overfull \hbox (60.35417pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-<./pictures/GasSpectre.png, id=772, 4010.985pt x 2481.27pt>
+<./pictures/GasSpectre.png, id=793, 4010.985pt x 2481.27pt>
 File: ./pictures/GasSpectre.png Graphic file (type png)
 <use ./pictures/GasSpectre.png>
 Package pdftex.def Info: ./pictures/GasSpectre.png  used on input line 68.
@@ -1478,13 +1483,13 @@ Overfull \hbox (60.35417pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-[56 <./pictures/PMTSpectre.png>] [57 <./pictures/GasSpectre.png>])
-(./MossMeas.tex [58]
+[57 <./pictures/PMTSpectre.png>] [58 <./pictures/GasSpectre.png>])
+(./MossMeas.tex [59]
 Chapter 10.
 
-LaTeX Warning: Citation 'MSControl' on page 59 undefined on input line 6.
+LaTeX Warning: Citation 'MSControl' on page 60 undefined on input line 6.
 
-<./pictures/MossSemi.png, id=799, 4010.985pt x 2481.27pt>
+<./pictures/MossSemi.png, id=822, 4010.985pt x 2481.27pt>
 File: ./pictures/MossSemi.png Graphic file (type png)
 <use ./pictures/MossSemi.png>
 Package pdftex.def Info: ./pictures/MossSemi.png  used on input line 19.
@@ -1494,10 +1499,10 @@ Overfull \hbox (60.35417pt too wide) in paragraph at lines 19--20
  [][] 
  []
 
-[59
+[60
 
 ]
-<./pictures/MossGas.png, id=807, 4010.985pt x 2481.27pt>
+<./pictures/MossGas.png, id=830, 4010.985pt x 2481.27pt>
 File: ./pictures/MossGas.png Graphic file (type png)
 <use ./pictures/MossGas.png>
 Package pdftex.def Info: ./pictures/MossGas.png  used on input line 27.
@@ -1507,7 +1512,7 @@ Overfull \hbox (60.35417pt too wide) in paragraph at lines 27--28
  [][] 
  []
 
-<./pictures/MossPMT.png, id=808, 4010.985pt x 2481.27pt>
+<./pictures/MossPMT.png, id=831, 4010.985pt x 2481.27pt>
 File: ./pictures/MossPMT.png Graphic file (type png)
 <use ./pictures/MossPMT.png>
 Package pdftex.def Info: ./pictures/MossPMT.png  used on input line 35.
@@ -1517,12 +1522,8 @@ Overfull \hbox (60.35417pt too wide) in paragraph at lines 35--36
  [][] 
  []
 
-[60 <./pictures/MossSemi.png> <./pictures/MossGas.png>]) [61 <./pictures/MossPM
-T.png>]
-
-LaTeX Warning: Citation 'Geant4' on page 62 undefined on input line 289.
-
-[62
+[61 <./pictures/MossSemi.png> <./pictures/MossGas.png>]) [62 <./pictures/MossPM
+T.png>] [63
 
 ]
 
@@ -1546,7 +1547,7 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Overfull \hbox (5.06134pt too wide) in paragraph at lines 310--310
+Overfull \hbox (5.06134pt too wide) in paragraph at lines 312--312
 []\OT1/cmr/m/n/12 RAMIREZ-JIMENEZ, F.J.; LOPEZ-CALLEJAS, R.; CERDEIRA-ALTUZARRA
 ,
  []
@@ -1556,7 +1557,7 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Overfull \hbox (8.26323pt too wide) in paragraph at lines 310--310
+Overfull \hbox (8.26323pt too wide) in paragraph at lines 312--312
 []\OT1/cmr/m/n/12 LUTZ, Ger-had. \OT1/cmr/m/it/12 Semi-con-duc-tor ra-di-a-tion
  de-tec-tors: De-vice physics\OT1/cmr/m/n/12 . Berlin: Springer,
  []
@@ -1578,7 +1579,7 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Overfull \hbox (0.43922pt too wide) in paragraph at lines 310--310
+Overfull \hbox (0.43922pt too wide) in paragraph at lines 312--312
 []\OT1/cmr/m/n/12 KOURIL, Lukas; PE-C-HOUSEK, Jiri; KO-HOUT, Pavel; JIRU[]S, Ma
 rek; SCHLAT-
  []
@@ -1599,7 +1600,7 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[63
+[64
 
 ]
 
@@ -1611,7 +1612,15 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Overfull \hbox (11.82109pt too wide) in paragraph at lines 310--310
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Overfull \hbox (11.82109pt too wide) in paragraph at lines 312--312
 \OT1/cmtt/m/n/12 photonics / sites / documents / 99 _ SALES _ LIBRARY / ssd / h
 igh _ energy _ kspd9002e .
  []
@@ -1625,7 +1634,27 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Overfull \hbox (8.70929pt too wide) in paragraph at lines 310--310
+Overfull \hbox (7.5243pt too wide) in paragraph at lines 312--312
+[]\OT1/cmr/m/n/12 HAMAMATSU. \OT1/cmr/m/it/12 HIGH VOLT-AGE POWER SUP-PLY SOCKE
+T AS-SEM-BLY (DP-
+ []
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Overfull \hbox (6.14609pt too wide) in paragraph at lines 312--312
+\OT1/cmtt/m/n/12 / / www . hamamatsu . com / content / dam / hamamatsu -[] phot
+onics / sites / documents /
+ []
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Overfull \hbox (8.70929pt too wide) in paragraph at lines 312--312
 \OT1/cmr/m/n/12 26]. Avail-able from: []$\OT1/cmtt/m/n/12 https : / / www . cre
 mat . com / applications / csp -[] application -[]
  []
@@ -1651,7 +1680,15 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Overfull \hbox (11.02495pt too wide) in paragraph at lines 310--310
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Overfull \hbox (11.02495pt too wide) in paragraph at lines 312--312
 []\OT1/cmr/m/n/12 ORTEC. \OT1/cmr/m/it/12 EASY-MCA-8K EASY-MCA-2K Dig-i-tal Gam
 ma-Ray Spec-trom-e-ter User's
  []
@@ -1660,6 +1697,11 @@ ma-Ray Spec-trom-e-ter User's
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+[65]
 
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
@@ -1674,14 +1716,14 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 
 
 AED: lastpage setting LastPage
-[64]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+[66]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (./bp_dp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `bp_dp.out' has not changed.
-(rerunfilecheck)             Checksum: FA801CD7C84D350AAFFA29A08B870D88;12437.
+(rerunfilecheck)             Checksum: BCC52B7CF159B368C41AD9D888EF7CEF;12245.
 
 
 LaTeX Warning: There were undefined references.
@@ -1697,16 +1739,16 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'bp_dp.run.xml'.
 \openout1 = `bp_dp.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
- 19061 strings out of 494848
- 300263 string characters out of 6178430
- 718890 words of memory out of 5000000
- 21911 multiletter control sequences out of 15000+600000
+ 19094 strings out of 494848
+ 301196 string characters out of 6178430
+ 720791 words of memory out of 5000000
+ 21933 multiletter control sequences out of 15000+600000
  16577 words of font info for 62 fonts, out of 8000000 for 9000
  46 hyphenation exceptions out of 8191
- 44i,12n,48p,1205b,2720s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,49p,1214b,2720s stack positions out of 5000i,500n,10000p,200000b,80000s
  <./bssb10.720pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcs
 c10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
@@ -1721,10 +1763,10 @@ ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on bp_dp.pdf (64 pages, 30896825 bytes).
+Output written on bp_dp.pdf (66 pages, 82613802 bytes).
 PDF statistics:
- 977 PDF objects out of 1000 (max. 8388607)
- 832 compressed objects within 9 object streams
- 226 named destinations out of 1000 (max. 500000)
- 705 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1021 PDF objects out of 1200 (max. 8388607)
+ 867 compressed objects within 9 object streams
+ 235 named destinations out of 1000 (max. 500000)
+ 707 words of extra memory for PDF output out of 10000 (max. 10000000)
 

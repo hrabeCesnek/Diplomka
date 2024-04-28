@@ -146,7 +146,7 @@ The dead region (P) has to be thin as possible to reduce probability that the pa
 
 
 \section{Available Si PIN detectors}
-For testing we have chosen one professional Hamamatsu S14605 PIN diode and two commercial PIN diodes: OPF430 - originally designed to be used in optical fibres, BPW34 - visible and near infrared radiation detector.  
+For testing we have chosen one professional Hamamatsu S14605 PIN diode and two commercial PIN diodes: BPW34 - visible and near infrared radiation detector, OPF430 - originally designed to be used in optical fibres.  
 
 \begin{figure}[H]
  \centering
@@ -177,26 +177,7 @@ Parameters \cite{datS14605}:
 % 
 %\end{figure}
 
-\subsection{OPF430}
-OPF430 is originally ment to be a low-cost detector for fiber optic applications. However, there were publications \cite{RAMIREZJIMENEZ2003577}, which described the possibility of using similar diode OPF420 in low-energy gamma spectroscopic chains as a low-cost detector.
 
-Parameters \cite{datOPF430}:
-\begin{itemize}
-\item Maximum reverse voltage $U_\textrm{R}$: 100 V
-\item Photosensitive area: not specified, small value
-\item Capacitance: 1.5  pF at $U_\textrm{R} = 5$ V
-\item Dark current: 0.1 nA at $U_\textrm{R} = 5$ V
-\item Depletion layer: not specified
-\item Cost: 340 CZK
-\end{itemize}
-
-%\begin{figure}[H]
-% \centering
-% \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
-% \caption{OPF430.}
-% \label{OPF430}
-% 
-%\end{figure}
 
 \subsection{BPW34}
 BPW34 is a very low cost radiation detector. There were manuals \cite{betaBPW} how to use BPW34 as a beta particle detector, and since it is a Si PIN diode, it worths a try and test it for our gamma detection purposes.
@@ -220,5 +201,24 @@ Parameters \cite{datBPW34}:
 % \label{BPW34}
 % 
 %\end{figure}
+\subsection{OPF430}
+OPF430 is originally ment to be a low-cost detector for fiber optic applications. However, there were publications \cite{RAMIREZJIMENEZ2003577}, which described the possibility of using similar diode OPF420 in low-energy gamma spectroscopic chains as a low-cost detector.
 
+Parameters \cite{datOPF430}:
+\begin{itemize}
+\item Maximum reverse voltage $U_\textrm{R}$: 100 V
+\item Photosensitive area: not specified, smaller than BPW34
+\item Capacitance: 1.5  pF at $U_\textrm{R} = 5$ V
+\item Dark current: 0.1 nA at $U_\textrm{R} = 5$ V
+\item Depletion layer: not specified
+\item Cost: 340 CZK
+\end{itemize}
+
+%\begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.35, angle = 0]{./pictures/NoPicture.jpg}
+% \caption{OPF430.}
+% \label{OPF430}
+% 
+%\end{figure}
 % %%%%%%%%%%%%%%%%%%%%%%%% End of file %%%%%%%%%%%%%%%%%%%%%%%%
